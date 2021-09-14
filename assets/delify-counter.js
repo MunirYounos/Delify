@@ -1,11 +1,7 @@
-//be counter
-let domTopIdfr = document.getElementById('nlify___fr-counter');
-let domTopIdnl = document.getElementById('nlify___js-counter');
-if (domTopIdnl !== null) {
-	weekDayNames(domTopIdnl);
-}
-if (domTopIdfr !== null) {
-	weekDayNames(domTopIdfr);
+//topbar counter
+let domTopId = document.getElementById('delify___counter');
+if (domTopId !== null) {
+	weekDayNames(domTopId);
 }
 function weekDayNames(Id1) {
 	let d = new Date();
@@ -42,30 +38,16 @@ function calculateDeliveryTimeEveryDay(someId, currentDate, setTime) {
 				hours = addZero((remain / 60 / 60) % 60),
 				min = addZero((remain / 60) % 60),
 				sec = addZero(remain % 60);
-          if(someId.id === 'nlify___js-counter'){
-            			someId.innerHTML = `<div class="timer__wrapper">
-                        <div class="timer__text">
-                        Je order wordt vandaag verzonden – Bestel voor: 
-                        </div>
-                        <div class="timer__counter">  
-                        <span class="time-go">
-                        <span class="time-hour"> <strong>${hours} </strong><span class="time__badge">uren</span></span> <code>:</code> 
-                        <span class="time-min"> <strong>${min}</strong><span class="time__badge">minuten</span></span> <code>:</code> 
-                        <span class="time-sec"> <strong>${sec}</strong><span class="time__badge">seconden</span></span> 
-                        </span></div></div>`;
-          }
-                    if(someId.id === 'nlify___fr-counter'){
-            			someId.innerHTML = `<div class="timer__wrapper">
-                        <div class="timer__text">
-                        Nous exp&eacute;dions d&egrave;s aujourd'hui - commandez dans:
-                        </div>
-                        <div class="timer__counter">  
-                        <span class="time-go">
-                        <span class="time-hour"> <strong>${hours} </strong><span class="time__badge">uren</span></span> <code>:</code> 
-                        <span class="time-min"> <strong>${min}</strong><span class="time__badge">minuten</span></span> <code>:</code> 
-                        <span class="time-sec"> <strong>${sec}</strong><span class="time__badge">seconden</span></span> 
-                        </span></div></div>`;
-          }
+			someId.innerHTML = `<div class="timer__wrapper">
+														<div class="timer__text">
+                              Wir versenden noch heute - bestelle vor:
+														</div>
+														<div class="timer__counter">  
+														<span class="time-go">
+														<span class="time-hour"> <strong>${hours} </strong><span class="time__badge">uren</span></span> <code>:</code> 
+														<span class="time-min"> <strong>${min}</strong><span class="time__badge">minuten</span></span> <code>:</code> 
+														<span class="time-sec"> <strong>${sec}</strong><span class="time__badge">seconden</span></span> 
+												</span></div></div>`;
 			setTimeout(tick, 1000);
 		} else if (now < endDateOfToday) {
 			if (now >= endDateOfToday) { // too late, go to tomorrow
@@ -75,30 +57,16 @@ function calculateDeliveryTimeEveryDay(someId, currentDate, setTime) {
 				hours = addZero((remain / 60 / 60) % 60),
 				min = addZero((remain / 60) % 60),
 				sec = addZero(remain % 60);
-          if(someId.id === 'nlify___js-counter') {
-                          someId.innerHTML = `<div class="timer__wrapper">
-                <div class="timer__text">
-                Je order wordt morgen verzonden - Bestel voor: 
-                </div>
-                <div class="timer__counter">
-                <span class="time-up"  >
-                <span class="time-hour"> <strong>${hours} </strong><span class="time__badge">uren</span></span> <code>:</code>  
-                <span class="time-min"> <strong>${min}</strong><span class="time__badge">minuten</span></span> <code>:</code> 
-                <span class="time-sec"> <strong>${sec}</strong><span class="time__badge">seconden</span></span> 
-                </span></div></div>`;
-         	 }
-            if(someId.id === 'nlify___fr-counter') {
-                          someId.innerHTML = `<div class="timer__wrapper">
-                <div class="timer__text">
-               Nous exp&eacute;dions d&egrave;s demain - commandez dans:
-                </div>
-                <div class="timer__counter">
-                <span class="time-up"  >
-                <span class="time-hour"> <strong>${hours} </strong><span class="time__badge">uren</span></span> <code>:</code>  
-                <span class="time-min"> <strong>${min}</strong><span class="time__badge">minuten</span></span> <code>:</code> 
-                <span class="time-sec"> <strong>${sec}</strong><span class="time__badge">seconden</span></span> 
-                </span></div></div>`;
-         	 }
+			someId.innerHTML = `<div class="timer__wrapper">
+													<div class="timer__text">
+                            Wir versenden bereits morgen - bestelle vor:
+													</div>
+													<div class="timer__counter">
+													<span class="time-up"  >
+														<span class="time-hour"> <strong>${hours} </strong><span class="time__badge">uren</span></span> <code>:</code>  
+														<span class="time-min"> <strong>${min}</strong><span class="time__badge">minuten</span></span> <code>:</code> 
+														<span class="time-sec"> <strong>${sec}</strong><span class="time__badge">seconden</span></span> 
+													</span></div></div>`;
 			setTimeout(tick, 1000);
 		}
 	}
@@ -118,47 +86,23 @@ function calculateDeliveryTimeFriday(someId, currentDate, setTime) {
 				hours = addZero((remain / 60 / 60) % 60),
 				min = addZero((remain / 60) % 60),
 				sec = addZero(remain % 60);
-          if(someId.id === 'nlify___js-counter'){
-            			someId.innerHTML = `<div class="timer__wrapper">
-                        <div class="timer__text">
-                        Je order wordt vandaag verzonden – Bestel voor: 
-                        </div>
-                        <div class="timer__counter">  
-                        <span class="time-go">
-                        <span class="time-hour"> <strong>${hours} </strong><span class="time__badge">uren</span></span> <code>:</code> 
-                        <span class="time-min"> <strong>${min}</strong><span class="time__badge">minuten</span></span> <code>:</code> 
-                        <span class="time-sec"> <strong>${sec}</strong><span class="time__badge">seconden</span></span> 
-                        </span></div></div>`;
-          }
-                    if(someId.id === 'nlify___fr-counter'){
-            			someId.innerHTML = `<div class="timer__wrapper">
-                        <div class="timer__text">
-                       Nous exp&eacute;dions d&egrave;s aujourd'hui - commandez dans:
-                        </div>
-                        <div class="timer__counter">  
-                        <span class="time-go">
-                        <span class="time-hour"> <strong>${hours} </strong><span class="time__badge">uren</span></span> <code>:</code> 
-                        <span class="time-min"> <strong>${min}</strong><span class="time__badge">minuten</span></span> <code>:</code> 
-                        <span class="time-sec"> <strong>${sec}</strong><span class="time__badge">seconden</span></span> 
-                        </span></div></div>`;
-          }
+			someId.innerHTML = `<div class="timer__wrapper">
+							<div class="timer__text">
+                Wir versenden noch heute - bestelle vor:
+							</div>
+							<div class="timer__counter">  
+							<span class="time-go">
+							<span class="time-hour"> <strong>${hours} </strong><span class="time__badge">uren</span></span> <code>:</code> 
+							<span class="time-min"> <strong>${min}</strong><span class="time__badge">minuten</span></span> <code>:</code> 
+							<span class="time-sec"> <strong>${sec}</strong><span class="time__badge">seconden</span></span> 
+							</span></div></div>`;
 			setTimeout(tick, 1000);
 		} else if (now > startDateOfToday) {
-            if(someId.id === 'nlify___js-counter'){
-			someId.innerHTML = `<div class="timer__wrapper"><div class="timer__text">Gratis bezorging bij een bestelling boven 59 &euro;. Gratis retourneren en ruilen</div></div>`;
-            }
-            if(someId.id === 'nlify___fr-counter'){
-			someId.innerHTML = `<div class="timer__wrapper"><div class="timer__text">Livraison gratuite de plus de 59&euro; | Retour et &eacute;change gratuits</div></div>`;
-            }
+			someId.innerHTML = `<div class="timer__wrapper"><div class="timer__text">Gratis Versand bei Kauf &uuml;ber &euro; 59 I Kostenlose R&uuml;ckgabe und Umtausch.</div></div>`;
 		}
 	}
 	tick();
 }
 function calculateDeliveryTimeSaturday(someId) {
-  if(someId.id === 'nlify___js-counter'){
-    someId.innerHTML = `<div class="timer__wrapper"><div class="timer__text">Gratis bezorging bij een bestelling boven 59 &euro;. Gratis retourneren en ruilen</div></div>`;
-  }
-    if(someId.id === 'nlify___fr-counter'){
-    someId.innerHTML = `<div class="timer__wrapper"><div class="timer__text">Livraison gratuite de plus de 59&euro; | Retour et &eacute;change gratuits</div></div>`;
-  }
+	someId.innerHTML = `<div class="timer__wrapper"><div class="timer__text">Gratis Versand bei Kauf &uuml;ber &euro; 59 I Kostenlose R&uuml;ckgabe und Umtausch.</div></div>`;
 }

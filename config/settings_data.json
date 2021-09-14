@@ -1,0 +1,1149 @@
+{
+  "current": {
+    "sticky_header": false,
+    "sticky_announcement_bar": true,
+    "hero_header": false,
+    "height_header": 100,
+    "height_header_mobile": 70,
+    "icon": "material-icons-outlined",
+    "grid_product_truncate": false,
+    "collection_grid_card": false,
+    "collection_grid_products_count": false,
+    "collection_grid_animation": true,
+    "collection_grid_button_style": "",
+    "word_count": 33,
+    "show_currency_selector": false,
+    "section_height": "small",
+    "section_height_mobile": "small",
+    "border_radius": 1,
+    "button_padding_x": 30,
+    "button_padding_y": 15,
+    "top_button_position": "right",
+    "page_wrapper": "1248",
+    "payment_icon_size": 24,
+    "sale_type": "percentage",
+    "zindex_drawer": "999",
+    "color_announcement_bg": "#444444",
+    "color_default": "#f7f7f7",
+    "color_headings": "#252525",
+    "color_accent": "#f48400",
+    "color_drawer_bg": "#f7f7f7",
+    "color_drawer_default": "#eaeaea",
+    "color_drawer_border": "#e7e7e7",
+    "color_drawer_text": "#444444",
+    "color_drawer_primary": "#83d0bd",
+    "color_drawer_button_text": "#eaeaea",
+    "color_drawer_secondary": "#83d0bd",
+    "color_drawer_input": "#ffffff",
+    "color_drawer_error_text": "#f48400",
+    "color_drawer_sales_price": "#f48400",
+    "color_drawer_overlay": "#202020",
+    "color_drawer_overlay_opacity": 35,
+    "color_footer_default": "#bbe4e1",
+    "color_overlay": "#252525",
+    "color_transparent_nav_text": "#f7f7f7",
+    "opacity_overlay": 16,
+    "favicon": "shopify:\/\/shop_images\/fav.png",
+    "social_facebook_link": "www.facebook.com\/anodyne.be",
+    "social_instagram_link": "www.instagram.com\/anodyne.be",
+    "header_font_size": 32,
+    "header_font_size_big": 50,
+    "header_spacing": 0.1,
+    "accent_spacing": 0.1,
+    "button_uppercase": true,
+    "base_font_size": 14,
+    "custom_quantity_breaks": true,
+    "dbtfy_back_in_stock": true,
+    "dbtfy_cart_countdown": false,
+    "dbtfy_cart_favicon": false,
+    "dbtfy_collection_addtocart": false,
+    "dbtfy_collection_filters": false,
+    "dbtfy_color_swatches": true,
+    "dbtfy_cookie_box": false,
+    "dbtfy_custom_currencies": false,
+    "dbtfy_delivery_time": false,
+    "dbtfy_inactive_tab_message": false,
+    "dbtfy_instagram_feed": false,
+    "dbtfy_inventory_quantity": false,
+    "dbtfy_live_view": false,
+    "dbtfy_mega_menu": true,
+    "dbtfy_order_tracking": false,
+    "dbtfy_product_tabs": true,
+    "dbtfy_quantity_breaks": false,
+    "dbtfy_quick_view": false,
+    "dbtfy_sales_countdown": false,
+    "dbtfy_sales_pop": false,
+    "dbtfy_shop_protect": false,
+    "dbtfy_skip_cart": false,
+    "dbtfy_size_chart": false,
+    "synced_variant_image": false,
+    "dbtfy_back_in_stock_btn_animation": true,
+    "dbtfy_cart_discount_label": "Kortingscode",
+    "dbtfy_cart_discount_placeholder": "Vul hier je kortingscode in",
+    "dbtfy_cart_discount_apply_button_label": "Gebruik kortingscode",
+    "nlify_cart_notification": "Heeft u de maattabel gecontroleerd voor de juiste maat?",
+    "dbtfy_cart_goal_before_text": "Nog",
+    "dbtfy_cart_goal_amount": "0",
+    "dbtfy_cart_goal_after_text": "te gaan tot GRATIS verzending!",
+    "dbtfy_cart_goal_reached_text": "Gratis verzending!",
+    "dbtfy_cart_discount_savings_label": "Totale besparing",
+    "dbtfy_inactive_tab_message_text_first": "👕 up to 50% off",
+    "dbtfy_inactive_tab_message_text_second": "👕 Anodyne discounts",
+    "dbtfy_inventory_quantity_threshold": 20,
+    "dbtfy_menu_bar_link_list": "main-menu",
+    "dbtfy_menu_bar_desktop": false,
+    "dbtfy_newsletter_floating_bar": false,
+    "dbtfy_floating_bar_text": "Ontvang extra korting",
+    "dbtfy_newsletter_popup_title": "Schrijf je in op onze nieuwsbrief!",
+    "dbtfy_newsletter_popup_text": "<p>Ontvang 10% <strong>EXTRA<\/strong> korting op je eerste aankoop door je in te schrijven voor onze nieuwsbrief.<\/p>",
+    "dbtfy_newsletter_popup_close": "Nee, dank je",
+    "dbtfy_newsletter_popup_title_success": "Dankjewel!",
+    "dbtfy_newsletter_popup_text_success": "<p>Kopieer de kortingscode hieronder en plak hem in je mandje om je korting te krijgen!<\/p>",
+    "dbtfy_newsletter_popup_reward_button": "Kortingscode gebruiken",
+    "dbtfy_newsletter_popup_discount_name": "R6QG31",
+    "dbtfy_newsletter_popup_discount_amount": "10",
+    "dbtfy_order_feedback_select_title": "Hoe heeft u ons gevonden?",
+    "dbtfy_order_feedback_default_options": "Maak een keuze",
+    "dbtfy_order_feedback_select_options": "Fysiotherapeut, Social Media, Google",
+    "dbtfy_order_feedback_error_message": "Gelieve hieronder een optie te kiezen",
+    "dbtfy_order_feedback_other_option": "Anders",
+    "dbtfy_order_feedback_other_placeholder": "Anders, namelijk",
+    "dbtfy_order_feedback_error_message_other": "Gelieve het onderstaande tekstveld in te vullen",
+    "dbtfy_order_feedback_title": "Hoe heeft u ons gevonden?",
+    "dbtfy_order_feedback_other_title": "Hoe heeft u ons gevonden? (anders)",
+    "dbtfy_recently_viewed_title": "Recent bekeken",
+    "dbtfy_smart_search_products": "Producten",
+    "dbtfy_smart_search_collections": "Collecties",
+    "dbtfy_smart_search_articles": "Artikelen",
+    "dbtfy_smart_search_pages": "Pagina's",
+    "dbtfy_smart_search_all": "Laat alle resultaten zien",
+    "dbtfy_social_discount_link": "Deel en krijg 10% korting!",
+    "dbtfy_social_discount_popup_title": "Deel en krijg 10% korting!",
+    "dbtfy_social_discount_popup_text": "Deel dit met je vrienden en krijg 10% korting!",
+    "dbtfy_social_discount_reward_title": "Bedankt voor het delen!",
+    "dbtfy_social_discount_reward_text": "<p>Kopieer de kortingscode hieronder en plak hem in je mandje om je korting te krijgen!<\/p>",
+    "dbtfy_social_discount_reward_button": "Gebruik kortingscode",
+    "dbtfy_social_discount_reward_code": "20GWS15",
+    "dbtfy_social_discount_reward_amount": "10",
+    "dbtfy_trust_badge_text": "Gegarandeerd veilig & betrouwbaar afrekenen",
+    "dbtfy_wish_list_add_text": "Voeg toe aan verlanglijstje",
+    "dbtfy_wish_list_remove_text": "Verwijder van verlanglijst",
+    "dbtfy_wish_list_empty_text": "Je verlanglijstje is op dit moment leeg.",
+    "dbtfy_wish_list_share_label": "Deel verlanglijstje",
+    "checkout_logo_image": "shopify:\/\/shop_images\/anLOGOF.png",
+    "checkout_accent_color": "#83d0bd",
+    "checkout_button_color": "#83d0bd",
+    "custom_inventory_quantity": true,
+    "sections": {
+      "dbtfy-upsell-popup": {
+        "type": "dbtfy-upsell-popup",
+        "settings": {
+          "dbtfy_upsell_popup_width": "",
+          "dbtfy_upsell_popup_description": "See product details",
+          "dbtfy_upsell_popup_cart": "No thanks",
+          "dbtfy_upsell_popup_checkout": "Go to checkout →",
+          "text_alignment": "text-center",
+          "dbtfy_upsell_popup_range": 75
+        }
+      },
+      "dbtfy-quantity-breaks": {
+        "type": "dbtfy-quantity-breaks",
+        "blocks": {
+          "3ecae9fd-6b11-4a20-84b1-0e99e2faaaa2": {
+            "type": "product-break",
+            "settings": {
+              "product_break_show_on_product_page": true,
+              "product_break_visibility": "collection",
+              "product_break_collection": "posture-shirt",
+              "product_break_types": "",
+              "product_break_tags": "",
+              "product_break_product": "",
+              "product_break_range_1": 2,
+              "product_break_discount_code_1": "Test2",
+              "product_break_discount_amount_1": "10",
+              "product_break_discount_type_1": "$",
+              "product_break_range_2": 3,
+              "product_break_discount_code_2": "Test3",
+              "product_break_discount_amount_2": "12",
+              "product_break_discount_type_2": "$",
+              "product_break_range_3": 2,
+              "product_break_discount_code_3": "",
+              "product_break_discount_amount_3": "",
+              "product_break_discount_type_3": "%",
+              "product_break_range_4": 2,
+              "product_break_discount_code_4": "",
+              "product_break_discount_amount_4": "",
+              "product_break_discount_type_4": "%",
+              "product_break_range_5": 2,
+              "product_break_discount_code_5": "",
+              "product_break_discount_amount_5": "",
+              "product_break_discount_type_5": "%"
+            }
+          },
+          "8893dfdd-3b93-46ae-af01-1c25d217f5fc": {
+            "type": "cart-break",
+            "settings": {
+              "cart_break_range": 2,
+              "cart_break_discount_code": "",
+              "cart_break_discount_amount": "",
+              "cart_break_discount_type": "%"
+            }
+          }
+        },
+        "block_order": [
+          "3ecae9fd-6b11-4a20-84b1-0e99e2faaaa2",
+          "8893dfdd-3b93-46ae-af01-1c25d217f5fc"
+        ],
+        "settings": {
+          "dbtfy_quantity_breaks_text": "test",
+          "dbtfy_quantity_breaks_single_text": "Buy _COUNT_: _PRICE_ _SAVED_AMOUNT_",
+          "dbtfy_quantity_breaks_price_type": "total_price",
+          "dbtfy_quantity_breaks_more_discount_text_before": "Add",
+          "dbtfy_quantity_breaks_more_discount_text_after": "more item to unlock",
+          "dbtfy_quantity_breaks_more_discount_text_after_percentage": "off",
+          "dbtfy_quantity_breaks_highest_discount_text": "Highest discount applied!"
+        }
+      },
+      "dbtfy-cart-upsell": {
+        "type": "dbtfy-cart-upsell",
+        "settings": {
+          "dbtfy_cart_upsell_button_style": "btn--primary"
+        }
+      },
+      "dbtfy-color-swatches": {
+        "type": "dbtfy-color-swatches",
+        "settings": {}
+      },
+      "dbtfy-bullet-points": {
+        "type": "dbtfy-bullet-points",
+        "settings": {
+          "dbtfy_bullet_points_position": "under-addtocart-button"
+        }
+      },
+      "dbtfy-sales-countdown": {
+        "type": "dbtfy-sales-countdown",
+        "settings": {
+          "dbtfy_sales_countdown_icons": "local_fire_department",
+          "dbtfy_sales_countdown_prefix": "Sale ends in",
+          "dbtfy_sales_countdown_suffix": "",
+          "dbtfy_sales_countdown_d": "d",
+          "dbtfy_sales_countdown_h": "h",
+          "dbtfy_sales_countdown_m": "m",
+          "dbtfy_sales_countdown_s": "s"
+        }
+      },
+      "dbtfy-delivery-time": {
+        "type": "dbtfy-delivery-time",
+        "settings": {
+          "dbtfy_delivery_time_position": "under-addtocart-button"
+        }
+      },
+      "dbtfy-size-chart": {
+        "type": "dbtfy-size-chart",
+        "settings": {
+          "dbtfy_size_chart_icon": "straighten",
+          "dbtfy_size_chart_title": "Size chart",
+          "dbtfy_size_chart_width": "large"
+        }
+      },
+      "drawer-menu": {
+        "type": "drawer-menu",
+        "settings": {
+          "drawer_link_toggle": true,
+          "email": true,
+          "phone": true,
+          "show_social_medias": true,
+          "title": "Menu",
+          "drawer_top_link_list": "main-menu",
+          "drawer_bottom_link_list": ""
+        }
+      },
+      "announcement": {
+        "type": "announcement",
+        "blocks": {
+          "announcement-0": {
+            "type": "message",
+            "settings": {
+              "announcement_text": "<p><strong>Kostenlose Lieferung & 30 Tage Rückgaberecht<\/strong><\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "announcement-0"
+        ],
+        "settings": {
+          "show_announcement": true,
+          "show_social": true,
+          "email": true,
+          "phone": true,
+          "left_message": "<p> Folge uns<\/p>",
+          "right_message": "<p><a href=\"\/pages\/contact\" target=\"_blank\" title=\"Contact\">Kontakt<\/a><\/p>",
+          "announcement_autoplayspeed": 5
+        }
+      },
+      "header": {
+        "type": "header",
+        "settings": {
+          "main_menu_link_list": "main-menu",
+          "navigation_type": "right",
+          "header_font_size": 12,
+          "logo_link": true,
+          "default_logo": "shopify:\/\/shop_images\/Anodyne_483x150px_152x_2x_d4900d7e-3f65-483d-803d-beffd97c76e0.png",
+          "mobile_logo": "shopify:\/\/shop_images\/Anodyne_483x150px_152x_2x_d4900d7e-3f65-483d-803d-beffd97c76e0.png",
+          "default_logo_svg": "",
+          "inverted_logo_svg": "",
+          "mobile_logo_svg": "",
+          "logo_width": 150,
+          "logo_mobile_width": 150
+        }
+      },
+      "dbtfy-instagram-feed": {
+        "type": "dbtfy-instagram-feed",
+        "settings": {
+          "dbtfy_instagram_feed_icon": false,
+          "dbtfy_instagram_feed_access_token": "",
+          "dbtfy_instagram_feed_resolution": "low_resolution",
+          "dbtfy_instagram_feed_full_width": false,
+          "title": "From our Instagram",
+          "subtitle": "",
+          "dbtfy_instagram_feed_section_style": "section-border",
+          "dbtfy_instagram_feed_rows": "1",
+          "dbtfy_instagram_feed_desktop_grid": "6",
+          "dbtfy_instagram_feed_mobile_grid": "3"
+        }
+      },
+      "guarantee": {
+        "type": "guarantee",
+        "blocks": {
+          "guarantee-0": {
+            "type": "text",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Checkmark_100px_180x180_7fca12ad-196d-4d6a-811a-1eeb8e69b0b6.png",
+              "guarantee_icon": "loyalty",
+              "title": "",
+              "text": "<p>Kostenlose Umtausch<\/p>",
+              "button_style": "btn-outline-primary",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "guarantee-1": {
+            "type": "text",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Truck_100px_100x100_872e7ac1-cd8a-4c94-ab3e-b816f6b85b98.png",
+              "guarantee_icon": "loyalty",
+              "title": "",
+              "text": "<p>Gratis verzending<\/p>",
+              "button_style": "btn-outline-primary",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "guarantee-2": {
+            "type": "text",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Returns_100px_100x100_a043cb43-dbfa-467f-b070-a89e871ff430.png",
+              "guarantee_icon": "loyalty",
+              "title": "",
+              "text": "<p>30 Tage Rückgaberecht<\/p>",
+              "button_style": "btn-outline-primary",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "bb764f80-013b-4d19-89ae-5e332eb782cf": {
+            "type": "text",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Customerservice_copy_100px_100x100_81ec0f41-4474-4d86-ad15-74ce30ac0a7f.png",
+              "guarantee_icon": "loyalty",
+              "title": "",
+              "text": "<p>Professioneller Service<\/p>",
+              "button_style": "btn-outline-primary",
+              "button_label": "",
+              "button_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "guarantee-0",
+          "guarantee-1",
+          "guarantee-2",
+          "bb764f80-013b-4d19-89ae-5e332eb782cf"
+        ],
+        "settings": {
+          "show_guarantee": true,
+          "guarantee_size": "lg",
+          "section_style": "section-default"
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "footer-1": {
+            "type": "link_list",
+            "settings": {
+              "column_width": 1,
+              "title": "Kategorien",
+              "subtitle": "",
+              "footer_link_list": "main-menu"
+            }
+          },
+          "0bf661af-2d67-4ed7-9f1e-750e2c09c74e": {
+            "type": "link_list",
+            "settings": {
+              "column_width": 1,
+              "title": "Anodyne",
+              "subtitle": "",
+              "footer_link_list": "anodyne-menu"
+            }
+          },
+          "045bae48-bfff-4e04-a080-14a99dbf2e0c": {
+            "type": "text",
+            "settings": {
+              "column_width": 1,
+              "svg": "",
+              "img_url": "",
+              "logo_width": 150,
+              "title": "Kontakt",
+              "subtitle": "",
+              "text": "<p>Anodyne-shop.de<\/p><p>Mon - Don: 10:00 - 16:00<br\/>Freitag: 10:00 - 15:00<\/p>",
+              "email": true,
+              "phone": true
+            }
+          },
+          "38aab7d5-4020-4b5d-aa34-5f065cd7a210": {
+            "type": "html",
+            "settings": {
+              "column_width": 1,
+              "title": "Socials",
+              "subtitle": "",
+              "facebook_link": "https:\/\/www.facebook.com\/anodyneshop.de\/",
+              "youtube_link": "https:\/\/www.youtube.com\/channel\/UCFLDlWEPVUrvsuNjVt6sXJg",
+              "insta_link": "https:\/\/www.instagram.com\/anodyne.dach"
+            }
+          }
+        },
+        "block_order": [
+          "footer-1",
+          "0bf661af-2d67-4ed7-9f1e-750e2c09c74e",
+          "045bae48-bfff-4e04-a080-14a99dbf2e0c",
+          "38aab7d5-4020-4b5d-aa34-5f065cd7a210"
+        ],
+        "settings": {
+          "show_social_media": false,
+          "social_title": "Follow-us on social media!",
+          "show_payment_icons": true,
+          "show_shopify_footer": false,
+          "show_debutify_footer": false,
+          "custom_credential": "<p>Anodyne, Flughafenallee 26 \/ 6. OG, 28199 Bremen, Deutschland. USt-IdNr: DE305695739. <\/p>"
+        }
+      },
+      "product-template": {
+        "type": "product-template",
+        "blocks": {
+          "3c1ba0f4-31bf-4023-8ec5-df5daa908bb7": {
+            "type": "description",
+            "settings": {
+              "dbtfy_product_tabs_open": false,
+              "dbtfy_product_tabs_icons": "",
+              "dbtfy_product_tabs_title": "Details"
+            }
+          },
+          "72f69c35-ef4e-4428-a23a-b0994d0d2632": {
+            "type": "reviews",
+            "settings": {
+              "dbtfy_product_tabs_open": false,
+              "dbtfy_product_tabs_review": true,
+              "dbtfy_product_tabs_icons": "v",
+              "dbtfy_product_tabs_title": "Reviews"
+            }
+          },
+          "cace2e1c-86d2-4ecc-ba91-65c6898cbd62": {
+            "type": "text",
+            "settings": {
+              "dbtfy_product_tabs_open": false,
+              "text_alignment": "text-center",
+              "dbtfy_product_tabs_icons": "",
+              "dbtfy_product_tabs_title": "Rich text",
+              "dbtfy_product_tabs_text": "<p>asdfasdfa<\/p>",
+              "dbtfy_product_tabs_html": "asdfasdf",
+              "dbtfy_product_tabs_type": "",
+              "dbtfy_product_tabs_tag": "",
+              "dbtfy_product_tabs_product": "mens-posture-shirt-zipper-zwart",
+              "dbtfy_product_tabs_collection": ""
+            }
+          },
+          "f3ce1113-dc04-4af9-8f90-c4d8b5b4cca7": {
+            "type": "text",
+            "settings": {
+              "dbtfy_product_tabs_open": false,
+              "text_alignment": "text-center",
+              "dbtfy_product_tabs_icons": "",
+              "dbtfy_product_tabs_title": "Rich text",
+              "dbtfy_product_tabs_text": "",
+              "dbtfy_product_tabs_html": "wefsdfasdfasdfa",
+              "dbtfy_product_tabs_type": "",
+              "dbtfy_product_tabs_tag": "",
+              "dbtfy_product_tabs_product": "mens-posture-shirt-wit",
+              "dbtfy_product_tabs_collection": ""
+            }
+          },
+          "9b2470fb-ace6-451d-a928-3e222f90efc9": {
+            "type": "text",
+            "settings": {
+              "dbtfy_product_tabs_open": false,
+              "text_alignment": "text-center",
+              "dbtfy_product_tabs_icons": "",
+              "dbtfy_product_tabs_title": "wwwww",
+              "dbtfy_product_tabs_text": "<p>wewewewewewew<\/p>",
+              "dbtfy_product_tabs_html": "wesewewewewewewwewwewewwewewewewewewew",
+              "dbtfy_product_tabs_type": "",
+              "dbtfy_product_tabs_tag": "",
+              "dbtfy_product_tabs_product": "womens-posture-shirt-wit",
+              "dbtfy_product_tabs_collection": ""
+            }
+          }
+        },
+        "block_order": [
+          "3c1ba0f4-31bf-4023-8ec5-df5daa908bb7",
+          "72f69c35-ef4e-4428-a23a-b0994d0d2632",
+          "cace2e1c-86d2-4ecc-ba91-65c6898cbd62",
+          "f3ce1113-dc04-4af9-8f90-c4d8b5b4cca7",
+          "9b2470fb-ace6-451d-a928-3e222f90efc9"
+        ],
+        "settings": {
+          "dbtfy_product_tabs_position": "separate_section",
+          "show_product_vendor": false,
+          "show_product_type": true,
+          "show_product_sku": false,
+          "product_title_large": false,
+          "show_product_tags": true,
+          "show_sharing_icons": true,
+          "show_product_collections": true,
+          "enable_image_zoom": true,
+          "enable_video_looping": true,
+          "media_layout": "thumbnails",
+          "image_size": "medium",
+          "quantity_enabled": true,
+          "product_selector": "radio",
+          "show_product_description": true,
+          "enable_split_description": false,
+          "description_full": false,
+          "dbtfy_product_description_position": "separate_section",
+          "description_style": "section-border",
+          "text_alignment": "text-center",
+          "text_alignment_mobile": "small--text-center"
+        }
+      },
+      "dbtfy-upsell-bundles": {
+        "type": "dbtfy-upsell-bundles",
+        "settings": {
+          "dbtfy_upsell_bundles_title": "Frequently bought together",
+          "dbtfy_upsell_bundles_subtitle": "",
+          "dbtfy_upsell_bundles_total": "Total price:",
+          "dbtfy_upsell_bundles_cart": "Add selected items",
+          "dbtfy_upsell_bundles_icons": "library_add_check",
+          "dbtfy_upsell_bundles_current": "This item:",
+          "section_style": "section-border",
+          "dbtfy_upsell_bundles_reviews": false,
+          "dbtfy_upsell_bundles_limit": "2",
+          "dbtfy_upsell_bundles_position": "product"
+        }
+      },
+      "dbtfy-product-page-builder": {
+        "type": "dbtfy-product-page-builder",
+        "settings": {
+          "show_page_title": true
+        }
+      },
+      "product-row": {
+        "type": "product-row",
+        "settings": {
+          "show_product_row": true
+        }
+      },
+      "dbtfy-pricing-table": {
+        "type": "dbtfy-pricing-table",
+        "settings": {
+          "show_on_desktop": true,
+          "show_on_mobile": true,
+          "title": "Pricing table",
+          "subtitle": "",
+          "section_style": "section-blank",
+          "dbtfy_button_position": "middle"
+        }
+      },
+      "product-recommendations": {
+        "type": "product-recommendations",
+        "settings": {
+          "show_product_recommendations": true,
+          "title": "",
+          "subtitle": "",
+          "section_style": "section-blank",
+          "rows": "2",
+          "desktop_grid": "4",
+          "mobile_grid": "2",
+          "slider_related_products": true,
+          "arrows": true,
+          "dots": true,
+          "autoplay": false,
+          "autoplayspeed": 5
+        }
+      },
+      "dbtfy-faq-section": {
+        "type": "dbtfy-faq-section",
+        "settings": {
+          "show_on_desktop": true,
+          "show_on_mobile": true,
+          "title": "FAQ",
+          "subtitle": "",
+          "section_style": "section-border",
+          "dbtfy_faq_searchbox": true,
+          "dbtfy_faq_search_placeholder": "Search questions...",
+          "dbtfy_faq_bannerbox": true,
+          "dbtfy_faq_banner_icon": "live_help",
+          "dbtfy_faq_banner_text": "Didn't find your answer?",
+          "dbtfy_faq_banner_subtitle": "Our customer service will be happy to help you.",
+          "dbtfy_faq_btn": "Get in Touch",
+          "dbtfy_faq_link": ""
+        }
+      },
+      "related-products": {
+        "type": "related-products",
+        "settings": {
+          "show_related_products": false,
+          "related_collection": true,
+          "same_vendor": false,
+          "same_type": false,
+          "never_empty": true,
+          "title": "You may also like",
+          "subtitle": "",
+          "section_style": "section-border",
+          "rows": "1",
+          "desktop_grid": "4",
+          "mobile_grid": "2",
+          "slider_related_products": true,
+          "arrows": true,
+          "dots": true,
+          "autoplay": false,
+          "autoplayspeed": 5
+        }
+      },
+      "quotes": {
+        "type": "quotes",
+        "settings": {
+          "show_on_desktop": false,
+          "show_on_mobile": false,
+          "title": "Testimonials",
+          "subtitle": "",
+          "section_style": "section-blank",
+          "quote_width": "60",
+          "arrows": true,
+          "dots": true,
+          "autoplay": true,
+          "autoplayspeed": 5
+        }
+      },
+      "16300631015589eb65": {
+        "type": "video-background",
+        "settings": {
+          "page_width": "full_width",
+          "height": "medium",
+          "newvideo_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0568\/4297\/7439\/files\/anodyne_cover_video.mp4?v=1627576656",
+          "show_overlay": false,
+          "image_position": "center center",
+          "video_title": "Posture Shirt™",
+          "text_size": "medium",
+          "text_description": "<p>Geprüft, patentiert & medizinisch registriert. Verhilft zur besseren Körperhaltung.<\/p>",
+          "text_description_size": "medium",
+          "button_label": "WEITERLESEN",
+          "button_link": "shopify:\/\/collections\/posture-shirt",
+          "show_scrolldown": true
+        }
+      },
+      "1630063768bdfa2f5f": {
+        "type": "featured-services",
+        "blocks": {
+          "1630063768bdfa2f5f-0": {
+            "type": "service",
+            "settings": {
+              "title": "Kostenlose Lieferung",
+              "description": "Versand mit DHL als Paket an die Adresse ihrer Wahl",
+              "icon": "shopify:\/\/shop_images\/Truck_100px_100x100_872e7ac1-cd8a-4c94-ab3e-b816f6b85b98.png",
+              "uspLinkUrl": "shopify:\/\/pages\/versand-und-retoure"
+            }
+          },
+          "1630063768bdfa2f5f-1": {
+            "type": "service",
+            "settings": {
+              "title": "Kostenlose Rückgabe",
+              "description": "Der Rückversand bei Anodyne® ist kostenfrei",
+              "icon": "shopify:\/\/shop_images\/Returns_100px_100x100_a043cb43-dbfa-467f-b070-a89e871ff430.png",
+              "uspLinkUrl": "shopify:\/\/pages\/versand-und-retoure"
+            }
+          },
+          "66c69b66-4ba2-424e-a46c-68c81d83d5c4": {
+            "type": "service",
+            "settings": {
+              "title": "30 Tage Rückgaberecht",
+              "description": "Sie können das Produkt in Ihren Alltagssituationen testen",
+              "icon": "shopify:\/\/shop_images\/Smile2_100px_100x100_39c6d7e0-ee9a-47d3-a345-6f58e0c9ad9e.png",
+              "uspLinkUrl": "shopify:\/\/pages\/faq"
+            }
+          },
+          "3011a919-3be7-41c5-aa09-25734c19504d": {
+            "type": "service",
+            "settings": {
+              "title": "Professioneller Service",
+              "description": "Rufen Sie uns an oder kontaktieren Sie uns per Mail",
+              "icon": "shopify:\/\/shop_images\/Customerservice_copy_100px_100x100_81ec0f41-4474-4d86-ad15-74ce30ac0a7f.png",
+              "uspLinkUrl": "shopify:\/\/pages\/contact"
+            }
+          }
+        },
+        "block_order": [
+          "1630063768bdfa2f5f-0",
+          "1630063768bdfa2f5f-1",
+          "66c69b66-4ba2-424e-a46c-68c81d83d5c4",
+          "3011a919-3be7-41c5-aa09-25734c19504d"
+        ],
+        "settings": {
+          "title": ""
+        }
+      },
+      "1630070175c6ebb320": {
+        "type": "featured-collections",
+        "blocks": {
+          "1630070175c6ebb320-2": {
+            "type": "collection",
+            "settings": {
+              "collection": "posture-shirt",
+              "btn__shopnow": "shop"
+            }
+          },
+          "1630070175c6ebb320-1": {
+            "type": "collection",
+            "settings": {
+              "collection": "rugsteun",
+              "btn__shopnow": "shop"
+            }
+          },
+          "1630070175c6ebb320-0": {
+            "type": "collection",
+            "settings": {
+              "collection": "andere-producten",
+              "btn__shopnow": "Shop"
+            }
+          }
+        },
+        "block_order": [
+          "1630070175c6ebb320-2",
+          "1630070175c6ebb320-1",
+          "1630070175c6ebb320-0"
+        ],
+        "settings": {
+          "show_on_desktop": true,
+          "show_on_mobile": true,
+          "full_width": false,
+          "title": "",
+          "subtitle": "",
+          "section_style": "section-blank",
+          "section_height": "small",
+          "show_view_all": false,
+          "button_label": "View all",
+          "button_link": "shopify:\/\/collections",
+          "button_style": "btn--primary",
+          "slider_featured_collections": false,
+          "arrows": false,
+          "dots": false
+        }
+      },
+      "163032369225153039": {
+        "type": "mission",
+        "blocks": {
+          "b1098b0a-da6e-4795-8ddc-230d0010ed64": {
+            "type": "html",
+            "settings": {
+              "mission_title": "Warum haltungskorrigierende Kleidung von Anodyne® wählen?",
+              "mission_description": "Mit haltungskorrigierender Kleidung von Anodyne® können Sie auf einfache und unbeschwerte Weise eine bessere Körperhaltung bekommen sowie Schmerzen und Verspannungen im Nacken, Schultern und Rücken reduzieren. Anodyne® haltungskorrigierende Kleidung hilft Ihnen Ihr Körperbewusstsein zu verbessern und kann sowohl sitzend im Büro oder aktiver auf der Arbeit, auf Reisen oder zum Training verwendet werden. Anodyne® ist ein europäischer Produzent und Händler von haltungskorrigierender Kleidung mit Technologie entwickelt vom us-amerikanischen AlignMed - der einzige Produzent haltungskorrigierender Kleidung, die bei USA´s FDA (Behörde für u.a. Medizinalprodukte), registriert ist. Anodyne® haltungskorrigierende Kleidung ist die einzige, die in Europa sowohl FDA-registriert und als medizinische Hilfsmittel (Class 1) MDR\/CE-registriert ist. Dies ist Ihre Garantie dafür, dass Anodyne´s Produkte die Vorschriften für medizinische Hilfsmittel erfüllen.",
+              "column_width": 12,
+              "column_width_mobile": 12,
+              "text_alignment": "text-center",
+              "btn_text": "",
+              "btn_url": ""
+            }
+          }
+        },
+        "block_order": [
+          "b1098b0a-da6e-4795-8ddc-230d0010ed64"
+        ],
+        "settings": {
+          "show_on_desktop": true,
+          "show_on_mobile": true,
+          "padding_section": true,
+          "section_style": "section-blank",
+          "wrapper_size": ""
+        }
+      },
+      "163032806406e9f003": {
+        "type": "quotes",
+        "blocks": {
+          "163032806406e9f003-0": {
+            "type": "quote",
+            "settings": {
+              "quote_image": "shopify:\/\/shop_images\/trusted_shops_quote.png",
+              "icon": "format_quote",
+              "quote": "<p><em>Das Shirt sitzt gut und man merkt die Unterstützung durch das Material.<\/em><\/p>",
+              "stars_pic": "shopify:\/\/shop_images\/trustedshops_128x32_c52276c3-c0d3-4138-b817-0fb1bf505011.png",
+              "quotes_link": "https:\/\/www.trustedshops.de\/bewertung\/info_XF28D23210E3733905016407D4C407253.html?page=2",
+              "author": "Angela E."
+            }
+          },
+          "163032806406e9f003-1": {
+            "type": "quote",
+            "settings": {
+              "quote_image": "shopify:\/\/shop_images\/trusted_shops_quote.png",
+              "icon": "format_quote",
+              "quote": "<p><em>Bin in jeglicher Hinsicht zufrieden. Schnelle Lieferung und prima Qualität<\/em><\/p>",
+              "stars_pic": "shopify:\/\/shop_images\/trustedshops_128x32_c52276c3-c0d3-4138-b817-0fb1bf505011.png",
+              "quotes_link": "https:\/\/www.trustedshops.de\/bewertung\/info_XF28D23210E3733905016407D4C407253.html",
+              "author": "Thomas S."
+            }
+          },
+          "163032806406e9f003-2": {
+            "type": "quote",
+            "settings": {
+              "quote_image": "shopify:\/\/shop_images\/trusted_shops_quote.png",
+              "icon": "format_quote",
+              "quote": "<p><em>Auch bei dieser Bestellung ist alles ganz zu meinen Wünschen verlaufen.<\/em><\/p>",
+              "stars_pic": "shopify:\/\/shop_images\/trustedshops_128x32_c52276c3-c0d3-4138-b817-0fb1bf505011.png",
+              "quotes_link": "https:\/\/www.trustedshops.de\/bewertung\/info_XF28D23210E3733905016407D4C407253.html",
+              "author": "Norbert B."
+            }
+          }
+        },
+        "block_order": [
+          "163032806406e9f003-0",
+          "163032806406e9f003-1",
+          "163032806406e9f003-2"
+        ],
+        "settings": {
+          "show_on_desktop": true,
+          "show_on_mobile": true,
+          "trustpilot_imagetitle": "shopify:\/\/shop_images\/Trusted-shops-logo_225600cf-8cdd-4db8-9ac4-76195abb4b46.png",
+          "title": "",
+          "subtitle": "",
+          "section_style": "section-blank",
+          "quote_width": "60",
+          "arrows": true,
+          "dots": true,
+          "autoplay": true,
+          "autoplayspeed": 7
+        }
+      },
+      "1630331223d20499c6": {
+        "type": "featured-products",
+        "settings": {
+          "show_on_desktop": true,
+          "show_on_mobile": true,
+          "title": "Beliebte Produkte",
+          "subtitle": "",
+          "section_style": "section-blank",
+          "home_featured_products": "alle-producten",
+          "rows": "1",
+          "desktop_grid": "4",
+          "mobile_grid": "2",
+          "show_view_all": true,
+          "button_label": "Mehr Sehen",
+          "button_link": "shopify:\/\/collections",
+          "button_style": "",
+          "slider_related_products": false,
+          "arrows": false,
+          "dots": false,
+          "autoplay": false,
+          "autoplayspeed": 5
+        }
+      },
+      "163039383589cd0ef5": {
+        "type": "featured-columns",
+        "blocks": {
+          "163039383589cd0ef5-0": {
+            "type": "text_block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Checkmark_100px_180x180_7fca12ad-196d-4d6a-811a-1eeb8e69b0b6.png",
+              "icon": "",
+              "title": "Die originale haltungskorrigierende Kleidung",
+              "text": "<p>Die originale Anodyne® haltungskorrigierende Kleidung kann nur auf <a href=\"https:\/\/www.anodyne-shop.de\" title=\"https:\/\/www.anodyne-shop.de\">www.anodyne-shop.de<\/a> erworben werden. Achten Sie darauf, dass es leider viele minderwertige Fälschungen auf dem Markt gibt. Nur ein einziges haltungskorrigierendes Produkt ist sowohl FDA-registriert und als medizinisches Hilfsmittel MDR\/CE-registriert: Anodyne®. <br\/><br\/>Seien Sie also achtsam auf Fälschungen, beim Internetshopping.<\/p>",
+              "button_style": "btn--primary",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "163039383589cd0ef5-1": {
+            "type": "text_block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Smile2_100px_180x180_d08a1e57-5cdf-4453-ba98-5552d38d6809.png",
+              "icon": "",
+              "title": "Haltungskorrigierende Kleidung mit 100% Zufriedenheitssgaranti",
+              "text": "<p>Bei Anodyne® bieten wir immer kostenfreien Versand mit DHL an, 100% Zufriedenheitsgarantie, 60 Tage gesetzliches Widerrufsrecht und kostenfreie Rücksendung bei Umtausch oder Retoure. Das bedeutet, dass Sie 30 Tage das Produkt testen können, um zu kontrollieren, ob es Ihren Ansprüchen entspricht. Es ist ganz einfach etwas umzutauschen oder zu retournieren. Unser Ziel ist es, dass Sie 100% zufrieden sind. Sowar es auch unser Ziel mit den bald über 300.000 zufriedenen Kunden in Europa, die das original Anodyne® Posture Shirt 2.0 innerhalb der lezten 7 Jahre gekauft haben.<\/p>",
+              "button_style": "btn--primary",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "163039383589cd0ef5-2": {
+            "type": "text_block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Kinesio2_copy_100px_180x180_ab8892a3-0de7-4b3c-ab36-f681a13a805e.png",
+              "icon": "",
+              "title": "Vom Kinesiotape zur haltungskorrigierender Kleidung",
+              "text": "<p>Haltungskorrigierende Kleidung aktiviert die Rückenmuskulatur, Schultern und Schulterblätter ohne dabei die Muskulatur oder Glieder zu schwächen oder einzuschränken. Die Technologie ist vom Kinesiotape inspiriert - eine häufig von Physiotherapeuten & Chiropraktikern angewendete Behandlungsform, um Schmerzen und Verspannungen in Nacken, Schultern und Rücken zu behandeln. Kinesiotape wird oft von professionellen Athleten verwendet, um spezifische Muskelgruppen zu stimulieren und die Körperhaltung zu verbessern.<\/p>",
+              "button_style": "btn--primary",
+              "button_label": "",
+              "button_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "163039383589cd0ef5-0",
+          "163039383589cd0ef5-1",
+          "163039383589cd0ef5-2"
+        ],
+        "settings": {
+          "show_on_desktop": true,
+          "show_on_mobile": true,
+          "title": "",
+          "subtitle": "",
+          "section_style": "section-default",
+          "text_align": ""
+        }
+      },
+      "1630404145a76c9e4d": {
+        "type": "featured-video",
+        "blocks": {
+          "1630404145a76c9e4d-0": {
+            "type": "video",
+            "settings": {
+              "video_cover_image": "shopify:\/\/shop_images\/DE_video_cover.jpg",
+              "video_url": "https:\/\/www.youtube.com\/watch?v=CpTtjSe1fsw&t",
+              "animated_button": true
+            }
+          }
+        },
+        "block_order": [
+          "1630404145a76c9e4d-0"
+        ],
+        "settings": {
+          "show_on_desktop": true,
+          "show_on_mobile": true,
+          "full_width": false,
+          "title": "THE POSTURE SHIRT™",
+          "subtitle": "",
+          "section_style": "section-default"
+        }
+      },
+      "1630409395746d29de": {
+        "type": "featured-accordions",
+        "blocks": {
+          "1630409395746d29de-0": {
+            "type": "Accordion",
+            "settings": {
+              "accordion_title": "haltungskorrigierende Kleidung",
+              "accordion__inner-title": "Patentierte NeuroBand™-Technologie in Anodyne´s haltungskorrigierender Kleidung",
+              "accordion__description": "Anodyne® haltungskorrigierende Bekleidung ist hergestellt aus einer einzigartigen Kombination aus Spandex, Polyester und Nylon, das ein widerstandsfähiges und atmungsaktives Posture Shirt™ ergibt, das seine Elastizität bei täglichem Gebrauch bewahrt. Designt mit der patentierten NeuroBand™-Technologie, inspiriert von Kinesiotape und basiert auf wissenschaftlicher Forschung der menschlichen Physiologie. Die Kleidung ist auf eine einzigartige Weise designt, um die kontrahierenden Eigenschaften der Muskulatur widerzuspiegeln und eine aufrechtere Körperhaltung zu unterstützen.",
+              "accordion__buttontext": "Shop",
+              "accordion__LinkUrl": "shopify:\/\/collections\/posture-shirt"
+            }
+          },
+          "1630409395746d29de-1": {
+            "type": "Accordion",
+            "settings": {
+              "accordion_title": "Nach Ihren Bedürfnissen",
+              "accordion__inner-title": "Haltungskorrigierende Kleidung nach Ihren Bedürfnissen",
+              "accordion__description": "Haltungskorrigierende Kleidung von Anodyne® kann von jederman genutzt werden. Wir vertreiben haltungskorrigierende T-Shirts, BH´s und Westen, die alle entwickelt wurden, um die Blutzirkulation und die Muskulatur zu aktivieren, um dadurch zu einer optimalen Körperhaltung zu verhelfen. Anodyne® haltungskorrigierende Kleidung kann jederzeit genutzt werden, beim Training, Einkaufen, Spazierengehen, Saubermachen oder allmöglich anderen Aktivitäten. Um den optimalen Effekt Ihrer Anodyne®-haltungskorrigierender Kleidung zu bekommen, empfehlen wir die beiliegende Gebrauchsanweisung gründlich zu lesen. So haben Sie optimale Voraussetzungen das beste Ergebnis mit ihrem Anodyne®-Produkt zu erreichen.",
+              "accordion__buttontext": "Shop",
+              "accordion__LinkUrl": "shopify:\/\/collections"
+            }
+          },
+          "f87df513-1488-4240-a91d-ed8f2bb41077": {
+            "type": "Accordion",
+            "settings": {
+              "accordion_title": "Auch für Personen mit Verletzungen",
+              "accordion__inner-title": "Auch für Personen mit Verletzungen",
+              "accordion__description": "Haben Sie Beschwerden auf Grund von Verletzungen, z.B. Discusprolaps, Skoliose, Gicht oder ähnlichem, können Sie gut haltungskorrigierende Kleidung von Anodyne nutzen. Sollte die Verletzung ganz frisch sein, sprechen Sie bitte zuerst mit Ihrem Arzt. In manchen Fällen kann die haltungskorrigierende Weste von Anodyne (MyLign & SpinalQ Pro) von Vorteil sein, da diese Produkte eine sehr starke Stützfunktion haben. Es ist ausgesprochen wichtig haltungskorrigierende Kleidung, in der optimalen Größe zu wählen, da sonst der optimale Effekt nicht erreicht wird. Kontrollieren Sie daher unsere Größenangaben. Sie sind gerne willkommen unseren Kundenservice zu kontaktieren, der Sie gerne zu Fragen der Größe und Produktwahl berät.",
+              "accordion__buttontext": "Shop",
+              "accordion__LinkUrl": "shopify:\/\/collections"
+            }
+          },
+          "225005a5-c60f-4ff1-be6b-7f7256b16ac7": {
+            "type": "Accordion",
+            "disabled": true,
+            "settings": {
+              "accordion_title": "Blessures",
+              "accordion__inner-title": "Ook voor jou, als je blessures hebt",
+              "accordion__description": "Als je te maken hebt met een blessure of als je bijvoorbeeld een hernia, scoliose,artritis of iets dergelijks hebt, kun je onze houdingcorrigerende kleding prima gebruiken. Als het letsel nieuw is, raden we je aan dit eerst te bespreken met bijvoorbeeld je arts, fysiotherapeut of chiropractor. In sommige gevallen kan het houdingcorrigerende vest (MyLign of SpinalQ Pro) het beste zijn, omdat dat het meeste steun biedt. Het is belangrijk dat je de juiste maat houdingcorrigerende kleding bestelt, anders bereik je niet het optimale effect. Het beste is om naar de matentabel op onze productpagina's te kijken en bij twijfel contact op te nemen met onze klantenservice. Zij beantwoorden graag je vragen over onze producten en helpen je om de juiste maat te vinden.",
+              "accordion__buttontext": "",
+              "accordion__LinkUrl": ""
+            }
+          }
+        },
+        "block_order": [
+          "1630409395746d29de-0",
+          "1630409395746d29de-1",
+          "f87df513-1488-4240-a91d-ed8f2bb41077",
+          "225005a5-c60f-4ff1-be6b-7f7256b16ac7"
+        ],
+        "settings": {
+          "title": "Haltungskorrigierende Kleidung von Anodyne®",
+          "section_style": "section-blank"
+        }
+      },
+      "collection-template": {
+        "type": "collection-template",
+        "settings": {
+          "collection_tags_enable": false,
+          "collection_tags_count": false,
+          "collection_multiple_tags_filtering_enable": false,
+          "collection_sort_enable": false,
+          "tag_selector": "button",
+          "rows": "4",
+          "desktop_grid": "4",
+          "mobile_grid": "2"
+        }
+      },
+      "dbtfy-collection-filters": {
+        "type": "dbtfy-collection-filters",
+        "settings": {
+          "clear_label": "Clear",
+          "clear_all_label": "Clear All",
+          "hide_unavailable_options": false,
+          "show_tags_count": true,
+          "visibility_tags_count": "all"
+        }
+      },
+      "product-tabs-template": {
+        "type": "product-tabs-template",
+        "settings": {
+          "dbtfy_product_tabs_position": "under_description",
+          "show_product_vendor": false,
+          "show_product_type": false,
+          "show_product_sku": false,
+          "product_title_large": false,
+          "show_product_tags": false,
+          "show_sharing_icons": true,
+          "show_product_collections": false,
+          "enable_image_zoom": true,
+          "enable_video_looping": true,
+          "media_layout": "thumbnails",
+          "image_size": "medium",
+          "quantity_enabled": true,
+          "product_selector": "radio",
+          "show_product_description": false,
+          "show_product_description_in_tabs": true,
+          "enable_split_description": false,
+          "description_full": false,
+          "dbtfy_product_description_position": "separate_section",
+          "description_style": "section-border",
+          "text_alignment": "text-center",
+          "text_alignment_mobile": "small--text-center"
+        }
+      },
+      "product-cards": {
+        "type": "product-cards",
+        "blocks": {
+          "fe32e93f-234c-450d-8d07-e2efbc25f40e": {
+            "type": "row",
+            "settings": {
+              "card__icon": "shopify:\/\/shop_images\/Customerservice_copy_100px_100x100_81ec0f41-4474-4d86-ad15-74ce30ac0a7f.png",
+              "title": "Kundenservice",
+              "text": "<p>Wir stehen immer bereit Ihnen zu helfen, vor, während und nach Ihrer Bestellung.<br\/><br\/>Rufen Sie uns an:<br\/>Tlf: <a href=\"tel:0049 (0) 402 999 62 638\"><span style=\"text-decoration:underline\">+49 (0) 402 999 62 638<\/span><\/a><\/p><p>Schreiben Sie uns:<br\/>E-Mail: <a href=\"mailto:info@anodyne-shop.de\"><span style=\"text-decoration:underline\">info@anodyne-shop.de<\/span><\/a><\/p>",
+              "card__alignement": "center",
+              "text_alignment": "text-center",
+              "type_row": "",
+              "tag_row": "",
+              "product_row": "",
+              "collection_row": ""
+            }
+          },
+          "1c9774d2-047f-45d4-8645-84edb4bf51cd": {
+            "type": "row",
+            "settings": {
+              "card__icon": "shopify:\/\/shop_images\/Truck_100px_100x100_872e7ac1-cd8a-4c94-ab3e-b816f6b85b98.png",
+              "title": "Kostenlose Lieferung",
+              "text": "<p>Versand mit DHL als Paket an die Adresse ihrer Wahl.<br\/><br\/>Die Lieferzeit ist normalerweise 1-3 Werktage<\/p>",
+              "card__alignement": "center",
+              "text_alignment": "text-center",
+              "type_row": "",
+              "tag_row": "",
+              "product_row": "",
+              "collection_row": ""
+            }
+          },
+          "86e60ed0-4f89-453b-bb6d-998997ba5497": {
+            "type": "row",
+            "settings": {
+              "card__icon": "shopify:\/\/shop_images\/Returns_100px_100x100_a043cb43-dbfa-467f-b070-a89e871ff430.png",
+              "title": "Umtausch und Retoure",
+              "text": "<p>Selbstverständlich sind Umtausch und Retoure kostenfrei.<\/p>",
+              "card__alignement": "center",
+              "text_alignment": "text-center",
+              "type_row": "",
+              "tag_row": "",
+              "product_row": "",
+              "collection_row": ""
+            }
+          },
+          "cb8805d6-2cd1-4b82-aa5e-bcd50bd85ebc": {
+            "type": "row",
+            "settings": {
+              "card__icon": "shopify:\/\/shop_images\/Smile2_100px_180x180_d08a1e57-5cdf-4453-ba98-5552d38d6809.png",
+              "title": "Zufriedenheitsgarantie",
+              "text": "<p>Wenn Sie aus irgendeinem Grund mit Ihrem Produkt von Anodyne® nicht <br\/>zufrieden sind, können Sie es innerhalb von 30 Tagen für eine volle <br\/>Rückerstattung zurückgeben<\/p>",
+              "card__alignement": "center",
+              "text_alignment": "text-center",
+              "type_row": "",
+              "tag_row": "",
+              "product_row": "",
+              "collection_row": ""
+            }
+          }
+        },
+        "block_order": [
+          "fe32e93f-234c-450d-8d07-e2efbc25f40e",
+          "1c9774d2-047f-45d4-8645-84edb4bf51cd",
+          "86e60ed0-4f89-453b-bb6d-998997ba5497",
+          "cb8805d6-2cd1-4b82-aa5e-bcd50bd85ebc"
+        ],
+        "settings": {
+          "show_product_card": true
+        }
+      },
+      "map": {
+        "type": "map",
+        "settings": {
+          "show_on_desktop": false,
+          "show_on_mobile": false,
+          "hide_section": false,
+          "heading": "Our store",
+          "address": "<p>123 Fake St.<br\/>Toronto, Canada<\/p><p>Mon - Fri, 10am - 9pm<br\/>Saturday, 11am - 9pm<br\/>Sunday, 11am - 5pm<\/p>",
+          "map_address": "490 Rue De La Gauchetière O, Montréal",
+          "button_text": "Get directions",
+          "map_icon": "location_on",
+          "api_key": "",
+          "image_position": "center center"
+        }
+      }
+    },
+    "content_for_index": [
+      "16300631015589eb65",
+      "1630063768bdfa2f5f",
+      "1630070175c6ebb320",
+      "163032369225153039",
+      "163032806406e9f003",
+      "1630331223d20499c6",
+      "163039383589cd0ef5",
+      "1630404145a76c9e4d",
+      "1630409395746d29de"
+    ]
+  }
+}

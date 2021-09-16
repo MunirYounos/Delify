@@ -44,9 +44,9 @@ function calculateDeliveryTimeEveryDay(someId, currentDate, setTime) {
 														</div>
 														<div class="timer__counter">  
 														<span class="time-go">
-														<span class="time-hour"> <strong>${hours} </strong><span class="time__badge">uren</span></span> <code>:</code> 
-														<span class="time-min"> <strong>${min}</strong><span class="time__badge">minuten</span></span> <code>:</code> 
-														<span class="time-sec"> <strong>${sec}</strong><span class="time__badge">seconden</span></span> 
+														<span class="time-hour"> <strong>${hours} </strong><span class="time__badge">Stunden</span></span> <code>:</code> 
+														<span class="time-min"> <strong>${min}</strong><span class="time__badge">Minuten</span></span> <code>:</code> 
+														<span class="time-sec"> <strong>${sec}</strong><span class="time__badge">Sekunden</span></span> 
 												</span></div></div>`;
 			setTimeout(tick, 1000);
 		} else if (now < endDateOfToday) {
@@ -63,9 +63,9 @@ function calculateDeliveryTimeEveryDay(someId, currentDate, setTime) {
 													</div>
 													<div class="timer__counter">
 													<span class="time-up"  >
-														<span class="time-hour"> <strong>${hours} </strong><span class="time__badge">uren</span></span> <code>:</code>  
-														<span class="time-min"> <strong>${min}</strong><span class="time__badge">minuten</span></span> <code>:</code> 
-														<span class="time-sec"> <strong>${sec}</strong><span class="time__badge">seconden</span></span> 
+														<span class="time-hour"> <strong>${hours} </strong><span class="time__badge">Stunden</span></span> <code>:</code>  
+														<span class="time-min"> <strong>${min}</strong><span class="time__badge">Minuten</span></span> <code>:</code> 
+														<span class="time-sec"> <strong>${sec}</strong><span class="time__badge">Sekunden</span></span> 
 													</span></div></div>`;
 			setTimeout(tick, 1000);
 		}
@@ -92,9 +92,9 @@ function calculateDeliveryTimeFriday(someId, currentDate, setTime) {
 							</div>
 							<div class="timer__counter">  
 							<span class="time-go">
-							<span class="time-hour"> <strong>${hours} </strong><span class="time__badge">uren</span></span> <code>:</code> 
-							<span class="time-min"> <strong>${min}</strong><span class="time__badge">minuten</span></span> <code>:</code> 
-							<span class="time-sec"> <strong>${sec}</strong><span class="time__badge">seconden</span></span> 
+							<span class="time-hour"> <strong>${hours} </strong><span class="time__badge">Stunden</span></span> <code>:</code> 
+							<span class="time-min"> <strong>${min}</strong><span class="time__badge">Minuten</span></span> <code>:</code> 
+							<span class="time-sec"> <strong>${sec}</strong><span class="time__badge">Sekunden</span></span> 
 							</span></div></div>`;
 			setTimeout(tick, 1000);
 		} else if (now > startDateOfToday) {

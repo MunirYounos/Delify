@@ -129,6 +129,9 @@
 {%- if product.metafields.description.productTopDescription !=blank -%}
 {%- assign show_productTopDescription = true -%}
 {%- endif -%}
+{%- if product.metafields.global.freeDelivery !=blank -%}
+{%- assign show_freeDelivery = true -%}
+{%- endif -%}
 
 
 <meta itemprop="url" content="{{ shop.url }}{{ product.url }}">
@@ -403,6 +406,13 @@
                 {%- endcapture -%}
 
                 {%- capture "form_id" -%}AddToCartForm--{{ section.id }}{%- endcapture -%}
+
+                {%- if show_freeDelivery == true -%}
+                <div class="free__delivery">
+                <span></span>{{product.metafields.global.freeDelivery}}</span>
+                </div>
+              {%- endif -%}
+
 								{%-if show_productTopDescription == true -%}
                 <div class="product__top_description">
                   {{product.metafields.description.productTopDescription}}
@@ -533,26 +543,40 @@
 
                           {%- if section.settings.quantity_enabled and settings.custom_quantity_breaks -%}
                             <label class="inline-label" for="{{ quantity_id }}" {% if section.settings.quantity_enabled == false and settings.custom_quantity_breaks %}hidden {% endif %}>{{ 'products.product.quantity' | t }}</label><br>
-
-
-                            {% if collection.handle == "posture-shirt" or product.handle contains "womens-posture-shirt" or product.handle contains "mens-posture-shirt" %}
-                            {%- render "posture-shirt-radios" -%}
-                   
-                            {%- endif -%}
-
-
-                          {%- endif -%}
+                              <!-- manual Qb check start -->
+                              {% if collection.handle == "posture-shirt" or product.handle contains "womens-posture-shirt" or product.handle contains "mens-posture-shirt" %}
+                              {%- render "a3-posture-shirt-radios" -%}
+                              {%- elsif  product.handle == "houding-corrector-comfort" -%}
+                              {%- render "a2-comfort-plus-radios" -%}
+                              {%- elsif  product.handle == "houding-corrector" -%}
+                              {%- render "a1-basic-brace-radios" -%}
+                              {%- elsif  product.handle == "houding-corrector-premium" -%}
+                              {%- render "a4-premium-brace-radios" -%}
+                              {%- elsif  product.handle == "rugbrace" -%}
+                              {%- render "a5-rugbrace-radios" -%}
+                              {%- endif -%}
+                          <!-- manual Qb check end  -->
+                              {%- endif -%}
 
                           {%- render "dbtfy-inventory-quantity", product: product -%}
 
-                          {%- if section.settings.quantity_enabled -%}
-                               {% if collection.handle == "posture-shirt" or product.handle contains "womens-posture-shirt" or product.handle contains "mens-posture-shirt" %}
-                                    {%- assign hide_quantity_box = false -%}
-                                {%- else -%}
-
-                                {%- render "quantity-selector", type: "product", id: quantity_id -%}
-                            {%- endif -%}
-                          {%- elsif settings.custom_quantity_breaks -%}
+                              {%- if section.settings.quantity_enabled -%}
+                              <!-- Quantity selecter check start -->
+                              {% if collection.handle == "posture-shirt" or product.handle contains "womens-posture-shirt" or product.handle contains "mens-posture-shirt" %}
+                              {%- assign hide_quantity_box = false -%}
+                              {%- elsif  product.handle == "houding-corrector-comfort" -%}
+                                      {%- assign hide_quantity_box = false -%}
+                              {%- elsif  product.handle == "houding-corrector" -%}
+                                      {%- assign hide_quantity_box = false -%}
+                              {%- elsif  product.handle == "houding-corrector-premium" -%}
+                                      {%- assign hide_quantity_box = false -%}
+                              {%- elsif  product.handle == "rugbrace" -%}
+                                      {%- assign hide_quantity_box = false -%}
+                              {%- else -%}
+                                  {%- render "quantity-selector", type: "product", id: quantity_id -%}
+                              {%- endif -%}
+                              <!-- Quantity selecter check end  -->
+                              {%- elsif settings.custom_quantity_breaks -%}
                   
                        {%- endif -%}
                     </div>

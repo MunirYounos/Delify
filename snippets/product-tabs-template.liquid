@@ -544,17 +544,17 @@
                           {%- if section.settings.quantity_enabled and settings.custom_quantity_breaks -%}
                             <label class="inline-label" for="{{ quantity_id }}" {% if section.settings.quantity_enabled == false and settings.custom_quantity_breaks %}hidden {% endif %}>{{ 'products.product.quantity' | t }}</label><br>
                               <!-- manual Qb check start -->
-                                {% if collection.handle == "posture-shirt" or product.handle contains "womens-posture-shirt" or product.handle contains "mens-posture-shirt" %}
-                                {%- render "a3-posture-shirt-radios" -%}
-                                {%- elsif  product.handle == "geradehalter-comfort" -%}
-                                {%- render "a2-comfort-plus-radios" -%}
-                                {%- elsif  product.handle == "geradehalter-basic" -%}
-                                {%- render "a1-basic-brace-radios" -%}
-                                {%- elsif  product.handle == "geradehalter-premium" -%}
-                                {%- render "a4-premium-brace-radios" -%}
-                                {%- elsif  product.handle == "lendengurt" -%}
-                                {%- render "a5-rugbrace-radios" -%}
-                                {%- endif -%}
+                              {% if collection.handle == "posture-shirt" or product.handle contains "womens-posture-shirt" or product.handle contains "mens-posture-shirt" %}
+                              {%- render "a3-posture-shirt-radios" -%}
+                              {%- elsif  product.handle == "geradehalter-comfort" -%}
+                              {%- render "a2-comfort-plus-radios" -%}
+                              {%- elsif  product.handle == "geradehalter-basic" -%}
+                              {%- render "a1-basic-brace-radios" -%}
+                              {%- elsif  product.handle == "geradehalter-premium" -%}
+                              {%- render "a4-premium-brace-radios" -%}
+                              {%- elsif  product.handle == "lendengurt" -%}
+                              {%- render "a5-rugbrace-radios" -%}
+                              {%- endif -%}
                           <!-- manual Qb check end  -->
                               {%- endif -%}
 
@@ -564,13 +564,13 @@
                               <!-- Quantity selecter check start -->
                               {% if collection.handle == "posture-shirt" or product.handle contains "womens-posture-shirt" or product.handle contains "mens-posture-shirt" %}
                               {%- assign hide_quantity_box = false -%}
-                              {%- elsif  product.handle == "houding-corrector-comfort" -%}
+                              {%- elsif  product.handle == "geradehalter-comfort" -%}
                                       {%- assign hide_quantity_box = false -%}
-                              {%- elsif  product.handle == "houding-corrector" -%}
+                              {%- elsif  product.handle == "geradehalter-basic" -%}
                                       {%- assign hide_quantity_box = false -%}
-                              {%- elsif  product.handle == "houding-corrector-premium" -%}
+                              {%- elsif  product.handle == "geradehalter-premium" -%}
                                       {%- assign hide_quantity_box = false -%}
-                              {%- elsif  product.handle == "rugbrace" -%}
+                              {%- elsif  product.handle == "lendengurt" -%}
                                       {%- assign hide_quantity_box = false -%}
                               {%- else -%}
                                   {%- render "quantity-selector", type: "product", id: quantity_id -%}

@@ -172,6 +172,7 @@ _App_style
 /*============================================================================
   _Functions
 ==============================================================================*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 /*================ _Control_color ================*/
 @function color-control($color) {
@@ -254,6 +255,16 @@ $colorPrimaryDark: {{ settings.color_primary-dark }};
 $colorLightGray: {{ settings.color_light-gray}};
 $colorDarkGray: {{ settings.color_dark-gray }};
 $colorAccent: {{ settings.color_accent }};
+//custom colors
+$cPrimary: #398e82;
+$cLightGray: #f3f3f3;
+$cPrimaryLight: #9adbd3;
+$cPrimaryDark: #255c54;
+$cPrimaryBtn: #ff891d;
+$cText: #252525;
+$cTextGray: #353535;
+$cAccent: #ff891d;
+$cFooterBg: #141414; 
 $white: white;
 $black: black;
 
@@ -455,6 +466,18 @@ $headerSize3: floor($headerFontSize * 0.70);
 $headerSize4: floor($headerFontSize * 0.60);
 $headerSize5: floor($headerFontSize * 0.50);
 $headerSize6: $baseFontSize;
+
+//custom fontsizes
+$cHeroSize: floor($headerFontSize * 1.75);
+$cSubHeroSize: floor($headerFontSize * 0.75);
+$cH1: floor($headerFontSize * 0.95);
+$cH2: floor($headerFontSize * 0.75);
+$cH3: floor($headerFontSize * 0.62);
+$cH4: floor($headerFontSize * 0.52);
+$cH5: floor($headerFontSize * 0.48);
+$cH6: floor($headerFontSize * 0.43);
+
+
 
 // Page title size
 $bigFontSizeCustom: {{ settings.header_font_size_big }}px;
@@ -1270,18 +1293,28 @@ $class-type: unquote(".");
 // Header
 @mixin headerFontStack {
   font-family: $headerFontStack;
-  font-weight: 100;
+  font-weight: 500;
   font-style: $headerFontStyle;
   text-transform: $headerTextTransform;
   letter-spacing: $headerLetterSpacing;
   line-height: $headerLineHeight;
 }
+//c Header 
+@mixin cHeaderFontStack {
+  font-family: $headerFontStack;
+  font-weight: 500;
+  font-style: $headerFontStyle;
+  text-transform: $headerTextTransform;
+  letter-spacing: $headerLetterSpacing;
+  line-height: $headerLineHeight;
+
+}
 
 // Accent
 @mixin accentFontStack {
   font-family: $accentFontStack;
-  font-weight: 100;
-  font-size: .79rem;
+  font-weight: 400;
+  font-size: .95rem;
   font-style: $accentFontStyle;
   text-transform: $accentTextTransform;
   letter-spacing: $accentLetterSpacing;
@@ -1290,7 +1323,7 @@ $class-type: unquote(".");
 // Base
 @mixin baseFontStack {
   font-family: $baseFontStack;
-  font-weight: $baseFontWeight;
+  font-weight: 400;
   font-style: $baseFontStyle;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
@@ -1311,7 +1344,7 @@ $class-type: unquote(".");
 // Page title
 @mixin pageTitle {
   @include screenUp($postSmall) {
-    font-size: $bigFontSize;
+    font-size: $cH1;
     word-wrap: break-word;
     word-break: break-word;
   }
@@ -1410,6 +1443,44 @@ $class-type: unquote(".");
       color: $color;
       background-color: darken($background, 12.5%);
       border-color: darken($background, 15%);
+      @include shadow(none);
+    }
+  }
+}
+
+
+// Button color
+@mixin cbutton($background, $color, $borderColor, $style: default) {
+  @if $style == "default" {
+    background-color: $background;
+    border-color: $borderColor;
+    color: $color;
+  }
+
+  @else if $style == "outline" {
+    background-color: transparent;
+    border-color: $borderColor;
+    color: $background;
+  }
+
+  @else if $style == "reveal" {
+
+  }
+
+  // Button state
+  &:not(.disabled):not([disabled]) {
+    &:hover, &:focus {
+      opacity: 1;
+      color: $color;
+      background-color: darken($background, 7.5%);
+      border-color: darken($background, 30%);
+      @include shadow(0 0 0 0.1rem adaptive-color($background, 40%));
+    }
+
+    &:active {
+      color: $color;
+      background-color: darken($background, 12.5%);
+      border-color: darken($borderColor, 15%);
       @include shadow(none);
     }
   }
@@ -1832,7 +1903,7 @@ $class-type: unquote(".");
     }
 
     .card-footer, .card-header {
-      border-color: $border;
+      border-color: 1px solid $cLightGray;
     }
   }
 
@@ -1856,7 +1927,7 @@ $class-type: unquote(".");
   }
 
   // Buttons
-  .btn--primary { @include button($primary, $buttonText) }
+  .btn--primary { @include button($cAccent, $buttonText) }
   .btn-outline-primary { @include button(lighten($colorPrimary, 24%), $black) }
 
   // Badge
@@ -1984,16 +2055,14 @@ $class-type: unquote(".");
 }
 
 .custom_size_chart{
-  figure{
-    margin: 0;
-  }
   max-width: 100%;
   overflow: auto;
   -webkit-overflow-scrolling: touch;
   margin-bottom: $gutter-sm;
    p {
-    font-size:0.85rem;
-    color: $colorDarkGray;
+    margin-top: $gutter;
+    font-size:0.95rem;
+    color: $cTextGray;
   }
     // Tables
     table {
@@ -2003,7 +2072,7 @@ $class-type: unquote(".");
         background-color: darken($white, 3%);
       }
       tr:nth-of-type(even){
-        background-color: lighten($colorPrimary, 24%);
+        background-color: $cLightGray;
       }
       .tbody{
         td{
@@ -2029,7 +2098,13 @@ $class-type: unquote(".");
 /*============================================================================
   _Vendor
 ==============================================================================*/
-
+.cH1{
+ @include cHeaderFontStack;
+ font-size: $cH1;
+}
+p {
+  font-size: 0.95rem;
+}
 /*================ _Slick_slider ================*/
 .slick {
   opacity: 0;
@@ -2095,6 +2170,7 @@ $class-type: unquote(".");
   display: block;
   padding: $gutter-xs 0;
   @include transform(translate3d(0, 0, 0));
+
   &::before,
   &::after {
     content: "";
@@ -2447,7 +2523,7 @@ section,
 summary {
   display: block;
 }
-
+figure{margin:0;}
 body,
 input,
 textarea,
@@ -2548,7 +2624,7 @@ p {
   text-rendering: optimizeLegibility;
   margin-top: 0;
   margin-bottom: $spacer;
-  font-weight: 100;
+  font-weight: 400;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -2556,7 +2632,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: $headerMarginBottom;
   text-rendering: optimizeLegibility;
-  color: $colorDarkGray;
+  color: $cText;
   @include headerFontStack;
 
   a {
@@ -2566,20 +2642,25 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-h1 {font-size: $headerSize1}
-h2 {font-size: $headerSize2; font-weight:100;}
-h3 {font-size: $headerSize3; font-weight:100;}
-h4 {font-size: $headerSize4; font-weight:100;}
-h5 {font-size: $headerSize5; font-weight:100;}
-h6 {font-size: $headerSize6; font-weight:100;}
+h1 {font-size: $cH1}
+h2 {font-size: $cH2; font-weight:500;}
+h3 {font-size: $cH3; font-weight:500;}
+h4 {font-size: $cH4; font-weight:500;}
+h5 {font-size: $cH5; font-weight:500;}
+h6 {font-size: $cH6; font-weight:500;}
 
 .h1 {@extend h1}
-.h2 {@extend h2}
+.h2 {@extend h1}
 .h3 {@extend h3}
 .h4 {@extend h4}
 .h5 {@extend h5}
 .h6 {@extend h6}
 
+.h2{
+  @include screen($small){
+    font-size: $cH3;
+  }
+}
 /*================ _Links ================*/
 a {
   color: $colorHeadings;
@@ -2593,7 +2674,7 @@ a {
 .now__islink{
 color: $colorDarkGray;
 &:hover .card{
-  background-color: lighten($colorPrimary, 29%);
+  background-color: lighten($colorPrimary, 55%);
 }
 }
 /*================ _Form ================*/
@@ -2951,11 +3032,11 @@ button {
 
 // Colors
 .btn--primary {
-  @include button($colorPrimary, $colorButtonText);
+  @include button($cAccent, $colorButtonText);
 }
 
 .btn-outline-primary {
- @include button(lighten($colorPrimary, 24%), $black);
+ @include button($cPrimary, $white);
 }
 
 .btn-reveal-primary {
@@ -3329,7 +3410,7 @@ button {
 .dropdown-menu {
   left: 0;
   background-color: $colorBody;
-  border: $borders;
+  border-bottom: $borders;
   display: none;
   line-height: $baseLineHeight;
   margin: 0;
@@ -3433,13 +3514,14 @@ button {
   padding: $paddingDropdown;
   background-color: transparent;
   text-align: left;
-  border-radius: $borderRadius;
+  border-radius: ($borderRadius + 5);
+  font-size: 0.78rem;
   @include transition($transitions);
 
   &:hover,
   &:focus,
   .dropdown-open > & {
-    background-color: $colorDefault;
+    background-color: darken($colorDefault,4%);
     opacity: 1;
   }
 
@@ -3604,7 +3686,7 @@ button {
 }
 
 .card-footer {
-  border-top: $bordersLight;
+  border-top: 1px solid $cLightGray;
   padding: $gutter-sm;
 
   & > :last-child {
@@ -3776,7 +3858,7 @@ table {
 
   // Cells
   th, td {
-    padding: $gutter-sm;
+    padding: $gutter-xs;
     border-right: $borders;
     border-bottom: $borders;
 
@@ -3791,16 +3873,22 @@ table {
 
   // Td
   td {
-    padding: 6px;
+    padding: 4px;
+    font-size: 0.84rem;
   }
 
   // Th
   th{
-    padding: $gutter-xs ($gutter-xs);
-    background-color: darken($white, 6%);
+    padding: $gutter-sm;
+    background-color: $cLightGray;
     color: $colorHeadings;
-    @include accentFontStack;
-    line-height: 1;
+    font-size: .78rem;
+    font-weight: 500;
+    font-family: inherit;
+    font-style: normal;
+    text-transform: initial;
+    letter-spacing: .1px;
+    line-height: .99;
 
     @include screen($small) {
       font-size: $baseFontSize-sm;
@@ -3845,14 +3933,14 @@ table {
       .youtube-button {
         width: 80px;
         height: 80px;
-        background: $colorPrimary;
+        background: $cPrimary;
         z-index: 22;
         position: absolute;
         top: 50%;
         left: 50%;
         border-radius: 50%;
         transform: translate(-50%, -50%);
-        border: 12px solid lighten($colorPrimary, 10%);
+        border: 12px solid lighten($cPrimary, 10%);
         cursor: pointer;
         @include shadow($shadow);
         &::after{
@@ -3862,7 +3950,7 @@ table {
           left: -42px;
           width: 140px;
           height: 140px;
-          background-color: rgba($colorPrimary, 0.4);
+          background-color: rgba($cPrimary, 0.4);
           border-radius: 50%;
           z-index: 1;
           animation: pulseYoutube 2000ms ease-in infinite;
@@ -3959,7 +4047,11 @@ table {
     height: 100%;
   }
 }
-
+.product-single__media-group-wrapper{
+  @include screenUp($postSmall){
+    position: sticky !important;
+  }
+}
 /*================ _Images ================*/
 img {
   border: 0 none;
@@ -4840,7 +4932,7 @@ cite {
     position: absolute;
     top: 12px;
     right: 14px;
-    background-image: url('zipper.svg');
+    background-image: url('zipper2.svg');
     background-repeat: no-repeat;
     height: 50px;
     width: 50px;
@@ -4924,9 +5016,9 @@ cite {
       padding: $gutter-sm;
       .rte{
         p{
-          color: lighten($colorDarkGray, 20%);
-          font-size:.79rem;
-          line-height:1.6;
+          color: $cTextGray;
+          font-size:.95rem;
+          line-height:1.4;
         }
       }
       .btn--small{
@@ -4992,13 +5084,16 @@ cite {
     margin-bottom: -($gutter-lg + $gutter-sm);
   }
   .section-mission__title{
-    text-transform: uppercase;
     margin-bottom: $gutter-sm;
   }
   .section-mission__description{
-    font-size: ($baseFontSize - 1);
+    font-size: .95rem;
     line-height:1.5;
     margin-bottom: $gutter;
+
+    a{
+      color: $cPrimary;
+    }
   }
   .btn-mission{
   font-size: 1rem;
@@ -5122,6 +5217,9 @@ cite {
     @include screenUp($postSmall) {
       @include ellipsis;
     }
+  }
+  &.text-accent{
+    font-size: .80rem;
   }
 }
 
@@ -5384,7 +5482,6 @@ cite {
 }
 
 .collection_grid-title {
-  text-transform: uppercase;
   font-weight: 500;
   margin-bottom: 0;
   background-color: $colorDarkGray;
@@ -5421,8 +5518,8 @@ cite {
       position: absolute;
       bottom:26%;
       left:$gutter-xs;
-      padding:$gutter-xs  ($gutter-xs + 8) $gutter-xs $gutter-xs;
-      font-size:0.75rem;
+      padding:$gutter-xs  ($gutter-sm + 2) $gutter-xs $gutter-sm;
+      font-size:0.95rem;
       text-transform:uppercase;
       z-index: 12;
       @include screen($small){
@@ -5467,7 +5564,7 @@ cite {
   }
 
   .rte {
-    margin-bottom: 0;
+    margin-bottom: 5px;
   }
 
   p {
@@ -5498,6 +5595,7 @@ cite {
   }
 }
 .announcement-message-item{
+
   @include screenUp($postSmall){
     & > *{
       flex-grow: 1;
@@ -5506,11 +5604,14 @@ cite {
   .announcement-message{
     p{
       margin:0 5px 0 0;
-      @include screen($small){
-        display:none;
-      }
     }
   }
+  .announcement-image {
+    img{
+      min-width: 160px;
+    }
+  }
+
 }
 /*================ _Header ================*/
 .header-section {
@@ -6207,7 +6308,7 @@ cite {
   color: $colorPrimary !important;
   font-size: 1.2rem;
   text-transform: uppercase;
-  font-weight: 100;
+  font-weight: 400;
 }
 
 .site-footer__linklist {
@@ -6277,7 +6378,7 @@ cite {
 }
 .hero__btn {
 font-size: 1rem;
-font-weight: 100;
+font-weight: 400;
 text-transform: uppercase;
 background-color: $colorAccent;
 }
@@ -6616,7 +6717,11 @@ background-color: $colorAccent;
   margin-top: $spacer-xs;
   margin-bottom: 0;
   color: $colorSecondary;
-  @include accentFontStack;
+  font-weight: 500;
+  font-size: .75rem;
+  font-style: normal;
+  text-transform: initial;
+  letter-spacing: .1px;
 }
 
 // Order discount
@@ -6701,14 +6806,17 @@ background-color: $colorAccent;
   }
 }
 .collection-page-title{
-  font-size: 1.8rem;
-  text-transform: uppercase;
+  font-size: $cH1;
   letter-spacing:1px;
+  text-transform: capitalize;
 }
 .desc__container{
   margin-top: $gutter-lg;
   @include screenUp($postSmall){
     margin-left: -($gutter - 10);
+  }
+  h1{
+    margin-bottom: $gutter;
   }
 }
 .seo-text{
@@ -6727,7 +6835,18 @@ background-color: $colorAccent;
         margin-right: $gutter;
       }
     }
+    & > h2 {
+      font-size: $cH3 !important;
+    }
+    & > h3{
+      font-size: $cH4 !important;
+    }
+    & a{
+      color: $colorPrimary; 
+      text-decoration: underline;
+    }
   }
+
 }
 /*================ _Password ================*/
 .password-main {
@@ -6760,12 +6879,7 @@ background-color: $colorAccent;
 }
 
 /*================ _Product ================*/
-.product-single__media-group-wrapper {
-  @include screenUp($small){
-    position: sticky!important;
-    top:100px;
-  }
-}
+
 /*=== product media ===*/
 .product-single__media-group {
   &.slick-initialized {
@@ -6987,8 +7101,8 @@ background-color: $colorAccent;
 }
 .product__top_description {
   p {
-    font-size:0.85rem;
-    color: lighten($colorDarkGray, 15%);
+    font-size:0.95rem;
+    color: $cTextGray;
 
   }
   .readmore-cover{
@@ -7146,7 +7260,7 @@ body {
 .text-link {@include linkStyle}
 .text-lead {@include leadFontStack}
 .text-accent {@include accentFontStack}
-.text-money {@include accentFontStack; font-size: 0.89rem; font-weight: 700; color: $colorAccent}
+.text-money {@include accentFontStack; font-size: 0.92rem; font-weight: 600; color: $colorAccent}
 .product__money-text {@include accentFontStack; font-size: 1.500rem; font-weight: 500; color: $colorAccent}
 .text-sub {@include textSub}
 .text-strike {text-decoration: line-through!important; text-decoration-color: $colorAccent !important}
@@ -7952,7 +8066,7 @@ body:not(.dbtfy-mega_menu-destroy) {
     white-space: nowrap;
     color: $colorNavText;
     width: 100%;
-
+    font-size:0.75rem;
     @include screen($small) {
       color: $colorNavText !important;
     }
@@ -8058,6 +8172,11 @@ body:not(.dbtfy-newsletter_popup-destroy) {
   }
 }
 {%- endif -%}
+
+.newsletter__input {
+  border: 2px solid lighten($colorLightGray, 30%);
+  border-radius:4px;
+}
 /* end-dbtfy-newsletter-popup */
 
 /* start-dbtfy-order-feedback */
@@ -9112,7 +9231,24 @@ body:not(.dbtfy-wish_list-destroy) {
       @include screen($small){
         text-align:center;
       }
-
+      .site-footer__socials{
+        a {
+          display: block;
+          width:100%;
+          padding:.5rem;
+          color: darken($colorButtonText, 10%);
+          font-size:0.85rem;
+          @include transition($transitions);
+          &:hover{
+            color:$white;
+          }
+  
+          .icon-svg{
+            margin-right:.5rem;
+            width:2rem;
+          }
+        }
+      }
     }
     .bottom-footer{
       .footer-bottom{
@@ -9122,7 +9258,6 @@ body:not(.dbtfy-wish_list-destroy) {
         }
       }
     }
-  
   }
 
   .wl-item {
@@ -9149,23 +9284,19 @@ body:not(.dbtfy-wish_list-destroy) {
     .wl-select {
       background-image: none !important;
       text-align-last: center;
-
       &.disabled {
         @include button($colorPrimary, $colorButtonText, outline);
       }
-
       option {
         text-transform: initial;
       }
     }
-
     @include screen($small) {
       .wl-product-options {
         margin-top: $spacer-sm;
       }
     }
   }
-
   .wl-name-wrapper {
     @include screen($small) {
       @include display-flexbox;
@@ -9206,7 +9337,6 @@ body:not(.dbtfy-wish_list-destroy) {
   }
 }
 /* end-dbtfy-collection-filters */
-
 .tabs{
   padding: 0 $gutter-sm;
 .tabs__selectors{
@@ -9220,25 +9350,21 @@ body:not(.dbtfy-wish_list-destroy) {
     background-color: $white;
   }
   .tab-item {
-    padding: $gutter-xs;
+    cursor: pointer;
+    padding:12px $gutter-sm;
+    font-size:.85rem;
     font-weight:500;
-    font-size:.79rem;
+    margin: 1px;
     text-transform: uppercase;
-    background-color: darken($white, 3%);
-    border:1px solid darken($white, 5%);
+    @include cbutton(darken($cLightGray,4%), $cText, $cLightGray);
     @include transition($transitions);
     @include screenUp($postSmall){
-      padding: $gutter-sm;
-      font-size:.9rem;
-    }
-    &:hover {
-      cursor: pointer;
-      background-color: lighten($colorPrimary, 26%);
+      font-size:0.90rem;
     }
   }
   .tab-active {
-    background-color: lighten($colorPrimary, 28%);
-    border:1px solid rgba(lighten($colorPrimary, 14%), 0.5);
+    background-color: $cPrimary;
+    color: $white;
   }
 }
 .tabs__content {
@@ -9250,21 +9376,21 @@ body:not(.dbtfy-wish_list-destroy) {
   .content-body {
     display: none;
     h2{
-      font-size: 1.2rem;
+      font-size: $cH3;
     }
     p {
-      font-size: 0.85rem;
+      font-size: 0.95rem;
     }
   }
   .show-active {
     display: block;
     min-height:120px;
     max-width: 90%;
-    font-size: 0.85rem;
+    font-size: 0.95rem;
     line-height:1.6;
     @include animated(fadeIn, $transitionDurationFast);
     p {
-      font-size: 0.85rem;
+      font-size: 0.95rem;
     }
   }
 }
@@ -9290,13 +9416,15 @@ body:not(.dbtfy-wish_list-destroy) {
       .card__content{
         padding: $gutter-sm 0;
         .card__content--title{
-          font-size:1.2rem;
+          font-size:1rem;
           color: $colorDarkGray;
         }
         .card__content--text{
-          font-size:.75rem;
-          line-height:1.8;
-          color: darken($colorLightGray, 5%);
+            p{
+              font-size:.9rem;
+              line-height:1.4;
+              color: $cTextGray;
+            }
         }
       }
     }
@@ -9330,9 +9458,9 @@ body:not(.dbtfy-wish_list-destroy) {
     }
 	}
 	.services-title{
-		font-size: clamp($baseFontSize-sm, 4vw, $baseFontSize-lg);
+		font-size: clamp($cH2, 0vw, $cH1);
 		margin-bottom: 1.5rem;
-		text-transform: uppercase;
+		text-transform: capitalize;
 		color:$colorDarkGray;
 
 	}
@@ -9348,7 +9476,7 @@ body:not(.dbtfy-wish_list-destroy) {
 		display: block;
 		border: 1px solid rgba($colorLightGray, 0.1);
 		text-decoration: none;
-		color: $colorLightGray;
+		color: $cTextGray;
 		background-color: $white;
 		transition: .3s ease-in transform;
     min-width: 100%;
@@ -9364,19 +9492,18 @@ body:not(.dbtfy-wish_list-destroy) {
 			.content-textbox {
 				padding: 1rem 0;
 				.title{
-					font-size: 0.75rem;
-					font-weight: 700;
+					font-size: clamp($cH5, 0vw, $cH3);
+					font-weight: 500;
 					margin-bottom: .5rem;
-					text-transform: uppercase;
-					color:$colorDarkGray;
+					color:$cText;
           word-break: keep-all;
 				}
 				.info{
 					display: none;
 					@include screenUp($postSmall){
 						display: block;
-						font-size: .85rem;
-						font-weight: 200;
+						font-size: .86rem;
+						font-weight: 400;
 						padding: 0 .5rem 1.5rem 0.5rem;
 
 					}
@@ -9419,7 +9546,6 @@ body:not(.dbtfy-wish_list-destroy) {
   padding: 2rem 0;
   .accordion__title-main{
     text-align: center;
-    text-transform: uppercase;
     margin-bottom:$gutter;
   }
   .accordion{
@@ -9431,14 +9557,13 @@ body:not(.dbtfy-wish_list-destroy) {
       margin-left: -$gutter;
     }
     .accordion__title{
-      padding: ($gutter-sm + 6)  $gutter-sm ($gutter-sm + 6) $gutter-xs;
+      padding: ($gutter-sm + 4)  $gutter-sm ($gutter-sm + 4) $gutter-xs;
       position: relative;
       margin: 0;
-      font-size: .89rem;
+      font-size: .90rem;
       font-weight: 500;
-      text-transform: uppercase;
       letter-spacing: 0.2px;
-      color: $colorDarkGray;
+      color: $cText;
       background-color: lighten($colorLightGray, 42%);
       transition: ease-in-out 0.2s all;
       cursor: pointer;
@@ -9462,7 +9587,7 @@ body:not(.dbtfy-wish_list-destroy) {
         background-color: $white;
       }
       &::after{
-        background-image: linear-gradient(90deg, darken($colorPrimary, 10%), lighten($colorPrimary,35%));
+        background-image: linear-gradient(90deg, lighten($colorPrimary, 10%), lighten($colorPrimary,55%));
         width: 0%;
       }
       &:hover::after{
@@ -9496,13 +9621,14 @@ body:not(.dbtfy-wish_list-destroy) {
           margin-right:$gutter;
         }
         .accordion__innertitle{
-
+          font-size:.95rem;
           margin-bottom: $gutter-sm;
+          color: $cTextGray;
         }
         .accordion__description{
-          font-size:.89rem;
+          font-size:.95rem;
           line-height: 1.6;
-          color: lighten($colorDarkGray, 20%);
+          color: $cTextGray;
         }
         .btn.accordion__btn{
           @include button($colorPrimary, $white);
@@ -9577,7 +9703,7 @@ body:not(.dbtfy-wish_list-destroy) {
     }
 
     .accordionTitleActive:after {
-      background-image: linear-gradient(90deg, darken($colorPrimary, 10%), lighten($colorPrimary,35%));
+      background-image: linear-gradient(90deg, lighten($colorPrimary, 10%), lighten($colorPrimary,55%));
       width: 100%;
     }
 
@@ -9607,7 +9733,8 @@ body:not(.dbtfy-wish_list-destroy) {
   background-color: darken($white, 3%);
   .timer__wrapper{
     .timer__text{
-      font-size:1rem;
+      font-size:1.25rem;
+      font-weight:500;
     }
     .timer__counter {
       .time-hour,.time-min, .time-sec{
@@ -9618,15 +9745,15 @@ body:not(.dbtfy-wish_list-destroy) {
         strong{
           font-size: ($headerSize2 - 4);
           color:$colorDarkGray;
-          font-weight:100;
+          font-weight:500;
           letter-spacing:3px;
           line-height:1.2;
         }
         .time__badge{
           color: $colorPrimary;
-          font-size:.55rem;
+          font-size:.65rem;
           text-transform:uppercase;
-          font-weight:100;
+          font-weight:600;
         }
       }
       code {
@@ -9657,8 +9784,8 @@ selector[data-type="languages"][data-id="283692853"].ls-sw-closed > .active:afte
 .recommendation-title-wrapper{
   margin-bottom: -($gutter );
   .recommendation-header__title{
-    font-size:1.4rem;
-    text-transform:uppercase;
+    font-size:$cH1;
+    font-weight:500;
     margin-bottom: -($gutter-xs );
   }
 }
@@ -9670,7 +9797,7 @@ selector[data-type="languages"][data-id="283692853"].ls-sw-closed > .active:afte
     }
     .guarantee-text {
       p{
-        font-size:.89rem;
+        font-size:.95rem;
       }
     }
   }
@@ -9681,40 +9808,190 @@ selector[data-type="languages"][data-id="283692853"].ls-sw-closed > .active:afte
   margin-bottom: $gutter;
 }
 .site-footer{
-  .main-footer{
-    .site-footer__social-icons{
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-            & a {
-              display: block;
-              width:100%;
-              padding:.5rem;
-              color: darken($colorButtonText, 10%);
-              font-size:0.85rem;
-              @include transition($transitions);
-              &:hover{
-                color:$white;
-              }
-      
-              .icon-svg{
-                margin-right:.5rem;
-                width:2rem;
-              }
-            }
+  text-align: center;
+    @include screenUp($postSmall){
+  		 text-align: left;
+    }
+    .site-footer__socials{
+        a {
+          display: block;
+          width:100%;
+          padding:.5rem;
+          color: darken($colorButtonText, 10%);
+          font-size:0.95rem;
+          @include transition($transitions);
+          &:hover{
+            color:$white;
+          }
+  
+          .icon-svg{
+            margin-right:.5rem;
+            width:2rem;
+          }
+        }
+      }
+}
+
+.videoblock {
+  height: 100%;
+  position: relative;
+ .fullscreen-video-wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+}
+.video-section-wrapper--small, .videoblock-small {
+  min-height: 500px;
+}
+.video-section-wrapper--medium, .videoblock-medium {
+  min-height: 650px;
+}
+.video-section-wrapper--large, .videoblock-large {
+  min-height: 750px;
+}
+.fullscreen-video-wrap--full, .videoblock-full {
+  min-height: 100vh;
+}
+
+.videoblock .fullscreen-video-wrap .video-js {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 100%;
+  min-width: 100%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.videoblock .fullscreen-video-wrap video {
+  min-height: 100%;
+  min-width: 100%;
+  object-fit: cover;
+}
+.videoblock .video__overlay {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.videoblock .hero-fixed-width__content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-height: 50%;
+  width: 100%;
+  @include screenUp($postSmall){
+    width: 60%;
+  }
+}
+.videoblock .hero-fixed-width__content .mega-title {
+  text-transform: uppercase;
+  color:  $white;
+  font-size: clamp($cH1, 5vw, $cHeroSize); 
+  font-weight: 500;
+}
+.videoblock .hero-fixed-width__content .mega-subtitle {
+  p {
+    color: $white;
+    font-size: clamp($cH4, 5vw, $cH1); 
+    padding:0 1rem 2rem 1rem;
+    line-height: 1.3;
+    font-weight: 500;
+    @include screenUp($postSmall){
+      line-height: 1.2;
     }
   }
 }
+  .scrolldown {
+  z-index: 2;
+  position: absolute;
+  right: 50%;
+  bottom: 10%;
+  display: inline-block;
+}
+.scrolldown span {
+  width: 20px;
+  height: 20px;
+  display: block;
+  border-right: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  transform: rotate(45deg);
+  margin: -10px;
+  animation: animateVideoArrows 2s infinite;
+}
+.scrolldown span:nth-child(2) {
+  animation-delay: -0.2s;
+}
+.scrolldown span:nth-child(3) {
+  animation-delay: -0.4s;
+}
+@keyframes animateVideoArrows {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+    transform: rotate(45deg) translate(10px, 10px);
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
 .free__delivery{
-  margin-bottom: $gutter-sm;
+  .free-contain {
+    display: flex;
+    justify-content: flex-start;
+  }
   span{
     font-weight:700;
     font-family: inherit;
-    font-size:0.88rem;
-    color: lighten($colorDarkGray, 15%);
+    font-size:0.95rem;
+    color: $cTextGray;
+    code {
+      img{
+        width:18px;
+        height:18px;
+        margin-right:6px;
+      }
+    }
   }
 }
-
+.product-thumbs{
+  margin-bottom: $gutter-xs;
+  & > a {
+    img {
+      width: 50px;
+    }
+  }
+}
+.card.tab.fp-item{
+  .tab-header{
+    background-color: darken($white, 5%);
+    text-transform: initial;
+    font-size:1.133rem;
+    font-weight:500;
+  }
+  .tab-body{
+    background-color: darken($white, 2%);
+    .tab-content{
+      p{
+        font-size:0.90rem;
+      }
+    }
+  }
+}
 {%- if settings.custom_style != blank -%}
 /*================ _custom_styles ================*/
 {{ settings.custom_style }}

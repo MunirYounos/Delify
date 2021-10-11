@@ -1,117 +1,7 @@
-{%- style -%}
-	.videoblock {
-		height: 100%;
-		position: relative;
-	}
-	.video-section-wrapper--small, .videoblock-small {
-		min-height: 500px;
-	}
-	.video-section-wrapper--medium, .videoblock-medium {
-		min-height: 650px;
-	}
-	.video-section-wrapper--large, .videoblock-large {
-		min-height: 750px;
-	}
-	.fullscreen-video-wrap--full, .videoblock-full {
-		min-height: 100vh;
-	}
-	.videoblock .fullscreen-video-wrap {
-		position: absolute;
-		top: 0;
-		left: 0;
-		min-width: 100%;
-		width: 100%;
-		height: 100%;
-		overflow: hidden;
-	}
-	.videoblock .fullscreen-video-wrap .video-js {
-		position: absolute;
-		top: 0;
-		left: 0;
-		min-height: 100%;
-		min-width: 100%;
-		width: 100%;
-		height: 100%;
-		object-fit: cover;
-	}
-	.videoblock .fullscreen-video-wrap video {
-		min-height: 100%;
-		min-width: 100%;
-		object-fit: cover;
-	}
-	.videoblock .video__overlay {
-		content: '';
-		position: absolute;
-		left: 0;
-		top: 0;
-		right: 0;
-		bottom: 0;
-		z-index: 1;
-		background-color: rgba(0, 0, 0, 0.4);
-	}
-  .videoblock .hero-fixed-width__content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    min-height: 50%;
-    width: 100%;
-  }
-  .videoblock .hero-fixed-width__content .mega-title {
-    text-transform: uppercase;
-    color: white;
-    font-size: clamp(2rem, 5vw, 3.4rem); 
-    font-weight: 500;
-  }
-  .videoblock .hero-fixed-width__content .mega-subtitle {
-    color: white;
-    font-size: clamp(0.8rem, 5vw, 1.4rem); 
-    padding:0 1rem 2rem 1rem;
-  }
-    .scrolldown {
-		z-index: 2;
-		position: absolute;
-		right: 50%;
-    bottom: 10%;
-		display: inline-block;
-	}
-	.scrolldown span {
-		width: 20px;
-		height: 20px;
-		display: block;
-		border-right: 2px solid #fff;
-		border-bottom: 2px solid #fff;
-		transform: rotate(45deg);
-		margin: -10px;
-		animation: animate 2s infinite;
-	}
-	.scrolldown span:nth-child(2) {
-		animation-delay: -0.2s;
-	}
-	.scrolldown span:nth-child(3) {
-		animation-delay: -0.4s;
-	}
-	@keyframes animate {
-		0% {
-			opacity: 0;
-		}
-
-		50% {
-			opacity: 1;
-			transform: rotate(45deg) translate(10px, 10px);
-		}
-
-		100% {
-			opacity: 0;
-		}
-	}
-{%- endstyle -%}
-
 <div class="" data-section-id="{{ section.id }}" data-section-type="video-section">
 	{%- if section.settings.page_width == 'fixed_width' -%}
     	<div class="page-width">
   	{%- endif -%}
-
 		<div class="videoblock videoblock-{{ section.settings.height }}">
 			{%- if section.settings.newvideo_link != blank -%}
 				<div class="fullscreen-video-wrap
@@ -164,7 +54,6 @@
 							<span></span>
 						</div>
 					</div>
-
 				{%- endif -%}
 
 			</div>

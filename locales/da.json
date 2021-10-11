@@ -79,6 +79,14 @@
     },
     "localization": {
       "submit_label": "Opdater præferencer"
+    },
+    "trial_over": {
+      "heading": "Din gratis prøveperiode er udløbet",
+      "text": "Hej, {{ name }}. Det ser ud til, at din 14-dages gratis prøveperiode på Master Plan allerede er afsluttet. Det betyder, at alle dine tilføjelser nu er deaktiveret.\n\n Men du vil sandsynligvis ikke miste den konvertering og indtægtsbump, du fik fra dine tilføjelser, ikke? \n\n Vælg en plan, der bedst passer til dine mål, og fortsæt med at nyde højere konverteringsfrekvenser.",
+      "pick_a_plan": "Vælg en plan"
+    },
+    "locales": {
+      "locale": "Anbefalet til dig"
     }
   },
   "blogs": {
@@ -294,7 +302,7 @@
   },
   "products": {
     "general": {
-      "save_html": "Gem {{ saved_amount }}",
+      "save_html": "Spar {{ saved_amount }}",
       "collection_return": "Tilbage til {{ collection }}",
       "sale_price": "Udsalgspris",
       "regular_price": "Normalpris",
@@ -308,7 +316,7 @@
       "unavailable": "Ikke tilgængelig",
       "quantity": "Antal",
       "add_to_cart": "Læg i indkøbskurv",
-      "replace": "Erstatte",
+      "replace": "Erstat",
       "full_details": "Udførlige detaljer",
       "view_in_space": "Se den i dit område",
       "view_in_space_label": "Se den i dine omgivelser – indlæser vare i et augmented reality-vindue",
@@ -321,6 +329,18 @@
       "next": "Næste (tasten pil til højre)",
       "prev": "Forrige (tasten pil til venstre)",
       "close": "Luk (esc)"
+    },
+    "tabs": {
+      "tab-description": "Beskrivelse",
+      "tab-medical": "Teknologi",
+      "tab-use": "Anvendelse",
+      "tab-manual": "Brugsvejledning",
+      "tab-material": "Materialer",
+      "tab-delivery": "Levering og retur"
+    },
+    "radios": {
+      "radio-one": "Køb",
+      "radio-save-amount": "Spar"
     }
   },
   "gift_cards": {

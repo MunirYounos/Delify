@@ -52,7 +52,7 @@
             <div class="card-contain card-row-{{ block.settings.card__alignement }}">
               {%- if block.settings.card__icon != blank -%}
                 <div class="cards-wrapper">
-                  <img class="card-icon lazyload" src="{{block.settings.card__icon | img_url: '100x100'}}"
+                  <img class="card-icon lazyload" src="{{block.settings.card__icon | img_url: '75x75'}}"
 									alt="{{ block.settings.title }}">
                 </div>
               {%- else -%}
@@ -61,7 +61,7 @@
 
 							<div class="card__content {{ block.settings.text_alignment }}">
 								{%- unless block.settings.title == blank -%}
-									<h4 class="card__content--title">{{ block.settings.title | escape }}</h4>
+									<h2 class="h3 card__content--title">{{ block.settings.title | escape }}</h2>
 								{%- endunless -%}
 								{%- unless block.settings.text == blank -%}
 									<div class="card__content--text">{{ block.settings.text }}</div>

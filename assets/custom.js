@@ -1,23 +1,15 @@
-
-/*====================_Video and readmore buttons ======*/
 (function(a){
-	$('#youtube-video').hide();
-	$('.youtube-cover-image, .youtube-button').on('click', function () {
-		$('#youtube-video').show();
+	$('.youtube-cover-image, .youtube-button').on('click', function (e) {
 		$('.youtube-cover-image , .youtube-button').hide();
 	});
-
-		// scroll smothing for readmore button
-		$('.btn-readmore').on('click', function () {
-			$('html, body').animate({ scrollTop: $(this.hash).offset().top - 80 }, 1000);
-			return false;
-		});
+	// scroll smothing for readmore button
+	$('.btn-readmore').on('click', function () {
+		$('html, body').animate({ scrollTop: $(this.hash).offset().top - 80 }, 1000);
+		return false;
+	});
 
 })(jQuery);
 
-
-
-/*====================_Frontpage accordions and product page tabs ======*/
 
 // variables
 var accordionBtn = document.querySelectorAll('.accordion__title');

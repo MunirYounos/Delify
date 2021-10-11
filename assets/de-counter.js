@@ -1,5 +1,5 @@
 //topbar counter
-let domTopId = document.getElementById('delify___counter');
+let domTopId = document.getElementById('de___js-counter');
 if (domTopId !== null) {
 	weekDayNames(domTopId);
 }

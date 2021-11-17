@@ -546,13 +546,13 @@
                               <!-- manual Qb check start -->
                               {% if collection.handle == "posture-shirt" or product.handle contains "womens-posture-shirt" or product.handle contains "mens-posture-shirt" %}
                               {%- render "a3-posture-shirt-radios" -%}
-                              {%- elsif  product.handle ==  "skulderstoette-comfort" -%}
+                              {%- elsif  product.handle ==  "geradehalter-comfort" -%}
                               {%- render "a2-comfort-plus-radios" -%}
-                              {%- elsif  product.handle ==  "skulderstoette-basic" -%}
+                              {%- elsif  product.handle ==  "geradehalter-basic" -%}
                               {%- render "a1-basic-brace-radios" -%}
-                              {%- elsif  product.handle == "skulderstoette-premium" -%}
+                              {%- elsif  product.handle == "geradehalter-premium" -%}
                               {%- render "a4-premium-brace-radios" -%}
-                              {%- elsif  product.handle ==  "laendebaelte" -%}
+                              {%- elsif  product.handle ==  "lendengurt" -%}
                               {%- render "a5-backbrace-radios" -%}
                               {%- endif -%}
                           <!-- manual Qb check end  -->
@@ -564,13 +564,13 @@
                                  <!-- Quantity selecter check start -->
                                  {% if collection.handle == "posture-shirt" or product.handle contains "womens-posture-shirt" or product.handle contains "mens-posture-shirt" %}
                                  {%- assign hide_quantity_box = false -%}
-                                 {%- elsif  product.handle ==  "skulderstoette-comfort" -%}
+                                 {%- elsif  product.handle ==  "geradehalter-comfort" -%}
                                          {%- assign hide_quantity_box = false -%}
-                                 {%- elsif  product.handle ==  "skulderstoette-basic" -%}
+                                 {%- elsif  product.handle ==  "geradehalter-basic" -%}
                                          {%- assign hide_quantity_box = false -%}
-                                 {%- elsif  product.handle ==  "skulderstoette-premium" -%}
+                                 {%- elsif  product.handle ==  "geradehalter-premium" -%}
                                          {%- assign hide_quantity_box = false -%}
-                                 {%- elsif  product.handle == "laendebaelte" -%}
+                                 {%- elsif  product.handle == "lendengurt" -%}
                                          {%- assign hide_quantity_box = false -%}
                                  {%- else -%}
                                      {%- render "quantity-selector", type: "product", id: quantity_id -%}

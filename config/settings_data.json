@@ -5,7 +5,7 @@
     "hero_header": false,
     "height_header": 100,
     "height_header_mobile": 70,
-    "icon": "material-icons",
+    "icon": "material-icons-outlined",
     "grid_product_truncate": false,
     "collection_grid_card": false,
     "collection_grid_products_count": false,
@@ -80,17 +80,27 @@
     "dbtfy_live_view": false,
     "dbtfy_mega_menu": true,
     "dbtfy_newsletter_popup": true,
+    "dbtfy_order_feedback": false,
     "dbtfy_order_tracking": false,
     "dbtfy_product_tabs": true,
     "dbtfy_quantity_breaks": false,
     "dbtfy_quick_view": false,
+    "dbtfy_recently_viewed": false,
     "dbtfy_sales_countdown": false,
     "dbtfy_sales_pop": false,
     "dbtfy_shop_protect": false,
     "dbtfy_skip_cart": false,
     "dbtfy_size_chart": false,
     "synced_variant_image": false,
+    "dbtfy_wish_list": false,
+    "dbtfy_addtocart_animation_type": "pulse",
+    "dbtfy_addtocart_animation_interval": 10,
+    "dbtfy_back_in_stock_richtext": "<p>Benachrichtigung erhalten, sobald das Produkt auf Lager ist<\/p>",
+    "dbtfy_back_in_stock_btn": "Bitte benachrichtigen",
     "dbtfy_back_in_stock_btn_animation": true,
+    "dbtfy_back_in_stock_success": "<p>Wir benachrichtigen Sie, sobald das Produkt auf Lager ist.<\/p>",
+    "dbtfy_back_in_stock_body_prefix": "Benachrichtigung erhalten, sobald",
+    "dbtfy_back_in_stock_body_suffix": "auf Lager ist",
     "dbtfy_cart_discount_label": "Rabattcode",
     "dbtfy_cart_discount_placeholder": "Geben Sie hier Ihren Rabattcode ein",
     "dbtfy_cart_discount_apply_button_label": "Rabattcode verwenden",
@@ -107,14 +117,16 @@
     "dbtfy_menu_bar_desktop": false,
     "dbtfy_newsletter_floating_bar": false,
     "dbtfy_floating_bar_text": "Sparen Sie noch 10%",
-    "dbtfy_newsletter_popup_title": "Erhalten sie noch 10% Rabatt!",
-    "dbtfy_newsletter_popup_text": "<p>Melden Sie sich unseren Newsletter an und erhalten Sie noch <strong>10% Rabatt<\/strong> auf ALLE Produkte!<\/p>",
+    "dbtfy_newsletter_popup_image_whole": false,
+    "dbtfy_newsletter_popup_image": "shopify:\/\/shop_images\/bfbaloons.jpg",
+    "dbtfy_newsletter_popup_title": "BLACK DAYS - Erhalten Sie Zugang zum exklusiven Rabattcode",
+    "dbtfy_newsletter_popup_text": "<p>Melden Sie sich für unseren Newsletter an und erhalten Sie einen exklusiven <strong>Rabattcode<\/strong>, wenn wir <strong>BLACK DAYS<\/strong> am Samstag, den <strong>20. November <\/strong>starten.<\/p>",
     "dbtfy_newsletter_popup_close": "Nein, danke",
-    "dbtfy_newsletter_popup_title_success": "Danke schön!",
-    "dbtfy_newsletter_popup_text_success": "<p>Geben Sie den Rabattcode im Warenkorb ein, und erhalten Sie 10% auf ALLE Produkte. <\/p>",
-    "dbtfy_newsletter_popup_reward_button": "Rabattcode verwenden",
-    "dbtfy_newsletter_popup_discount_name": "R6QG34",
-    "dbtfy_newsletter_popup_discount_amount": "10",
+    "dbtfy_newsletter_popup_title_success": "Vielen Dank für Ihre Anmeldung",
+    "dbtfy_newsletter_popup_text_success": "",
+    "dbtfy_newsletter_popup_reward_button": "",
+    "dbtfy_newsletter_popup_discount_name": "",
+    "dbtfy_newsletter_popup_discount_amount": "",
     "dbtfy_order_feedback_select_title": "Wie haben Sie uns gefunden?",
     "dbtfy_order_feedback_default_options": "Bitte wählen Sie eine",
     "dbtfy_order_feedback_select_options": "Physiotherapeut\/in, Social Media, Google, Amazon",
@@ -130,10 +142,10 @@
     "dbtfy_smart_search_articles": "Artikelen",
     "dbtfy_smart_search_pages": "Pagina's",
     "dbtfy_smart_search_all": "Laat alle resultaten zien",
-    "dbtfy_social_discount_link": "Teilen und 10% Rabatt erhalten!",
+    "dbtfy_social_discount_link": "Teilen und 10% Rabatt erhalten",
     "dbtfy_social_discount_popup_title": "Teilen und 10% Rabatt erhalten",
     "dbtfy_social_discount_popup_text": "Teilen Sie dies mit Ihren Freunden und erhalten Sie 10% Rabatt",
-    "dbtfy_social_discount_reward_title": "Vielen Dank für das Teilen!",
+    "dbtfy_social_discount_reward_title": "Vielen Dank für das Teilen",
     "dbtfy_social_discount_reward_text": "<p>Kopieren Sie den untenstehenden Rabattcode und fügen Sie ihn in Ihren Warenkorb ein, um Ihren Rabatt zu erhalten<\/p>",
     "dbtfy_social_discount_reward_button": "Rabattcode verwenden",
     "dbtfy_social_discount_reward_code": "20GWS15",
@@ -143,9 +155,9 @@
     "dbtfy_wish_list_remove_text": "Von Wunschzettel entfernen",
     "dbtfy_wish_list_empty_text": "Ihr Wunschzettel ist derzeit leer.",
     "dbtfy_wish_list_share_label": "Wunschzettel teilen",
-    "checkout_logo_image": "shopify:\/\/shop_images\/Anodyne_483x150px.png",
-    "checkout_accent_color": "#83d0bd",
-    "checkout_button_color": "#83d0bd",
+    "checkout_logo_image": "shopify:\/\/shop_images\/Anodyne_black_medium_6099e75e-8bee-44e1-9981-815ec3375d46.png",
+    "checkout_accent_color": "#398e82",
+    "checkout_button_color": "#398e82",
     "custom_inventory_quantity": true,
     "sections": {
       "dbtfy-upsell-popup": {
@@ -277,9 +289,8 @@
           "announcement-0": {
             "type": "message",
             "settings": {
-              "announcement_text": "",
-              "announcement_link": "https:\/\/www.trustedshops.de\/bewertung\/info_XF28D23210E3733905016407D4C407253.html",
-              "announcement_image": "shopify:\/\/shop_images\/Trustedshops_4-5_v2_2x_5684cf8c-22ab-45cb-a122-8b9fa8a7ebcf.png"
+              "announcement_text": "<p>30 Tage Rückgaberecht & <strong>Gratis Versand<\/strong> mit DHL<\/p>",
+              "announcement_link": ""
             }
           }
         },
@@ -303,13 +314,13 @@
           "navigation_type": "right",
           "header_font_size": 12,
           "logo_link": true,
-          "default_logo": "shopify:\/\/shop_images\/Anodyne_483x150px_152x_2x_d4900d7e-3f65-483d-803d-beffd97c76e0.png",
-          "mobile_logo": "shopify:\/\/shop_images\/Anodyne_483x150px_152x_2x_d4900d7e-3f65-483d-803d-beffd97c76e0.png",
+          "default_logo": "shopify:\/\/shop_images\/Anodyne_black_medium_6099e75e-8bee-44e1-9981-815ec3375d46.png",
+          "mobile_logo": "shopify:\/\/shop_images\/Anodyne_black_medium_6099e75e-8bee-44e1-9981-815ec3375d46.png",
           "default_logo_svg": "",
           "inverted_logo_svg": "",
           "mobile_logo_svg": "",
-          "logo_width": 200,
-          "logo_mobile_width": 150
+          "logo_width": 140,
+          "logo_mobile_width": 110
         }
       },
       "dbtfy-instagram-feed": {
@@ -333,7 +344,7 @@
           "guarantee-0": {
             "type": "text",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Checkmark_100px_180x180_7fca12ad-196d-4d6a-811a-1eeb8e69b0b6.png",
+              "image": "shopify:\/\/shop_images\/Checkmark.png",
               "guarantee_icon": "loyalty",
               "title": "",
               "text": "<p>Kostenlose Umtausch<\/p>",
@@ -345,7 +356,7 @@
           "guarantee-1": {
             "type": "text",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Truck_100px_100x100_872e7ac1-cd8a-4c94-ab3e-b816f6b85b98.png",
+              "image": "shopify:\/\/shop_images\/Truck.png",
               "guarantee_icon": "loyalty",
               "title": "",
               "text": "<p>Gratis Versand mit DHL<\/p>",
@@ -357,7 +368,7 @@
           "guarantee-2": {
             "type": "text",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Returns_100px_100x100_a043cb43-dbfa-467f-b070-a89e871ff430.png",
+              "image": "shopify:\/\/shop_images\/Returns.png",
               "guarantee_icon": "loyalty",
               "title": "",
               "text": "<p>30 Tage Rückgaberecht<\/p>",
@@ -369,7 +380,7 @@
           "bb764f80-013b-4d19-89ae-5e332eb782cf": {
             "type": "text",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Customerservice_copy_100px_100x100_81ec0f41-4474-4d86-ad15-74ce30ac0a7f.png",
+              "image": "shopify:\/\/shop_images\/Customerservice_copy.png",
               "guarantee_icon": "loyalty",
               "title": "",
               "text": "<p>Professioneller Service<\/p>",
@@ -421,7 +432,7 @@
               "logo_width": 150,
               "title": "Kontakt",
               "subtitle": "",
-              "text": "<p>Anodyne-shop.de<\/p><p>Mon - Don: 10:00 - 16:00<br\/>Freitag: 10:00 - 15:00<\/p>",
+              "text": "<p>Anodyne-shop.de<\/p><p>Mon - Don: 08:00 - 16:00<br\/>Freitag: 08:00 - 15:00<\/p>",
               "email": true,
               "phone": true
             }
@@ -668,12 +679,12 @@
           "show_overlay": false,
           "image": "shopify:\/\/shop_images\/Screenshot_2021-09-14_at_12.05.24.png",
           "image_position": "center center",
-          "video_title": "Posture Shirt™",
+          "video_title": "Black Days",
           "text_size": "medium",
-          "text_description": "<p>Geprüft, patentiert & medizinisch registriert. Unterstützt eine bessere Körperhaltung<\/p>",
+          "text_description": "<p><strong>Bis zu -80% Rabatt<\/strong><br\/>Bereits ab 20. November...<\/p>",
           "text_description_size": "medium",
           "button_label": "WEITERLESEN",
-          "button_link": "shopify:\/\/collections\/posture-shirt",
+          "button_link": "shopify:\/\/collections\/alle-produkte",
           "show_scrolldown": true
         }
       },
@@ -685,7 +696,7 @@
             "settings": {
               "title": "Kostenlose Lieferung",
               "description": "Versand mit DHL als Paket an die Adresse ihrer Wahl",
-              "icon": "shopify:\/\/shop_images\/Truck_100px_100x100_872e7ac1-cd8a-4c94-ab3e-b816f6b85b98.png",
+              "icon": "shopify:\/\/shop_images\/Truck.png",
               "uspLinkUrl": "shopify:\/\/pages\/versand-und-retoure"
             }
           },
@@ -694,7 +705,7 @@
             "settings": {
               "title": "Kostenlose Rückgabe",
               "description": "Der Rückversand bei Anodyne® ist kostenfrei",
-              "icon": "shopify:\/\/shop_images\/Returns_100px_100x100_a043cb43-dbfa-467f-b070-a89e871ff430.png",
+              "icon": "shopify:\/\/shop_images\/Returns.png",
               "uspLinkUrl": "shopify:\/\/pages\/versand-und-retoure"
             }
           },
@@ -703,7 +714,7 @@
             "settings": {
               "title": "30 Tage Rückgaberecht",
               "description": "Testen Sie unsere Produkte in aller Ruhe während 30 Tagen",
-              "icon": "shopify:\/\/shop_images\/Smile2_100px_100x100_39c6d7e0-ee9a-47d3-a345-6f58e0c9ad9e.png",
+              "icon": "shopify:\/\/shop_images\/Smile2.png",
               "uspLinkUrl": "shopify:\/\/pages\/faq"
             }
           },
@@ -712,7 +723,7 @@
             "settings": {
               "title": "Professioneller Service",
               "description": "Rufen Sie uns an oder kontaktieren Sie uns per Mail",
-              "icon": "shopify:\/\/shop_images\/Customerservice_copy_100px_100x100_81ec0f41-4474-4d86-ad15-74ce30ac0a7f.png",
+              "icon": "shopify:\/\/shop_images\/Customerservice_copy.png",
               "uspLinkUrl": "shopify:\/\/pages\/kontakt"
             }
           }
@@ -807,7 +818,7 @@
           "163032806406e9f003-0": {
             "type": "quote",
             "settings": {
-              "quote_image": "shopify:\/\/shop_images\/trusted_shops_quote.png",
+              "quote_image": "shopify:\/\/shop_images\/Quotationmarks_trustedshops.png",
               "icon": "format_quote",
               "quote": "<p><em>Das Shirt sitzt gut und man merkt die Unterstützung durch das Material.<\/em><\/p>",
               "stars_pic": "shopify:\/\/shop_images\/trustedshops_128x32_c52276c3-c0d3-4138-b817-0fb1bf505011.png",
@@ -818,7 +829,7 @@
           "163032806406e9f003-1": {
             "type": "quote",
             "settings": {
-              "quote_image": "shopify:\/\/shop_images\/trusted_shops_quote.png",
+              "quote_image": "shopify:\/\/shop_images\/Quotationmarks_trustedshops.png",
               "icon": "format_quote",
               "quote": "<p><em>Bin in jeglicher Hinsicht zufrieden. Schnelle Lieferung und prima Qualität<\/em><\/p>",
               "stars_pic": "shopify:\/\/shop_images\/trustedshops_128x32_c52276c3-c0d3-4138-b817-0fb1bf505011.png",
@@ -829,7 +840,7 @@
           "163032806406e9f003-2": {
             "type": "quote",
             "settings": {
-              "quote_image": "shopify:\/\/shop_images\/trusted_shops_quote.png",
+              "quote_image": "shopify:\/\/shop_images\/Quotationmarks_trustedshops.png",
               "icon": "format_quote",
               "quote": "<p><em>Auch bei dieser Bestellung ist alles ganz zu meinen Wünschen verlaufen.<\/em><\/p>",
               "stars_pic": "shopify:\/\/shop_images\/trustedshops_128x32_c52276c3-c0d3-4138-b817-0fb1bf505011.png",
@@ -865,7 +876,7 @@
           "title": "Beliebte Produkte",
           "subtitle": "",
           "section_style": "section-blank",
-          "home_featured_products": "alle-produkte",
+          "home_featured_products": "posture-shirt",
           "rows": "1",
           "desktop_grid": "4",
           "mobile_grid": "2",
@@ -886,10 +897,10 @@
           "163039383589cd0ef5-0": {
             "type": "text_block",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Checkmark_100px_180x180_7fca12ad-196d-4d6a-811a-1eeb8e69b0b6.png",
+              "image": "shopify:\/\/shop_images\/Checkmark.png",
               "icon": "",
               "title": "Die originale haltungskorrigierende Kleidung",
-              "text": "<p>Die originale Anodyne® haltungskorrigierende Kleidung kann nur auf <a href=\"https:\/\/www.anodyne-shop.de\" title=\"https:\/\/www.anodyne-shop.de\"><span style=\"text-decoration:underline\">www.anodyne-shop.de<\/span><\/a> erworben werden. Achten Sie darauf, dass es leider viele minderwertige Fälschungen auf dem Markt gibt. Nur ein einziges haltungskorrigierendes Produkt ist sowohl FDA-registriert und als medizinisches Hilfsmittel MDR\/CE-registriert: Anodyne®. <br\/><br\/>Seien Sie beim online<br\/>Shoppen also achtsam auf Fälschungen.<\/p>",
+              "text": "<p>Die originale Anodyne® haltungskorrigierende Kleidung kann nur auf <a href=\"https:\/\/www.anodyne-shop.de\" title=\"https:\/\/www.anodyne-shop.de\"><span style=\"text-decoration:underline\">www.anodyne-shop.de<\/span><\/a> erworben werden. Achten Sie darauf, dass es leider viele minderwertige Fälschungen auf dem Markt gibt. Nur ein einziges haltungskorrigierendes Produkt ist sowohl FDA-registriert und als medizinisches Hilfsmittel MDR\/CE-registriert: Anodyne®. <br\/><br\/>Seien Sie beim online Shoppen also achtsam auf Fälschungen.<\/p>",
               "button_style": "btn--primary",
               "button_label": "",
               "button_link": ""
@@ -898,10 +909,10 @@
           "163039383589cd0ef5-1": {
             "type": "text_block",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Smile2_100px_180x180_d08a1e57-5cdf-4453-ba98-5552d38d6809.png",
+              "image": "shopify:\/\/shop_images\/Smile2.png",
               "icon": "",
               "title": "Haltungskorrigierende Kleidung mit 100% Zufriedenheitsgarantie",
-              "text": "<p>Bei Anodyne® bieten wir immer kostenfreien<br\/>Versand mit DHL an, 100% Zufriedenheitsgarantie, 30 Tage gesetzliches<br\/>Widerrufsrecht und kostenfreie Rücksendung bei Umtausch oder Retoure. Das<br\/>bedeutet, dass Sie 30 Tage das Produkt testen können, um zu kontrollieren, ob<br\/>es Ihren Ansprüchen entspricht. Es ist ganz einfach ein Produkt umzutauschen oder zu<br\/>retournieren. Unser Ziel ist es, dass Sie 100% zufrieden sind.  Genauso war es unser Ziel, mit den bald über 300.000 zufriedenen<br\/>Kunden in Europa, die das originale<br\/>Anodyne® Posture Shirt innerhalb der letzten 7 Jahre gekauft haben.<\/p>",
+              "text": "<p>Bei Anodyne® bieten wir immer kostenfreien Versand mit DHL an, 100% Zufriedenheitsgarantie, 30 Tage gesetzliches Widerrufsrecht und kostenfreie Rücksendung bei Umtausch oder Retoure. Das<br\/>bedeutet, dass Sie 30 Tage das Produkt testen können, um zu kontrollieren, ob es Ihren Ansprüchen entspricht. Es ist ganz einfach ein Produkt umzutauschen oder zu retournieren. Unser Ziel ist es, dass Sie 100% zufrieden sind.  Genauso war es unser Ziel, mit den bald über 300.000 zufriedenen Kunden in Europa, die das originale Anodyne® Posture Shirt innerhalb der letzten 7 Jahre gekauft haben.<\/p>",
               "button_style": "btn--primary",
               "button_label": "",
               "button_link": ""
@@ -910,10 +921,10 @@
           "163039383589cd0ef5-2": {
             "type": "text_block",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Kinesio2_copy_100px_180x180_ab8892a3-0de7-4b3c-ab36-f681a13a805e.png",
+              "image": "shopify:\/\/shop_images\/Kinesio2_copy.png",
               "icon": "",
               "title": "Von Kinesiotape zu haltungskorrigierender Kleidung",
-              "text": "<p><a href=\"\/collections\/alle-produkte\" title=\"Alle Produkte\"><span style=\"text-decoration:underline\">Haltungskorrektur-Kleidung<\/span><\/a> aktiviert die<br\/>Muskulatur im Rücken, den<br\/>Schultern und Schulterblätter, ohne dabei die Muskulatur oder Glieder zu<br\/>schwächen oder einzuschränken. Die Technologie ist vom Kinesiotape inspiriert -<br\/>eine häufig von Physiotherapeuten & Chiropraktikern angewendete<br\/>Behandlungsform, um Schmerzen und Verspannungen in Nacken, Schultern und Rücken<br\/>zu behandeln. Kinesiotape wird oft von professionellen Athleten verwendet, um<br\/>spezifische Muskelgruppen zu stimulieren und die Körperhaltung zu verbessern.<\/p>",
+              "text": "<p><a href=\"\/collections\/alle-produkte\" title=\"Alle Produkte\"><span style=\"text-decoration:underline\">Haltungskorrektur-Kleidung<\/span><\/a> aktiviert die Muskulatur im Rücken, den Schultern und Schulterblätter, ohne dabei die Muskulatur oder Glieder zu schwächen oder einzuschränken. Die Technologie ist vom Kinesiotape inspiriert - eine häufig von Physiotherapeuten & Chiropraktikern angewendete Behandlungsform, um Schmerzen und Verspannungen in Nacken, Schultern und Rücken zu behandeln. Kinesiotape wird oft von professionellen Athleten verwendet, um spezifische Muskelgruppen zu stimulieren und die Körperhaltung zu verbessern.<\/p>",
               "button_style": "btn--primary",
               "button_label": "",
               "button_link": ""
@@ -1070,7 +1081,7 @@
           "fe32e93f-234c-450d-8d07-e2efbc25f40e": {
             "type": "row",
             "settings": {
-              "card__icon": "shopify:\/\/shop_images\/Customerservice_copy_100px_100x100_81ec0f41-4474-4d86-ad15-74ce30ac0a7f.png",
+              "card__icon": "shopify:\/\/shop_images\/Customerservice_copy.png",
               "title": "Kundenservice",
               "text": "<p>Wir stehen immer bereit Ihnen zu helfen, vor, während und nach Ihrer Bestellung.<br\/><br\/>Rufen Sie uns an:<br\/>Tlf: <a href=\"tel:0049 (0) 402 999 62 638\"><span style=\"text-decoration:underline\">+49 (0) 402 999 62 638<\/span><\/a><\/p><p>Schreiben Sie uns:<br\/>E-Mail: <a href=\"mailto:info@anodyne-shop.de\"><span style=\"text-decoration:underline\">info@anodyne-shop.de<\/span><\/a><\/p>",
               "card__alignement": "center",
@@ -1084,7 +1095,7 @@
           "1c9774d2-047f-45d4-8645-84edb4bf51cd": {
             "type": "row",
             "settings": {
-              "card__icon": "shopify:\/\/shop_images\/Truck_100px_100x100_872e7ac1-cd8a-4c94-ab3e-b816f6b85b98.png",
+              "card__icon": "shopify:\/\/shop_images\/Truck.png",
               "title": "Kostenlose Lieferung",
               "text": "<p>Immer <strong>gratis Versand mit DHL<\/strong> als Paket an die Adresse ihrer Wahl.<br\/><br\/>Die Lieferzeit ist normalerweise 1-3 Werktage<\/p>",
               "card__alignement": "center",
@@ -1098,7 +1109,7 @@
           "86e60ed0-4f89-453b-bb6d-998997ba5497": {
             "type": "row",
             "settings": {
-              "card__icon": "shopify:\/\/shop_images\/Returns_100px_100x100_a043cb43-dbfa-467f-b070-a89e871ff430.png",
+              "card__icon": "shopify:\/\/shop_images\/Returns.png",
               "title": "Umtausch und Retoure",
               "text": "<p>30 Tage Rückgaberecht<\/p><p>Selbstverständlich sind Umtausch und Retoure <strong>kostenfrei<\/strong><\/p><p><\/p>",
               "card__alignement": "center",
@@ -1112,7 +1123,7 @@
           "cb8805d6-2cd1-4b82-aa5e-bcd50bd85ebc": {
             "type": "row",
             "settings": {
-              "card__icon": "shopify:\/\/shop_images\/Smile2_100px_180x180_d08a1e57-5cdf-4453-ba98-5552d38d6809.png",
+              "card__icon": "shopify:\/\/shop_images\/Smile2.png",
               "title": "Zufriedenheitsgarantie",
               "text": "<p>Wenn Sie aus irgendeinem Grund mit Ihrem Produkt nicht zufrieden sind, können Sie es innerhalb von 30 Tagen für eine volle Rückerstattung zurückgeben<\/p>",
               "card__alignement": "center",
@@ -1525,9 +1536,22 @@
           "dbtfy_faq_btn": "Kontaktieren Sie uns",
           "dbtfy_faq_link": "shopify:\/\/pages\/kontakt"
         }
+      },
+      "1636701988e174c1ab": {
+        "type": "featured-image",
+        "disabled": true,
+        "settings": {
+          "show_on_desktop": true,
+          "show_on_mobile": true,
+          "full_width": true,
+          "image": "shopify:\/\/shop_images\/bfbaloons-height-800px.jpg",
+          "section_style": "section-blank",
+          "image_link": ""
+        }
       }
     },
     "content_for_index": [
+      "1636701988e174c1ab",
       "16300631015589eb65",
       "1630063768bdfa2f5f",
       "1630070175c6ebb320",

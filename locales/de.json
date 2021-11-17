@@ -128,7 +128,7 @@
       "custom_currency_html": "Alle Bestellungen werden in {{shopCurrency}} bearbeitet. Während der Inhalt Ihres Warenkorbs derzeit in <span class='selected-currency'><\/span> angezeigt wird, werden Sie mit {{shopCurrency}} zum aktuellsten Wechselkurs auschecken."
     },
     "label": {
-      "quantity": "Menge",
+      "quantity": "Anzahl",
       "total": "Gesamt"
     }
   },
@@ -225,7 +225,7 @@
       "product": "Artikel",
       "sku": "SKU",
       "price": "Preis",
-      "quantity": "Menge",
+      "quantity": "Anzahl",
       "total": "Gesamt",
       "fulfilled_at": "Geliefert am {{ date }}",
       "subtotal": "Zwischensumme",
@@ -309,7 +309,7 @@
       "sold_out": "Ausverkauft",
       "sold_out_html": "Ausverkauft",
       "unavailable": "Nicht verfügbar",
-      "quantity": "Menge",
+      "quantity": "Anzahl",
       "add_to_cart": "In den Warenkorb legen",
       "replace": "Ersetzen",
       "full_details": "Alle Einzelheiten",
@@ -335,7 +335,7 @@
     },
     "radios": {
       "radio-one": " Kaufe ",
-      "radio-save-amount": "Spare"
+      "radio-save-amount": "Sparen Sie"
     }
   },
   "gift_cards": {

@@ -5596,22 +5596,38 @@ cite {
 }
 .announcement-message-item{
 
-  @include screenUp($postSmall){
-    & > *{
-      flex-grow: 1;
-    }
-  }
   .announcement-message{
     p{
       margin:0 5px 0 0;
+      font-size:0.8rem;
+      font-weight:500;
+      letter-spacing: -1px;
+      strong{
+        text-transform: uppercase;
+        color: lighten($cAccent, 5%);
+      }
     }
   }
-  .announcement-image {
-    img{
-      min-width: 160px;
-    }
-  }
+  .announcement_counter{
+    .announcement_number{
 
+      .digit{
+        font-size:0.850rem;
+        font-weight:900;
+        margin-right:2px;
+      }
+      .announcement_text{
+        margin-right:4px;
+        font-size:0.8rem;
+        font-weight:500;
+        .hide-small{
+          @include screen($small){
+            display: none;
+          }
+        }
+      }
+    }
+  }
 }
 /*================ _Header ================*/
 .header-section {
@@ -6553,6 +6569,12 @@ background-color: $colorAccent;
   .wrapper-full {
     .image {
       border-radius: 0;
+    }
+    .no-repeat{
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: 25%;
+      min-height: 100%;
     }
   }
 }
@@ -9989,6 +10011,66 @@ selector[data-type="languages"][data-id="283692853"].ls-sw-closed > .active:afte
       p{
         font-size:0.90rem;
       }
+    }
+  }
+}
+
+
+.section-full-width.featured-image-wrapper{
+  position: relative;
+  z-index: 0;
+  &::before{
+    content: '';
+    position:absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.2);
+    z-index: 1;
+    
+  }
+  .image-content{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    width: 90%;
+    text-align: center;
+    transform: translate(-50%, -60%);
+    z-index: 2;
+    @include screenUp($postSmall){
+      top: 40%;
+      width: 60%;
+      transform: translate(-50%, -60%);
+    }
+    .image-title{
+      margin-bottom: $gutter;
+      padding-top:90px;
+      font-size: clamp($cH1, 5vw, $cHeroSize); 
+      text-transform: uppercase;
+      color: $white;
+      p{
+        font-size: clamp($cH1, 5vw, $cHeroSize); 
+        text-transform: uppercase;
+        color: $cAccent;
+        font-weight:600;
+        strong{
+          color: $white;
+          font-weight:600;
+        }
+      }
+    }
+    p{
+      color: $white;
+      font-size: clamp($cH4, 5vw, $cH1); 
+      font-weight:500;
+    }
+    .image-btn{
+      display:inline-block;
+      margin-top: $gutter-sm;
+      padding: $gutter-sm $gutter;
+      @include button(darken($cAccent,4%), $white);
+      @include transition($transitions);
+    }
+    .scrolldown{
+      top: 115%;
     }
   }
 }

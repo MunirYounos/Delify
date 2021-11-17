@@ -8,15 +8,10 @@
     <meta name="theme-color" content="{{ settings.color_body_bg }}">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="mobile-web-app-capable" content="yes">
-    <meta name="author" content="Debutify">
-    {%- if template == 'page' -%}
-    {%- if page.handle  == 'privacybeleid' or page.handle == 'verzending-en-levering' or page.handle == 'Verkoopvoorwaarden' -%}
-       <meta name="robots" content="noindex" />
-    {%- endif -%}
-    {%- endif -%}
-    {%- if template contains 'search' -%}
-       <meta name="robots" content="noindex" />
-    {%- endif -%}
+    <meta name="author" content="Anodyne">
+    {%- if handle contains 'search' or handle contains 'privacy-policy' or handle contains 'terms-of-service' or handle contains 'refund-policy' -%}
+    <meta name="robots" content="noindex" />
+ 	{%- endif -%}
     <!-- Preconnect external resources -->
     <link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
     <link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin>
@@ -270,6 +265,38 @@
     {% render 'review-head' %}
 
   {% if content_for_header contains 'rio.pwztag.com' %}{% render 'productwiz-rio', product: product, shop: shop, installGuard: true %}{% endif %}
+  
+ <!-- newly add head pixels -->
+  
+  <script>
+
+  !function(f,b,e,v,n,t,s)
+
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+
+  n.queue=[];t=b.createElement(e);t.async=!0;
+
+  t.src=v;s=b.getElementsByTagName(e)[0];
+
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+
+  'https://connect.facebook.net/en_US/fbevents.js');
+
+  fbq('init', '614742389078964');
+
+  fbq('track', 'PageView');
+
+</script>
+
+<noscript><img height="1" width="1" style="display:none"
+
+  src=https://www.facebook.com/tr?id=614742389078964&ev=PageView&noscript=1
+
+/></noscript>
 </head>
 
   <body id="{{ page_title | handle }}"

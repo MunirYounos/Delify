@@ -11,7 +11,7 @@ function weekDayNames(Id1) {
 	//switcher
 	switch (weekday) {
 		case 'Fri':
-			calculateDeliveryTimeFriday(Id1, d, 14);
+			calculateDeliveryTimeFriday(Id1, d, 15);
 			break;
 		case 'Sat':
 			calculateDeliveryTimeSaturday(Id1)
@@ -20,7 +20,7 @@ function weekDayNames(Id1) {
 			calculateDeliveryTimeEveryDay(Id1, d, 0);
 			break;
 		default:
-			calculateDeliveryTimeEveryDay(Id1, d, 14);
+			calculateDeliveryTimeEveryDay(Id1, d, 15);
 	}
 }
 function calculateDeliveryTimeEveryDay(someId, currentDate, setTime) {
@@ -40,7 +40,7 @@ function calculateDeliveryTimeEveryDay(someId, currentDate, setTime) {
 				sec = addZero(remain % 60);
 			someId.innerHTML = `<div class="timer__wrapper">
 														<div class="timer__text">
-                              Wir versenden noch heute - bestelle vor:
+                              Wir versenden noch heute - bestellen Sie vor:
 														</div>
 														<div class="timer__counter">  
 														<span class="time-go">
@@ -59,7 +59,7 @@ function calculateDeliveryTimeEveryDay(someId, currentDate, setTime) {
 				sec = addZero(remain % 60);
 			someId.innerHTML = `<div class="timer__wrapper">
 													<div class="timer__text">
-                            Wir versenden bereits morgen - bestelle vor:
+                            Wir versenden bereits morgen - bestellen Sie vor:
 													</div>
 													<div class="timer__counter">
 													<span class="time-up"  >
@@ -88,7 +88,7 @@ function calculateDeliveryTimeFriday(someId, currentDate, setTime) {
 				sec = addZero(remain % 60);
 			someId.innerHTML = `<div class="timer__wrapper">
 							<div class="timer__text">
-                Wir versenden noch heute - bestelle vor:
+                Wir versenden noch heute - bestellen Sie vor:
 							</div>
 							<div class="timer__counter">  
 							<span class="time-go">

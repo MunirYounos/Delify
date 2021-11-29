@@ -21,11 +21,13 @@
     "border_radius": 1,
     "button_padding_x": 30,
     "button_padding_y": 15,
+    "top_button_mobile": true,
     "top_button_position": "right",
     "page_wrapper": "1248",
     "payment_icon_size": 24,
     "sale_type": "percentage",
     "zindex_drawer": "999",
+    "cart_notes_enable": false,
     "color_announcement_bg": "#444444",
     "color_nav_text": "#252525",
     "color_default": "#f7f7f7",
@@ -116,11 +118,11 @@
     "dbtfy_menu_bar_link_list": "main-menu",
     "dbtfy_menu_bar_desktop": false,
     "dbtfy_newsletter_floating_bar": false,
-    "dbtfy_floating_bar_text": "Sparen Sie noch 10%",
+    "dbtfy_floating_bar_text": "",
     "dbtfy_newsletter_popup_image_whole": false,
     "dbtfy_newsletter_popup_image": "shopify:\/\/shop_images\/bfbaloons.jpg",
-    "dbtfy_newsletter_popup_title": "BLACK DAYS - Erhalten Sie Zugang zum exklusiven Rabattcode",
-    "dbtfy_newsletter_popup_text": "<p>Melden Sie sich für unseren Newsletter an und erhalten Sie einen exklusiven <strong>Rabattcode<\/strong>, wenn wir <strong>BLACK DAYS<\/strong> am Samstag, den <strong>20. November <\/strong>starten.<\/p>",
+    "dbtfy_newsletter_popup_title": "CYBER DAYS - Verpassen Sie nicht die exklusiven Angebote",
+    "dbtfy_newsletter_popup_text": "<p>Als Newsletter-Empfänger erhalten Sie Zugang zu <strong>exklusiven Angeboten<\/strong>. Abonnieren Sie unseren Newsletter hier.<\/p>",
     "dbtfy_newsletter_popup_close": "Nein, danke",
     "dbtfy_newsletter_popup_title_success": "Vielen Dank für Ihre Anmeldung",
     "dbtfy_newsletter_popup_text_success": "",
@@ -231,6 +233,19 @@
       },
       "dbtfy-cart-upsell": {
         "type": "dbtfy-cart-upsell",
+        "blocks": {
+          "99ef77b6-4ab3-4e1c-8b7e-5131026870c4": {
+            "type": "cart-upsell",
+            "settings": {
+              "dbtfy_cart_general_upsell_title": "Neuheit ! Kaufen Sie eine tolle Geschenkbox",
+              "dbtfy_cart_general_upsell_product_offer": "30x21x7cm",
+              "dbtfy_cart_general_upsell_btn_title": "Hinzufügen"
+            }
+          }
+        },
+        "block_order": [
+          "99ef77b6-4ab3-4e1c-8b7e-5131026870c4"
+        ],
         "settings": {
           "dbtfy_cart_upsell_button_style": "btn--primary"
         }
@@ -289,8 +304,10 @@
           "announcement-0": {
             "type": "message",
             "settings": {
-              "announcement_text": "<p>30 Tage Rückgaberecht & <strong>Gratis Versand<\/strong> mit DHL<\/p>",
-              "announcement_link": ""
+              "announcement_text": "<p>⚠️ <strong>Cyber Days: <\/strong>Endet in <\/p>",
+              "announcement_counter": "Nov 30, 2021 23:59:59",
+              "announcemen_link": "",
+              "announcement_end_text": "<p><strong>Cyber Days:<\/strong> Sparen Sie bis zu 80%<\/p>"
             }
           }
         },
@@ -675,15 +692,15 @@
         "settings": {
           "page_width": "full_width",
           "height": "medium",
-          "newvideo_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0568\/4297\/7439\/files\/anodyne_cover_video.mp4?v=1627576656",
+          "newvideo_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0596\/7842\/5237\/files\/Cover.mp4?v=1637326801",
           "show_overlay": false,
-          "image": "shopify:\/\/shop_images\/Screenshot_2021-09-14_at_12.05.24.png",
+          "image": "shopify:\/\/shop_images\/Skaermbillede_2021-11-18_kl._14.03.24.png",
           "image_position": "center center",
-          "video_title": "Black Days",
+          "video_title": "<span class=\"first\">CYBER<\/span> DAYS",
           "text_size": "medium",
-          "text_description": "<p><strong>Bis zu -80% Rabatt<\/strong><br\/>Bereits ab 20. November...<\/p>",
+          "text_description": "<p><strong>Sparen Sie bis zu 80% !<\/strong><\/p>",
           "text_description_size": "medium",
-          "button_label": "WEITERLESEN",
+          "button_label": "ANGEBOTE",
           "button_link": "shopify:\/\/collections\/alle-produkte",
           "show_scrolldown": true
         }
@@ -1035,7 +1052,9 @@
           "tag_selector": "button",
           "rows": "4",
           "desktop_grid": "4",
-          "mobile_grid": "2"
+          "mobile_grid": "2",
+          "collection_banner": "shopify:\/\/shop_images\/Cyber_days_banner.jpg",
+          "collection_banner_mobile": "shopify:\/\/shop_images\/Cyber_days_mobile.jpg"
         }
       },
       "dbtfy-collection-filters": {
@@ -1058,6 +1077,8 @@
           "product_title_large": false,
           "show_product_tags": false,
           "show_sharing_icons": true,
+          "product_banner": "shopify:\/\/shop_images\/Cyber_days_banner.jpg",
+          "product_banner_mobile": "shopify:\/\/shop_images\/Cyber_days_mobile.jpg",
           "show_product_collections": false,
           "enable_image_zoom": true,
           "enable_video_looping": true,
@@ -1546,7 +1567,12 @@
           "full_width": true,
           "image": "shopify:\/\/shop_images\/bfbaloons-height-800px.jpg",
           "section_style": "section-blank",
-          "image_link": ""
+          "wrapper__height": 550,
+          "image_title": "<p>BLACK<strong> DAYS<\/strong><\/p>",
+          "image_subtitle": "<p><strong>Bis zu -80% Rabatt<\/strong><\/p><p>Bereits ab 20. November...<\/p>",
+          "image_btntext": "PRODUKTE HIER SEHEN",
+          "image_link": "shopify:\/\/collections\/all",
+          "show_on_image_scrolldown": true
         }
       }
     },

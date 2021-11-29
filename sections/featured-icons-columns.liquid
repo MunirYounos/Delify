@@ -40,13 +40,8 @@
                 {{ 'image' | placeholder_svg_tag: 'placeholder-svg spacer-bottom' }}
               {%- endif -%}
               <div class="bg__white-textholder">
-              <h2 class="h3">{{ block.settings.title }}</h2>
-              <div class="rte">{{ block.settings.text }}</div>
-              {%- unless block.settings.button_label == blank -%}
-                <p><a href="{{ block.settings.button_link }}" class="btn btn--small {{ block.settings.button_style }}">
-                  {{ block.settings.button_label | escape }}
-                </a></p>
-              {%- endunless -%}
+                  <h2 class="h3">{{ block.settings.title }}</h2>
+                  <div class="rte">{{ block.settings.text }}</div>
                 </div>
               </div>
             </div>
@@ -62,7 +57,7 @@
 
 {% schema %}
   {
-    "name": "Text columns with images",
+    "name": "Text columns with icons",
     "class": "featured-columns-section",
     "max_blocks": 4,
     "settings": [
@@ -177,23 +172,13 @@
                 "label": "Outline"
               }
             ]
-          },
-          {
-            "type": "text",
-            "id": "button_label",
-            "label": "Button label"
-          },
-          {
-            "type": "url",
-            "id": "button_link",
-            "label": "Button link"
           }
         ]
       }
     ],
 	  "presets": [
       {
-        "name":  "Text columns with images",
+        "name":  "Text columns with icons",
         "category": "Image and text",
 		    "blocks": [
           {

@@ -1,7 +1,6 @@
 {%- if section.settings.full_width -%}
   {%- assign full_width = true -%}
 {%- endif -%}
-
 <div id="section-{{ section.id }}" class="{% unless section.settings.show_on_desktop %} medium--hide large--hide{% endunless %} {% unless section.settings.show_on_mobile %} small--hide{% endunless %} {% if full_width %}section-full-width featured-image-wrapper{% endif %} {{ section.settings.section_style }}" data-section-id="{{ section.id }}" data-section-type="featured-image-section">
     <div class="{%- if full_width -%}wrapper-full{%- else -%}wrapper{%- endif -%}">
       <div class="image-link">

@@ -1,6 +1,6 @@
 {
   "current": {
-    "sticky_header": false,
+    "sticky_header": true,
     "sticky_announcement_bar": true,
     "hero_header": false,
     "height_header": 100,
@@ -81,7 +81,7 @@
     "dbtfy_inventory_quantity": false,
     "dbtfy_live_view": false,
     "dbtfy_mega_menu": true,
-    "dbtfy_newsletter_popup": true,
+    "dbtfy_newsletter_popup": false,
     "dbtfy_order_feedback": false,
     "dbtfy_order_tracking": false,
     "dbtfy_product_tabs": true,
@@ -116,19 +116,19 @@
     "dbtfy_inactive_tab_message_text_second": "👕 Anodyne discounts",
     "dbtfy_inventory_quantity_threshold": 20,
     "dbtfy_menu_bar_link_list": "main-menu",
+    "dbtfy_menu_bar_mobile": false,
     "dbtfy_menu_bar_desktop": false,
     "dbtfy_newsletter_floating_bar": false,
     "dbtfy_floating_bar_text": "",
     "dbtfy_newsletter_popup_image_whole": false,
-    "dbtfy_newsletter_popup_image": "shopify:\/\/shop_images\/bfbaloons.jpg",
-    "dbtfy_newsletter_popup_title": "CYBER DAYS - Verpassen Sie nicht die exklusiven Angebote",
-    "dbtfy_newsletter_popup_text": "<p>Als Newsletter-Empfänger erhalten Sie Zugang zu <strong>exklusiven Angeboten<\/strong>. Abonnieren Sie unseren Newsletter hier.<\/p>",
+    "dbtfy_newsletter_popup_title": "Erhalten Sie einen 10% Rabattcode",
+    "dbtfy_newsletter_popup_text": "<p>Melden Sie sich unseren Newsletter an und erhalten Sie einen <strong>10% Rabattcode<\/strong> für <strong>ALLE <\/strong>Produkte!<\/p>",
     "dbtfy_newsletter_popup_close": "Nein, danke",
     "dbtfy_newsletter_popup_title_success": "Vielen Dank für Ihre Anmeldung",
-    "dbtfy_newsletter_popup_text_success": "",
-    "dbtfy_newsletter_popup_reward_button": "",
-    "dbtfy_newsletter_popup_discount_name": "",
-    "dbtfy_newsletter_popup_discount_amount": "",
+    "dbtfy_newsletter_popup_text_success": "<p>Geben Sie den Rabattcode im Warenkorb ein, und erhalten Sie 10% auf ALLE Produkte.<\/p>",
+    "dbtfy_newsletter_popup_reward_button": "Rabattcode verwenden",
+    "dbtfy_newsletter_popup_discount_name": "R6QG34",
+    "dbtfy_newsletter_popup_discount_amount": "10",
     "dbtfy_order_feedback_select_title": "Wie haben Sie uns gefunden?",
     "dbtfy_order_feedback_default_options": "Bitte wählen Sie eine",
     "dbtfy_order_feedback_select_options": "Physiotherapeut\/in, Social Media, Google, Amazon",
@@ -164,11 +164,195 @@
     "sections": {
       "dbtfy-upsell-popup": {
         "type": "dbtfy-upsell-popup",
+        "blocks": {
+          "dd0ce4f5-2249-4470-8c0f-fa8159ad6218": {
+            "type": "upsell",
+            "settings": {
+              "dbtfy_upsell_popup_title": "Verlängere die Lebensdauer deines BH für nur 4,- €",
+              "dbtfy_upsell_popup_text": "<p>Füge einen <strong>Waschbeutel<\/strong> zum Kauf hinzu und verlängere die Lebensdauer deines Anodyne® BH!<\/p>",
+              "dbtfy_upsell_popup_product_trigger": "anodyne-bh",
+              "dbtfy_upsell_popup_product_offer": "waschbeutel-fur-den-bh",
+              "dbtfy_upsell_popup_icons": "done",
+              "button_label": "Hinzufügen - 4€",
+              "dbtfy_upsell_popup_discount_name": "",
+              "dbtfy_upsell_popup_discount_amount": "",
+              "dbtfy_upsell_popup_discount_type": "%"
+            }
+          },
+          "26589e11-9a6e-4ff8-8fdb-031af6b49689": {
+            "type": "upsell",
+            "settings": {
+              "dbtfy_upsell_popup_title": "Verlängere die Lebensdauer deines Posture Shirt für nur 4,- €",
+              "dbtfy_upsell_popup_text": "<p>Füge einen <strong>Waschbeutel<\/strong> zum Kauf hinzu und verlängere die Lebensdauer deines Posture Shirt® !<\/p>",
+              "dbtfy_upsell_popup_product_trigger": "womens-posture-shirt-schwarz",
+              "dbtfy_upsell_popup_product_offer": "waschbeutel-fur-das-posture-shirt®",
+              "dbtfy_upsell_popup_icons": "done",
+              "button_label": "Hinzufügen - 4€",
+              "dbtfy_upsell_popup_discount_name": "",
+              "dbtfy_upsell_popup_discount_amount": "",
+              "dbtfy_upsell_popup_discount_type": "%"
+            }
+          },
+          "5bc9f8b4-7a16-46ef-a3c4-6a0a4155cad3": {
+            "type": "upsell",
+            "settings": {
+              "dbtfy_upsell_popup_title": "Verlängere die Lebensdauer deines Posture Shirt für nur 4,- €",
+              "dbtfy_upsell_popup_text": "<p>Füge einen <strong>Waschbeutel<\/strong> zum Kauf hinzu und verlängere die Lebensdauer deines Posture Shirt® !<\/p>",
+              "dbtfy_upsell_popup_product_trigger": "womens-posture-shirt-weiss",
+              "dbtfy_upsell_popup_product_offer": "waschbeutel-fur-das-posture-shirt®",
+              "dbtfy_upsell_popup_icons": "done",
+              "button_label": "Hinzufügen - 4€",
+              "dbtfy_upsell_popup_discount_name": "",
+              "dbtfy_upsell_popup_discount_amount": "",
+              "dbtfy_upsell_popup_discount_type": "%"
+            }
+          },
+          "62397e24-ae25-49a9-be61-e52b0f3be341": {
+            "type": "upsell",
+            "settings": {
+              "dbtfy_upsell_popup_title": "Verlängere die Lebensdauer deines Posture Shirt für nur 4,- €",
+              "dbtfy_upsell_popup_text": "<p>Füge einen <strong>Waschbeutel<\/strong> zum Kauf hinzu und verlängere die Lebensdauer deines Posture Shirt® !<\/p>",
+              "dbtfy_upsell_popup_product_trigger": "womens-posture-shirt-nude",
+              "dbtfy_upsell_popup_product_offer": "waschbeutel-fur-das-posture-shirt®",
+              "dbtfy_upsell_popup_icons": "done",
+              "button_label": "Hinzufügen - 4€",
+              "dbtfy_upsell_popup_discount_name": "",
+              "dbtfy_upsell_popup_discount_amount": "",
+              "dbtfy_upsell_popup_discount_type": "%"
+            }
+          },
+          "10f9cd28-f631-45ec-aeb7-8023dc045ab3": {
+            "type": "upsell",
+            "settings": {
+              "dbtfy_upsell_popup_title": "Verlängere die Lebensdauer deines Posture Shirt für nur 4,- €",
+              "dbtfy_upsell_popup_text": "<p>Füge einen <strong>Waschbeutel<\/strong> zum Kauf hinzu und verlängere die Lebensdauer deines Posture Shirt® !<\/p>",
+              "dbtfy_upsell_popup_product_trigger": "womens-posture-shirt-mint",
+              "dbtfy_upsell_popup_product_offer": "waschbeutel-fur-das-posture-shirt®",
+              "dbtfy_upsell_popup_icons": "done",
+              "button_label": "Hinzufügen - 4€",
+              "dbtfy_upsell_popup_discount_name": "",
+              "dbtfy_upsell_popup_discount_amount": "",
+              "dbtfy_upsell_popup_discount_type": "%"
+            }
+          },
+          "963fb81e-3077-44db-84dd-c958aba5fac8": {
+            "type": "upsell",
+            "settings": {
+              "dbtfy_upsell_popup_title": "Verlängere die Lebensdauer deines Posture Shirt für nur 4,- €",
+              "dbtfy_upsell_popup_text": "<p>Füge einen <strong>Waschbeutel<\/strong> zum Kauf hinzu und verlängere die Lebensdauer deines Posture Shirt® !<\/p>",
+              "dbtfy_upsell_popup_product_trigger": "womens-posture-shirt-zipper-schwarz",
+              "dbtfy_upsell_popup_product_offer": "waschbeutel-fur-das-posture-shirt®",
+              "dbtfy_upsell_popup_icons": "done",
+              "button_label": "Hinzufügen - 4€",
+              "dbtfy_upsell_popup_discount_name": "",
+              "dbtfy_upsell_popup_discount_amount": "",
+              "dbtfy_upsell_popup_discount_type": "%"
+            }
+          },
+          "160f5e4c-9ae8-4f2e-9a95-2e3b4d5bbfb5": {
+            "type": "upsell",
+            "settings": {
+              "dbtfy_upsell_popup_title": "Verlängere die Lebensdauer deines Posture Shirt für nur 4,- €",
+              "dbtfy_upsell_popup_text": "<p>Füge einen <strong>Waschbeutel<\/strong> zum Kauf hinzu und verlängere die Lebensdauer deines Posture Shirt® !<\/p>",
+              "dbtfy_upsell_popup_product_trigger": "womens-posture-shirt-zipper-weiss",
+              "dbtfy_upsell_popup_product_offer": "waschbeutel-fur-das-posture-shirt®",
+              "dbtfy_upsell_popup_icons": "done",
+              "button_label": "Hinzufügen - 4€",
+              "dbtfy_upsell_popup_discount_name": "",
+              "dbtfy_upsell_popup_discount_amount": "",
+              "dbtfy_upsell_popup_discount_type": "%"
+            }
+          },
+          "c0283d4d-6974-43b3-9ac8-552d1dd25a0b": {
+            "type": "upsell",
+            "settings": {
+              "dbtfy_upsell_popup_title": "Verlängere die Lebensdauer deines Posture Shirt für nur 4,- €",
+              "dbtfy_upsell_popup_text": "<p>Füge einen <strong>Waschbeutel<\/strong> zum Kauf hinzu und verlängere die Lebensdauer deines Posture Shirt® !<\/p>",
+              "dbtfy_upsell_popup_product_trigger": "womens-posture-shirt-zipper-nude",
+              "dbtfy_upsell_popup_product_offer": "waschbeutel-fur-das-posture-shirt®",
+              "dbtfy_upsell_popup_icons": "done",
+              "button_label": "Hinzufügen - 4€",
+              "dbtfy_upsell_popup_discount_name": "",
+              "dbtfy_upsell_popup_discount_amount": "",
+              "dbtfy_upsell_popup_discount_type": "%"
+            }
+          },
+          "56795e8f-6daa-4ba5-9e23-3ae069b233ee": {
+            "type": "upsell",
+            "settings": {
+              "dbtfy_upsell_popup_title": "Verlängere die Lebensdauer deines Posture Shirt für nur 4,- €",
+              "dbtfy_upsell_popup_text": "<p>Füge einen <strong>Waschbeutel<\/strong> zum Kauf hinzu und verlängere die Lebensdauer deines Posture Shirt® !<\/p>",
+              "dbtfy_upsell_popup_product_trigger": "mens-posture-shirt-schwarz",
+              "dbtfy_upsell_popup_product_offer": "waschbeutel-fur-das-posture-shirt®",
+              "dbtfy_upsell_popup_icons": "done",
+              "button_label": "Hinzufügen - 4€",
+              "dbtfy_upsell_popup_discount_name": "",
+              "dbtfy_upsell_popup_discount_amount": "",
+              "dbtfy_upsell_popup_discount_type": "%"
+            }
+          },
+          "ce401ed1-2e55-446e-a8a0-e9ead4e7667d": {
+            "type": "upsell",
+            "settings": {
+              "dbtfy_upsell_popup_title": "Verlängere die Lebensdauer deines Posture Shirt für nur 4,- €",
+              "dbtfy_upsell_popup_text": "<p>Füge einen <strong>Waschbeutel<\/strong> zum Kauf hinzu und verlängere die Lebensdauer deines Posture Shirt® !<\/p>",
+              "dbtfy_upsell_popup_product_trigger": "mens-posture-shirt-weiss",
+              "dbtfy_upsell_popup_product_offer": "waschbeutel-fur-das-posture-shirt®",
+              "dbtfy_upsell_popup_icons": "done",
+              "button_label": "Hinzufügen - 4€",
+              "dbtfy_upsell_popup_discount_name": "",
+              "dbtfy_upsell_popup_discount_amount": "",
+              "dbtfy_upsell_popup_discount_type": "%"
+            }
+          },
+          "f1da9ced-db7a-487e-9efc-87474ee191e4": {
+            "type": "upsell",
+            "settings": {
+              "dbtfy_upsell_popup_title": "Verlängere die Lebensdauer deines Posture Shirt für nur 4,- €",
+              "dbtfy_upsell_popup_text": "<p>Füge einen <strong>Waschbeutel<\/strong> zum Kauf hinzu und verlängere die Lebensdauer deines Posture Shirt® !<\/p>",
+              "dbtfy_upsell_popup_product_trigger": "mens-posture-shirt-zipper-schwarz",
+              "dbtfy_upsell_popup_product_offer": "waschbeutel-fur-das-posture-shirt®",
+              "dbtfy_upsell_popup_icons": "done",
+              "button_label": "Hinzufügen - 4€",
+              "dbtfy_upsell_popup_discount_name": "",
+              "dbtfy_upsell_popup_discount_amount": "",
+              "dbtfy_upsell_popup_discount_type": "%"
+            }
+          },
+          "df9ddbef-c125-44d7-bd42-8ac36c7edd44": {
+            "type": "upsell",
+            "settings": {
+              "dbtfy_upsell_popup_title": "Verlängere die Lebensdauer deines Posture Shirt für nur 4,- €",
+              "dbtfy_upsell_popup_text": "<p>Füge einen <strong>Waschbeutel<\/strong> zum Kauf hinzu und verlängere die Lebensdauer deines Posture Shirt® !<\/p>",
+              "dbtfy_upsell_popup_product_trigger": "mens-posture-shirt-zipper-weiss",
+              "dbtfy_upsell_popup_product_offer": "waschbeutel-fur-das-posture-shirt®",
+              "dbtfy_upsell_popup_icons": "done",
+              "button_label": "Claim offer!",
+              "dbtfy_upsell_popup_discount_name": "Hinzufügen - 4€",
+              "dbtfy_upsell_popup_discount_amount": "",
+              "dbtfy_upsell_popup_discount_type": "%"
+            }
+          }
+        },
+        "block_order": [
+          "dd0ce4f5-2249-4470-8c0f-fa8159ad6218",
+          "26589e11-9a6e-4ff8-8fdb-031af6b49689",
+          "5bc9f8b4-7a16-46ef-a3c4-6a0a4155cad3",
+          "62397e24-ae25-49a9-be61-e52b0f3be341",
+          "10f9cd28-f631-45ec-aeb7-8023dc045ab3",
+          "963fb81e-3077-44db-84dd-c958aba5fac8",
+          "160f5e4c-9ae8-4f2e-9a95-2e3b4d5bbfb5",
+          "c0283d4d-6974-43b3-9ac8-552d1dd25a0b",
+          "56795e8f-6daa-4ba5-9e23-3ae069b233ee",
+          "ce401ed1-2e55-446e-a8a0-e9ead4e7667d",
+          "f1da9ced-db7a-487e-9efc-87474ee191e4",
+          "df9ddbef-c125-44d7-bd42-8ac36c7edd44"
+        ],
         "settings": {
           "dbtfy_upsell_popup_width": "",
           "dbtfy_upsell_popup_description": "See product details",
-          "dbtfy_upsell_popup_cart": "No thanks",
-          "dbtfy_upsell_popup_checkout": "Go to checkout →",
+          "dbtfy_upsell_popup_cart": "Nein danke",
+          "dbtfy_upsell_popup_checkout": "Zur Kasse gehen →",
           "text_alignment": "text-center",
           "dbtfy_upsell_popup_range": 75
         }
@@ -294,8 +478,8 @@
           "phone": true,
           "show_social_medias": true,
           "title": "Menu",
-          "drawer_top_link_list": "main-menu",
-          "drawer_bottom_link_list": ""
+          "drawer_top_link_list": "mobile-menu",
+          "drawer_bottom_link_list": "customer-service-mobil-menu"
         }
       },
       "announcement": {
@@ -304,10 +488,10 @@
           "announcement-0": {
             "type": "message",
             "settings": {
-              "announcement_text": "<p>⚠️ <strong>Cyber Days: <\/strong>Endet in <\/p>",
-              "announcement_counter": "Nov 30, 2021 23:59:59",
+              "announcement_text": "<p>30 Tage Rückgaberecht  & unkomplizierter Umtausch<\/p>",
+              "announcement_counter": "",
               "announcemen_link": "",
-              "announcement_end_text": "<p><strong>Cyber Days:<\/strong> Sparen Sie bis zu 80%<\/p>"
+              "announcement_end_text": ""
             }
           }
         },
@@ -320,7 +504,7 @@
           "email": true,
           "phone": true,
           "left_message": "<p>Herzlich willkommen!<\/p>",
-          "right_message": "<p><a href=\"\/pages\/contact\" target=\"_blank\" title=\"Contact\">Kontakt<\/a><\/p>",
+          "right_message": "<p><a href=\"\/pages\/kontakt\" target=\"_blank\" title=\"Kontakt\">Kontakt<\/a><\/p>",
           "announcement_autoplayspeed": 5
         }
       },
@@ -336,8 +520,8 @@
           "default_logo_svg": "",
           "inverted_logo_svg": "",
           "mobile_logo_svg": "",
-          "logo_width": 140,
-          "logo_mobile_width": 110
+          "logo_width": 150,
+          "logo_mobile_width": 120
         }
       },
       "dbtfy-instagram-feed": {
@@ -696,11 +880,11 @@
           "show_overlay": false,
           "image": "shopify:\/\/shop_images\/Skaermbillede_2021-11-18_kl._14.03.24.png",
           "image_position": "center center",
-          "video_title": "<span class=\"first\">CYBER<\/span> DAYS",
+          "video_title": "<span class=\"first\">Winter-Sale 2022<\/span>",
           "text_size": "medium",
-          "text_description": "<p><strong>Sparen Sie bis zu 80% !<\/strong><\/p>",
+          "text_description": "<p><strong>Verbessere jetzt die Haltung und lindere Schmerzen<\/strong><\/p>",
           "text_description_size": "medium",
-          "button_label": "ANGEBOTE",
+          "button_label": "Aktuelle Angebote",
           "button_link": "shopify:\/\/collections\/alle-produkte",
           "show_scrolldown": true
         }
@@ -809,7 +993,7 @@
             "type": "html",
             "settings": {
               "mission_title": "Warum haltungskorrigierende Kleidung von Anodyne® wählen?",
-              "mission_description": "Mit <u><a href=\"\/\">haltungskorrigierender Kleidung<\/a><\/u> von Anodyne® können Sie auf einfache und unbeschwerte Weise eine bessere Körperhaltung bekommen, sowie Schmerzen und Verspannungen im Nacken, Schultern und Rücken reduzieren. Anodyne® haltungskorrigierende Kleidung hilft Ihnen Ihr Körperbewusstsein zu verbessern und kann sowohl sitzend im Büro oder aktiver auf der Arbeit, auf Reisen oder zum Training verwendet werden. Anodyne® ist ein europäischer Produzent und Händler von das <u><a href=\"\/collections\/posture-shirt\">Posture Shirt<\/a><\/u>. Die Technologie wurde entwickelt vom us-amerikanischen Hersteller AlignMed - der einzige Produzent haltungskorrigierender Kleidung, die bei USA´s FDA (Behörde für u.a. Medizinalprodukte), registriert ist. Anodyne® haltungskorrigierende Kleidung ist die einzige Kleidung, die sowohl FDA-registriert und in Europa als medizinisches Hilfsmittel (Klasse 1) MDR\/CE-registriert ist. Dies ist Ihre Garantie dafür, dass Anodyne´s Produkte die Vorschriften für medizinische Hilfsmittel erfüllen.",
+              "mission_description": "Mit <u><a href=\"\/\">haltungskorrigierender Kleidung<\/a><\/u> von Anodyne® können Sie auf einfache und unbeschwerte Weise eine bessere Körperhaltung bekommen, sowie Schmerzen und Verspannungen im Nacken, Schultern und Rücken reduzieren. Anodyne® haltungskorrigierende Kleidung hilft Ihnen Ihr Körperbewusstsein zu verbessern und kann sowohl sitzend im Büro oder aktiver auf der Arbeit, auf Reisen oder zum Training verwendet werden. Anodyne® ist ein europäischer Produzent und Händler von das <u><a href=\"\/collections\/posture-shirt\">Posture Shirt<\/a><\/u>. Die Technologie wurde entwickelt vom us-amerikanischen Hersteller AlignMed - der einzige Produzent haltungskorrigierender Kleidung, die bei USA´s FDA (Behörde für u.a. Medizinalprodukte), registriert ist. Anodyne® haltungskorrigierende Kleidung ist die einzige Kleidung, die sowohl FDA-registriert und in Europa als medizinisches Hilfsmittel (Klasse 1) MDR\/CE-registriert ist. Dies ist Ihre Garantie dafür, dass Anodyne´s Produkte die Vorschriften für medizinische Hilfsmittel erfüllen. Wir bieten ebenfalls verschiedene <u><a href=\"\/collections\/ruckenstutze\">Produkte zur Rückenstütze<\/a><\/u>, unter anderem Geradehalter, Lendengurt, ergonomische Sitzkissen und viele weitere. Alle Produkte teilen die Eigenschaften, dass Sie die Körperhaltung verbessern und Schmerzen sowie Verspannungen im Alltag lindern.",
               "column_width": 12,
               "column_width_mobile": 12,
               "text_alignment": "text-center",
@@ -824,7 +1008,7 @@
         "settings": {
           "show_on_desktop": true,
           "show_on_mobile": true,
-          "padding_section": true,
+          "margin__bottom": 0,
           "section_style": "section-blank",
           "wrapper_size": ""
         }
@@ -908,60 +1092,6 @@
           "autoplayspeed": 5
         }
       },
-      "163039383589cd0ef5": {
-        "type": "featured-columns",
-        "blocks": {
-          "163039383589cd0ef5-0": {
-            "type": "text_block",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/Checkmark.png",
-              "icon": "",
-              "title": "Die originale haltungskorrigierende Kleidung",
-              "text": "<p>Die originale Anodyne® haltungskorrigierende Kleidung kann nur auf <a href=\"https:\/\/www.anodyne-shop.de\" title=\"https:\/\/www.anodyne-shop.de\"><span style=\"text-decoration:underline\">www.anodyne-shop.de<\/span><\/a> erworben werden. Achten Sie darauf, dass es leider viele minderwertige Fälschungen auf dem Markt gibt. Nur ein einziges haltungskorrigierendes Produkt ist sowohl FDA-registriert und als medizinisches Hilfsmittel MDR\/CE-registriert: Anodyne®. <br\/><br\/>Seien Sie beim online Shoppen also achtsam auf Fälschungen.<\/p>",
-              "button_style": "btn--primary",
-              "button_label": "",
-              "button_link": ""
-            }
-          },
-          "163039383589cd0ef5-1": {
-            "type": "text_block",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/Smile2.png",
-              "icon": "",
-              "title": "Haltungskorrigierende Kleidung mit 100% Zufriedenheitsgarantie",
-              "text": "<p>Bei Anodyne® bieten wir immer kostenfreien Versand mit DHL an, 100% Zufriedenheitsgarantie, 30 Tage gesetzliches Widerrufsrecht und kostenfreie Rücksendung bei Umtausch oder Retoure. Das<br\/>bedeutet, dass Sie 30 Tage das Produkt testen können, um zu kontrollieren, ob es Ihren Ansprüchen entspricht. Es ist ganz einfach ein Produkt umzutauschen oder zu retournieren. Unser Ziel ist es, dass Sie 100% zufrieden sind.  Genauso war es unser Ziel, mit den bald über 300.000 zufriedenen Kunden in Europa, die das originale Anodyne® Posture Shirt innerhalb der letzten 7 Jahre gekauft haben.<\/p>",
-              "button_style": "btn--primary",
-              "button_label": "",
-              "button_link": ""
-            }
-          },
-          "163039383589cd0ef5-2": {
-            "type": "text_block",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/Kinesio2_copy.png",
-              "icon": "",
-              "title": "Von Kinesiotape zu haltungskorrigierender Kleidung",
-              "text": "<p><a href=\"\/collections\/alle-produkte\" title=\"Alle Produkte\"><span style=\"text-decoration:underline\">Haltungskorrektur-Kleidung<\/span><\/a> aktiviert die Muskulatur im Rücken, den Schultern und Schulterblätter, ohne dabei die Muskulatur oder Glieder zu schwächen oder einzuschränken. Die Technologie ist vom Kinesiotape inspiriert - eine häufig von Physiotherapeuten & Chiropraktikern angewendete Behandlungsform, um Schmerzen und Verspannungen in Nacken, Schultern und Rücken zu behandeln. Kinesiotape wird oft von professionellen Athleten verwendet, um spezifische Muskelgruppen zu stimulieren und die Körperhaltung zu verbessern.<\/p>",
-              "button_style": "btn--primary",
-              "button_label": "",
-              "button_link": ""
-            }
-          }
-        },
-        "block_order": [
-          "163039383589cd0ef5-0",
-          "163039383589cd0ef5-1",
-          "163039383589cd0ef5-2"
-        ],
-        "settings": {
-          "show_on_desktop": true,
-          "show_on_mobile": true,
-          "title": "",
-          "subtitle": "",
-          "section_style": "section-default",
-          "text_align": ""
-        }
-      },
       "1630404145a76c9e4d": {
         "type": "featured-video",
         "blocks": {
@@ -1006,7 +1136,7 @@
               "accordion__inner-title": "",
               "accordion__description": "Haltungskorrigierende Kleidung von Anodyne® eignet sich als Unterstützung in diversen Alltagssituationen. Wir vertreiben haltungskorrigierende T-Shirts, BH´s und Westen, die alle entwickelt wurden, um die Blutzirkulation anzuregen und die Muskulatur zu aktivieren, und dadurch zu einer optimalen Körperhaltung zu verhelfen. Anodyne® haltungskorrigierende Kleidung kann jederzeit genutzt werden: im Office, beim Training, Einkaufen, Spazierengehen, Saubermachen und diversen anderen Aktivitäten. Um den optimalen Effekt Ihrer Anodyne®-haltungskorrigierender Kleidung zu erhalten, empfehlen wir die beiliegende Gebrauchsanweisung gründlich zu lesen. So haben Sie optimale Voraussetzungen das beste Ergebnis mit ihrem Anodyne®-Produkt zu erreichen.",
               "accordion__buttontext": "Shop",
-              "accordion__LinkUrl": "shopify:\/\/collections"
+              "accordion__LinkUrl": "shopify:\/\/collections\/alle-produkte"
             }
           },
           "f87df513-1488-4240-a91d-ed8f2bb41077": {
@@ -1016,7 +1146,7 @@
               "accordion__inner-title": "",
               "accordion__description": "Haben Sie Beschwerden auf Grund von Verletzungen, z.B. Bandscheibenvorfall, Skoliose, Gicht oder ähnlichem, können Sie gut haltungskorrigierende Kleidung von Anodyne nutzen. Sollte die Verletzung akut sein, sprechen Sie bitte zuerst mit Ihrem Arzt oder Spezialisten. In manchen Fällen kann die haltungskorrigierende Weste von Anodyne (MyLign & SpinalQ Pro) von Vorteil sein, da diese Produkte eine stärkere Stützfunktion haben. Es ist ausgesprochen wichtig, haltungskorrigierende Kleidung in der optimalen Größe zu wählen, da sonst der optimale Effekt nicht erreicht wird. Kontrollieren Sie daher unsere Größenangaben. Zögern Sie nicht, unseren Kundenservice zu kontaktieren, der Sie gerne zu Fragen der Größe und Produktwahl berät.",
               "accordion__buttontext": "Shop",
-              "accordion__LinkUrl": "shopify:\/\/collections"
+              "accordion__LinkUrl": "shopify:\/\/collections\/ruckenstutze"
             }
           },
           "225005a5-c60f-4ff1-be6b-7f7256b16ac7": {
@@ -1053,8 +1183,10 @@
           "rows": "4",
           "desktop_grid": "4",
           "mobile_grid": "2",
-          "collection_banner": "shopify:\/\/shop_images\/Cyber_days_banner.jpg",
-          "collection_banner_mobile": "shopify:\/\/shop_images\/Cyber_days_mobile.jpg"
+          "collection_banner": "shopify:\/\/shop_images\/December-offers_DE.jpg",
+          "collection_banner_mobile": "shopify:\/\/shop_images\/December-offers_mobile_DE.jpg",
+          "collection_banner_postureshirt": "shopify:\/\/shop_images\/Desktop_DE_f82ece58-9f00-4d2d-a42c-5045951adfd5.jpg",
+          "collection_banner_mobile_postureshirt": "shopify:\/\/shop_images\/Mobile_DE_99af502b-ca97-4b9f-9ddf-d2efa1b78f19.jpg"
         }
       },
       "dbtfy-collection-filters": {
@@ -1077,8 +1209,8 @@
           "product_title_large": false,
           "show_product_tags": false,
           "show_sharing_icons": true,
-          "product_banner": "shopify:\/\/shop_images\/Cyber_days_banner.jpg",
-          "product_banner_mobile": "shopify:\/\/shop_images\/Cyber_days_mobile.jpg",
+          "product_banner_postureshirt": "shopify:\/\/shop_images\/Desktop_DE_be27a006-2ceb-4203-83f9-f1a1fb4952b1.jpg",
+          "product_banner_mobile_postureshirt": "shopify:\/\/shop_images\/Mobile_DE_89dbbc1d-47d1-4375-aa7d-37a30bdddba1.jpg",
           "show_product_collections": false,
           "enable_image_zoom": true,
           "enable_video_looping": true,
@@ -1574,6 +1706,54 @@
           "image_link": "shopify:\/\/collections\/all",
           "show_on_image_scrolldown": true
         }
+      },
+      "1638792474802979d3": {
+        "type": "featured-icons-columns",
+        "blocks": {
+          "1638792474802979d3-0": {
+            "type": "text_block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Checkmark.png",
+              "icon": "",
+              "title": "Die originale haltungskorrigierende Kleidung",
+              "text": "<p>Die originale Anodyne® haltungskorrigierende Kleidung kann nur auf <a href=\"https:\/\/www.anodyne-shop.de\" title=\"https:\/\/www.anodyne-shop.de\">www.anodyne-shop.de<\/a> erworben werden. Achten Sie darauf, dass es leider viele minderwertige Fälschungen auf dem Markt gibt. Nur ein einziges haltungskorrigierendes Produkt ist sowohl FDA-registriert und als medizinisches Hilfsmittel MDR\/CE-registriert: Anodyne®. <br\/>Seien Sie beim online Shoppen also achtsam auf Fälschungen.<\/p>",
+              "button_style": "btn--primary"
+            }
+          },
+          "1638792474802979d3-1": {
+            "type": "text_block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Smile2.png",
+              "icon": "",
+              "title": "Haltungskorrigierende Kleidung mit 100% Zufriedenheitsgarantie",
+              "text": "<p>Bei Anodyne® bieten wir immer kostenfreien Versand mit DHL an, 100% Zufriedenheitsgarantie, 30 Tage gesetzliches Widerrufsrecht und kostenfreie Rücksendung bei Umtausch oder Retoure. Das bedeutet, dass Sie 30 Tage das Produkt testen können, um zu kontrollieren, ob es Ihren Ansprüchen entspricht. Es ist ganz einfach ein Produkt umzutauschen oder zu retournieren. Unser Ziel ist es, dass Sie 100% zufrieden sind.  Genauso war es unser Ziel, mit den bald über 300.000 zufriedenen Kunden in Europa, die das originale Anodyne® Posture Shirt innerhalb der letzten 7 Jahre gekauft haben.<\/p>",
+              "button_style": "btn--primary"
+            }
+          },
+          "1638792474802979d3-2": {
+            "type": "text_block",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Kinesio.png",
+              "icon": "",
+              "title": "Von Kinesiotape zu haltungskorrigierender Kleidung",
+              "text": "<p><a href=\"file:\/\/\/collections\/alle-produkte\" title=\"Alle Produkte\">Haltungskorrektur-Kleidung<\/a> aktiviert die Muskulatur im Rücken, den Schultern und Schulterblätter, ohne dabei die Muskulatur oder Glieder zu schwächen oder einzuschränken. Die Technologie ist vom Kinesiotape inspiriert - eine häufig von Physiotherapeuten & Chiropraktikern angewendete Behandlungsform, um Schmerzen und Verspannungen in Nacken, Schultern und Rücken zu behandeln. Kinesiotape wird oft von professionellen Athleten verwendet, um spezifische Muskelgruppen zu stimulieren und die Körperhaltung zu verbessern.<\/p>",
+              "button_style": "btn--primary"
+            }
+          }
+        },
+        "block_order": [
+          "1638792474802979d3-0",
+          "1638792474802979d3-1",
+          "1638792474802979d3-2"
+        ],
+        "settings": {
+          "show_on_desktop": true,
+          "show_on_mobile": true,
+          "title": "",
+          "subtitle": "",
+          "section_style": "section-default",
+          "text_align": ""
+        }
       }
     },
     "content_for_index": [
@@ -1584,7 +1764,7 @@
       "163032369225153039",
       "163032806406e9f003",
       "1630331223d20499c6",
-      "163039383589cd0ef5",
+      "1638792474802979d3",
       "1630404145a76c9e4d",
       "1630409395746d29de"
     ]

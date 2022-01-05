@@ -1,0 +1,252 @@
+{
+  "sections": {
+    "1636011126d2c47b6d": {
+      "type": "HTML-columns",
+      "blocks": {
+        "1636011126d2c47b6d-0": {
+          "type": "HTML_column",
+          "settings": {
+            "wrapper_size": "",
+            "html_area_1": "<div style=\"margin:-40px 20px -60px 20px\">\n<h1>Übungen bei Verspannungen<\/h1>\n<p>Leiden Sie unter Nackenschmerzen oder Verspannungen in Schultern und Rücken? In Zusammenarbeit mit dem Chiropraktiker und Klinikbesitzer Michael Justad von JustHealth haben wir in dem folgenden Video 5 einfache Übungen zusammengestellt, die Sie zu Hause oder an Ihrem Arbeitsplatz durchführen können. Es dauert nur fünf Minuten.<\/p>\n<\/div>",
+            "column_width_1": 12,
+            "column_width_mobile_1": 12,
+            "text_alignment_1": "text-center",
+            "html_area_2": "",
+            "column_width_2": 4,
+            "column_width_mobile_2": 12,
+            "text_alignment_2": "text-center",
+            "html_area_3": "",
+            "column_width_3": 4,
+            "column_width_mobile_3": 12,
+            "text_alignment_3": "text-center",
+            "html_area_4": "",
+            "column_width_4": 4,
+            "column_width_mobile_4": 12,
+            "text_alignment_4": "text-center",
+            "html_area_5": "",
+            "column_width_5": 4,
+            "column_width_mobile_5": 12,
+            "text_alignment_5": "text-center",
+            "html_area_6": "",
+            "column_width_6": 4,
+            "column_width_mobile_6": 12,
+            "text_alignment_6": "text-center",
+            "html_area_7": "",
+            "column_width_7": 4,
+            "column_width_mobile_7": 12,
+            "text_alignment_7": "text-center",
+            "html_area_8": "",
+            "column_width_8": 4,
+            "column_width_mobile_8": 12,
+            "text_alignment_8": "text-center",
+            "html_area_9": "",
+            "column_width_9": 4,
+            "column_width_mobile_9": 12,
+            "text_alignment_9": "text-center",
+            "html_area_10": "",
+            "column_width_10": 4,
+            "column_width_mobile_10": 12,
+            "text_alignment_10": "text-center"
+          }
+        }
+      },
+      "block_order": [
+        "1636011126d2c47b6d-0"
+      ],
+      "settings": {
+        "show_on_desktop": true,
+        "show_on_mobile": true,
+        "title": "",
+        "subtitle": "",
+        "section_style": "section-blank"
+      }
+    },
+    "163600963681aed54c": {
+      "type": "featured-video",
+      "blocks": {
+        "163600963681aed54c-0": {
+          "type": "video",
+          "settings": {
+            "video_cover_image": "shopify:\/\/shop_images\/Cover_video.jpg",
+            "video_url": "https:\/\/youtu.be\/vi-hphFy5aE",
+            "animated_button": false
+          }
+        }
+      },
+      "block_order": [
+        "163600963681aed54c-0"
+      ],
+      "settings": {
+        "show_on_desktop": true,
+        "show_on_mobile": true,
+        "full_width": false,
+        "title": "",
+        "subtitle": "",
+        "section_style": "section-blank"
+      }
+    },
+    "16363589409f6f02aa": {
+      "type": "featured-row",
+      "settings": {
+        "show_on_desktop": true,
+        "show_on_mobile": true,
+        "image": "shopify:\/\/shop_images\/Working_posture_1296x1296_048ae836-de9b-4fc9-abd7-8972aa33af0f.jpg",
+        "section_style": "section-blank",
+        "text_size": "large",
+        "image_alignement": "right",
+        "text_alignment": "",
+        "title": "Optimieren Sie Ihre Körperhaltung im Büro",
+        "text": "<p>Wenn Sie unter Nacken-, Schulter- oder Rückenverspannungen leiden, weil Sie eine überwiegend sitzende Tätigkeit ausüben, werden diese 5 Entspannungsübungen Ihnen helfen, Verspannungen in Ihrem Alltag zu lösen und vorzubeugen. Es kann auch sinnvoll sein, sich zu überlegen, wie Sie Ihre Körperhaltung beim Sitzen am Schreibtisch optimieren können.<\/p><p><strong>Befolgen Sie diese Tipps für eine korrekte Haltung an Ihrem Schreibtisch:<\/strong><\/p><p>• Setzen Sie sich mit geradem Rücken hin, drücken Sie Ihr Becken nach innen und ziehen Sie die Schultern zurück. Von der Seite betrachtet sollte Ihre Wirbelsäule die Form eines S haben.<\/p><p>• Die Beine und Knie sollten einen Winkel von 90 Grad oder mehr bilden.<\/p><p>• Beide Ellbogen sollten im rechten Winkel zum Körper auf dem Schreibtisch oder der Armlehne aufliegen, so dass Ihre  Schultern entspannt sind.<\/p><p>• Der Computerbildschirm sollte sich auf Augenhöhe befinden.<\/p><p>• Ändern Sie Ihre Arbeitsposition häufig und wechseln Sie zwischen der Arbeit im Sitzen und Stehen.<\/p>",
+        "button_style": "btn--primary",
+        "button_label": "",
+        "button_link": ""
+      }
+    },
+    "163636123033606d35": {
+      "type": "featured-products",
+      "settings": {
+        "show_on_desktop": true,
+        "show_on_mobile": true,
+        "title": "Bestsellers",
+        "subtitle": "",
+        "section_style": "section-default",
+        "home_featured_products": "alle-produkte",
+        "rows": "2",
+        "desktop_grid": "4",
+        "mobile_grid": "2",
+        "show_view_all": false,
+        "button_label": "View all",
+        "button_link": "",
+        "button_style": "btn-outline-primary",
+        "slider_related_products": true,
+        "arrows": true,
+        "dots": true,
+        "autoplay": false,
+        "autoplayspeed": 5
+      }
+    },
+    "16363636370262f21e": {
+      "type": "HTML-columns",
+      "blocks": {
+        "16363636370262f21e-0": {
+          "type": "HTML_column",
+          "settings": {
+            "wrapper_size": "",
+            "html_area_1": "<div style=\"margin-top:-30px\">\n<h2>Produkte zur Korrektur der Körperhaltung bei der Büroarbeit<\/h2>\n<p>Bei Anodyne® bieten wir Produkte zur Haltungskorrektur, zur Entspannung und zur allgemeinen Gesundheit an. Unsere Produkte zielen darauf ab, den Körper zu unterstützen und das Haltungsbewusstsein im täglichen Leben zu verbessern sowie Schmerzen und Verspannungen zu lindern, um die Lebensqualität zu erhöhen.<\/p>\n<p><\/p>\n<\/div>",
+            "column_width_1": 12,
+            "column_width_mobile_1": 12,
+            "text_alignment_1": "text-center",
+            "html_area_2": "",
+            "column_width_2": 4,
+            "column_width_mobile_2": 12,
+            "text_alignment_2": "text-center",
+            "html_area_3": "",
+            "column_width_3": 4,
+            "column_width_mobile_3": 12,
+            "text_alignment_3": "text-center",
+            "html_area_4": "",
+            "column_width_4": 4,
+            "column_width_mobile_4": 12,
+            "text_alignment_4": "text-center",
+            "html_area_5": "",
+            "column_width_5": 4,
+            "column_width_mobile_5": 12,
+            "text_alignment_5": "text-center",
+            "html_area_6": "",
+            "column_width_6": 4,
+            "column_width_mobile_6": 12,
+            "text_alignment_6": "text-center",
+            "html_area_7": "",
+            "column_width_7": 4,
+            "column_width_mobile_7": 12,
+            "text_alignment_7": "text-center",
+            "html_area_8": "",
+            "column_width_8": 4,
+            "column_width_mobile_8": 12,
+            "text_alignment_8": "text-center",
+            "html_area_9": "",
+            "column_width_9": 4,
+            "column_width_mobile_9": 12,
+            "text_alignment_9": "text-center",
+            "html_area_10": "",
+            "column_width_10": 4,
+            "column_width_mobile_10": 12,
+            "text_alignment_10": "text-center"
+          }
+        }
+      },
+      "block_order": [
+        "16363636370262f21e-0"
+      ],
+      "settings": {
+        "show_on_desktop": true,
+        "show_on_mobile": true,
+        "title": "",
+        "subtitle": "",
+        "section_style": "section-blank"
+      }
+    },
+    "163636091562f8a855": {
+      "type": "featured-row",
+      "settings": {
+        "show_on_desktop": true,
+        "show_on_mobile": true,
+        "image": "shopify:\/\/shop_images\/Lumbar.jpg",
+        "section_style": "section-blank",
+        "text_size": "large",
+        "image_alignement": "left",
+        "text_alignment": "",
+        "title": "Entlasten Sie Rücken und Lendenwirbelsäule mit Shoulder Brace oder Lumbar Belt",
+        "text": "<p>Unser Rücken ist besonders anfällig, wenn wir viel sitzen. Daher kann es von Vorteil sein, wenn wir unseren Rücken und unsere Schultern über den Arbeitstag entlasten. Bei Anodyne® bieten wir eine Reihe von Produkten zur Rückenunterstützung an, darunter unsere Schulterstützen und Lendengurte. Beide Produkte sind ideale Hilfsmittel zur Vorbeugung und Linderung von Schmerzen und Verspannungen und dienen zur Unterstützung und Entlastung der Muskulatur, wenn akuter Bedarf besteht.<\/p><p>Unsere Shoulder Braces helfen, Ihre Haltung zu verbessern, solange Sie das Produkt tragen. Sie können bei Schmerzen und Verspannungen im Nacken, in den Schultern und im oberen Rücken eingesetzt werden. Die Schulterblätter werden in die richtige Position gezogen, wodurch der Druck auf die Schultern und den oberen Rücken verringert wird. Der Lendengurt ist ideal, wenn Sie unter Schmerzen oder Verspannungen im unteren Rückenbereich leiden. Der Lendengurt reduziert die Belastung auf die Muskeln und hilft, die Haltung im Lendenbereich zu verbessern.<\/p>",
+        "button_style": "btn--primary",
+        "button_label": "Auswahl ansehen",
+        "button_link": "shopify:\/\/collections\/ruckenstutze"
+      }
+    },
+    "1636360953a3f8a06e": {
+      "type": "featured-row",
+      "settings": {
+        "show_on_desktop": true,
+        "show_on_mobile": true,
+        "image": "shopify:\/\/shop_images\/Posture_shirt.jpg",
+        "section_style": "section-default",
+        "text_size": "large",
+        "image_alignement": "right",
+        "text_alignment": "",
+        "title": "Beugen Sie Haltungsschäden mit einem Posture Shirt vor, das Ihre Haltung korrigiert",
+        "text": "<p>Eine optimale Haltung beim Sitzen kann in den allermeisten Fällen Schmerzen oder Verspannungen im Nacken und Rücken vorbeugen. Es kann jedoch schwierig sein, ständig daran zu denken, aufrecht zu sitzen. Wenn Sie eine Erinnerung daran brauchen, ist unser Posture Shirt™ die ideale Wahl. Die integrierten Stützbänder auf dem Rücken, die NeuroBands™ genannt werden, ziehen sanft an den Schultern, um Sie daran zu erinnern, die Schultern wieder an ihren Platz zu ziehen. Auf diese Weise wirkt das Posture Shirt™ wie eine Erinnerung, die es Ihnen erleichtert, sich daran zu erinnern, Ihren Rücken den ganzen Tag über aufzurichten und eine gute Haltung zur Gewohnheit werden zu lassen.<\/p>",
+        "button_style": "btn--primary",
+        "button_label": "Auswahl ansehen",
+        "button_link": "shopify:\/\/collections\/posture-shirt"
+      }
+    },
+    "163636096212911faf": {
+      "type": "featured-row",
+      "disabled": true,
+      "settings": {
+        "show_on_desktop": true,
+        "show_on_mobile": true,
+        "image": "shopify:\/\/shop_images\/Pillow.jpg",
+        "section_style": "section-blank",
+        "text_size": "large",
+        "image_alignement": "left",
+        "text_alignment": "",
+        "title": "Optimieren Sie Ihre Sitzhaltung mit ergonomischen Produkten",
+        "text": "<p>Wir bieten auch eine Reihe von Produkten an, die speziell Ihre Haltung am Schreibtisch unterstützen, darunter unser BackJoy Posture+, ergonomisches Sitzkissen und ergonomisches Rückenkissendone. Alle Produkte helfen, Schmerzen und  Verspannungen im unteren Rückenbereich vorzubeugen, die leicht durch eine überwiegend sitzende Tätigkeit auftreten können.<\/p><p>Die Produkte bieten eine gute Lendenwirbelstütze, verringern den Druck auf die untere Rückenmuskulatur und bringen die natürliche Lendenwirbelsäule zum Schwingen, indem sie das Becken nach vorne schieben. Verwenden Sie die Produkte an Ihrem Schreibtisch, Esstisch, auf dem Sofa, im Auto und überall dort, wo Sie eine zusätzliche Unterstützung Ihrer Lendenwirbelstütze benötigen.<\/p>",
+        "button_style": "btn--primary",
+        "button_label": "Auswahl ansehen",
+        "button_link": "shopify:\/\/collections\/andere-producten"
+      }
+    }
+  },
+  "order": [
+    "1636011126d2c47b6d",
+    "163600963681aed54c",
+    "16363589409f6f02aa",
+    "163636123033606d35",
+    "16363636370262f21e",
+    "163636091562f8a855",
+    "1636360953a3f8a06e",
+    "163636096212911faf"
+  ]
+}

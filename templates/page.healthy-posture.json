@@ -1,0 +1,189 @@
+{
+  "sections": {
+    "1637330665f57781eb": {
+      "type": "featured-image",
+      "settings": {
+        "show_on_desktop": true,
+        "show_on_mobile": true,
+        "full_width": true,
+        "image": "shopify:\/\/shop_images\/Artboard_2.jpg",
+        "section_style": "section-blank",
+        "wrapper__height": 360,
+        "image_title": "<p><strong>Gesunde Körperhaltung<\/strong><\/p>",
+        "image_subtitle": "",
+        "image_btntext": "",
+        "image_link": "",
+        "show_on_image_scrolldown": false
+      }
+    },
+    "1635768531cb520ba5": {
+      "type": "mission",
+      "blocks": {
+        "1635768531cb520ba5-0": {
+          "type": "html",
+          "settings": {
+            "mission_title": "<div style=\"padding-top:30px\"><h1>Vorteile einer guten Körperhaltung<\/h1><\/div>",
+            "mission_description": "<div style=\"padding-left:20px;padding-right:20px\">\n<p>Die meisten von uns wissen, dass eine gesunde Körperhaltung wichtig ist, egal ob wir sitzen, stehen oder uns bewegen. Aber warum ist das so? Es gibt viele Gründe, warum Sie auf Ihre Körperhaltung achten sollten. Hier haben wir die sechs wichtigsten körperlichen und mentalen Vorteile einer gesunden Körperhaltung zusammengefasst.<\/p>\n<\/div>",
+            "column_width": 12,
+            "column_width_mobile": 12,
+            "text_alignment": "text-center",
+            "btn_text": "",
+            "btn_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "1635768531cb520ba5-0"
+      ],
+      "settings": {
+        "show_on_desktop": true,
+        "show_on_mobile": true,
+        "margin__bottom": 0,
+        "section_style": "section-blank",
+        "wrapper_size": ""
+      }
+    },
+    "16357615190b1aea37": {
+      "type": "HTML-columns",
+      "blocks": {
+        "16357615190b1aea37-0": {
+          "type": "HTML_column",
+          "settings": {
+            "wrapper_size": "",
+            "html_area_1": "<div style=\"padding-left:40px;padding-right:40px\">\n<img src=\"https:\/\/i.ibb.co\/TPGrXrV\/Ease.png\" alt=\"Ease\" style=\"max-width:50px;width:100%\"><h2>Lindert Schmerzen\n<\/h2>\n<p>Eine gesunde Körperhaltung kann Verspannungen und Schmerzen in Rücken, Schultern und Nacken lindern.<\/p>\n<\/div>",
+            "column_width_1": 4,
+            "column_width_mobile_1": 12,
+            "text_alignment_1": "text-center",
+            "html_area_2": "<div style=\"padding-left:40px;padding-right:40px\">\n<img src=\"https:\/\/i.ibb.co\/t8q4kDW\/Prevents.png\" alt=\"Ease\" border=\"0\" style=\"max-width:50px;width:100%\"><h2>Verhindert Verletzungen<\/h2>\n<p>Hilft Ihnen, zukünftige Probleme mit Schmerzen zu verhindern.<\/p>\n<\/div>",
+            "column_width_2": 4,
+            "column_width_mobile_2": 12,
+            "text_alignment_2": "text-center",
+            "html_area_3": "<div style=\"padding-left:40px;padding-right:40px\">\n<img src=\"https:\/\/i.ibb.co\/BCR1Fg3\/Alleviate.png\" alt=\"Ease\" border=\"0\" style=\"max-width:50px;width:100%\"><h2>Entlastet den Körper<\/h2>\n<p>Entspannt beanspruchte Muskelgruppen und lindert Verspannungen in Schultern, Nacken und unterem Rücken.<\/p>\n<\/div>",
+            "column_width_3": 4,
+            "column_width_mobile_3": 12,
+            "text_alignment_3": "text-center",
+            "html_area_4": "<div style=\"padding-left:40px;padding-right:40px\">\n<img src=\"https:\/\/i.ibb.co\/bLg6Mnn\/Smile.png\" alt=\"Ease\" border=\"0\" style=\"max-width:50px;width:100%\"><h2>Verbessert die Stimmung<\/h2>\n<p>Eine gesunde Körperhaltung trägt zu einer besseren Stimmung und mehr Energie im Alltag bei.<\/p>\n<\/div>",
+            "column_width_4": 4,
+            "column_width_mobile_4": 12,
+            "text_alignment_4": "text-center",
+            "html_area_5": "<div style=\"padding-left:40px;padding-right:40px\">\n<img src=\"https:\/\/i.ibb.co\/KV56kZB\/Radiance.png\" alt=\"Ease\" border=\"0\" style=\"max-width:50px;width:100%\"><h2>Verbessert das Aussehen<\/h2>\n<p>Eine gute Körperhaltung verbessert unser Aussehen und hinterlässt einen guten Eindruck.<\/p>\n<\/div>",
+            "column_width_5": 4,
+            "column_width_mobile_5": 12,
+            "text_alignment_5": "text-center",
+            "html_area_6": "<div style=\"padding-left:40px;padding-right:40px\">\n<img src=\"https:\/\/i.ibb.co\/BsTXCGL\/Confidence.png\" alt=\"Ease\" border=\"0\" style=\"max-width:50px;width:100%\"><h2>Stärkt das Selbstvertrauen<\/h2>\n<p>Eine gesunde Körperhaltung gibt uns mehr Selbstvertrauen.<\/p>\n<\/div>",
+            "column_width_6": 4,
+            "column_width_mobile_6": 12,
+            "text_alignment_6": "text-center",
+            "html_area_7": "",
+            "column_width_7": 4,
+            "column_width_mobile_7": 12,
+            "text_alignment_7": "text-center",
+            "html_area_8": "",
+            "column_width_8": 4,
+            "column_width_mobile_8": 12,
+            "text_alignment_8": "text-center",
+            "html_area_9": "",
+            "column_width_9": 4,
+            "column_width_mobile_9": 12,
+            "text_alignment_9": "text-center",
+            "html_area_10": "",
+            "column_width_10": 4,
+            "column_width_mobile_10": 12,
+            "text_alignment_10": "text-center"
+          }
+        }
+      },
+      "block_order": [
+        "16357615190b1aea37-0"
+      ],
+      "settings": {
+        "show_on_desktop": true,
+        "show_on_mobile": true,
+        "title": "",
+        "subtitle": "",
+        "section_style": "section-blank"
+      }
+    },
+    "16357631254fec40e6": {
+      "type": "featured-html-columns",
+      "blocks": {
+        "16357631254fec40e6-0": {
+          "type": "HTML_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Traening.jpg",
+            "title": "Bewegung und Krafttraining",
+            "text": "<p>Verspannte und schwache Muskeln sind oft die Ursache für eine schlechte Körperhaltung, da sie den Oberkörper nicht in einer guten Position halten können.\nDaher sind Dehnungs- und Kraftübungen ein guter Weg, um die Haltung zu verbessern. Wenn Sie ein paar einfache Übungen für den Alltag brauchen, haben wir kürzlich in Zusammenarbeit mit dem Chiropraktiker Michael Justad ein Video mit effektiven Übungen produziert.<\/p><br>",
+            "button_style": "btn-outline-primary",
+            "button_label": "Video ansehen",
+            "button_link": "shopify:\/\/pages\/ubungen"
+          }
+        },
+        "16357631254fec40e6-1": {
+          "type": "HTML_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Image_woman_and_man_0003_720x480_49973fe6-c587-4e52-b753-f34f93ba8ad6.jpg",
+            "title": "Körperhaltungskorrigierende Kleidung",
+            "text": "<p>Vielen Menschen fällt es schwer, im Alltag auf eine gute Körperhaltung zu achten. Deshalb ist haltungskorrigierende Kleidung eine sehr beliebte Lösung. Unser meistverkauftes Produkt ist unser Posture Shirt™, das Sie durch einen sanften Zug an den Schultern daran erinnert, sich aufzurichten, wenn Ihre Schultern zu hängen beginnen. Die Flexibilität des Posture Shirt™ macht es effektiv und angenehm zu tragen – sowohl im Sitzen als auch bei körperlicher Aktivität.<\/p>",
+            "button_style": "btn--primary",
+            "button_label": "Auswahl ansehen",
+            "button_link": "shopify:\/\/collections\/posture-shirt"
+          }
+        },
+        "16357631254fec40e6-2": {
+          "type": "HTML_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mand_i_sofa_med_skulderstotte_720x480_a2c87381-a2cc-4d80-b750-945deb3092a3.jpg",
+            "title": "Andere haltungskorrigierende Produkte",
+            "text": "<p>Neben unserem Posture Shirt™ verkaufen wir auch eine Reihe anderer Produkte zur Haltungskorrektur, wie z. B. Schulterstützen, Lendengurte und Rückenkissen. Diese Produkte eignen sich vor allem für die Verwendung im Sitzen und Stehen, wenn die Körperbewegung eingeschränkt ist – zum Beispiel am Schreibtisch, auf der Couch oder beim Kochen.\n<br><br><br>\n<\/p>",
+            "button_style": "btn--primary",
+            "button_label": "Auswahl ansehen",
+            "button_link": "shopify:\/\/collections\/ruckenstutze"
+          }
+        }
+      },
+      "block_order": [
+        "16357631254fec40e6-0",
+        "16357631254fec40e6-1",
+        "16357631254fec40e6-2"
+      ],
+      "settings": {
+        "show_on_desktop": true,
+        "show_on_mobile": true,
+        "title": "Wie verbessern Sie Ihre Körperhaltung?",
+        "subtitle": "",
+        "section_style": "section-default",
+        "text_align": ""
+      }
+    },
+    "163576830859681535": {
+      "type": "featured-products",
+      "settings": {
+        "show_on_desktop": true,
+        "show_on_mobile": true,
+        "title": "Bestsellers",
+        "subtitle": "",
+        "section_style": "section-blank",
+        "home_featured_products": "alle-produkte",
+        "rows": "2",
+        "desktop_grid": "4",
+        "mobile_grid": "2",
+        "show_view_all": false,
+        "button_label": "View all",
+        "button_link": "",
+        "button_style": "btn-outline-primary",
+        "slider_related_products": true,
+        "arrows": true,
+        "dots": true,
+        "autoplay": false,
+        "autoplayspeed": 5
+      }
+    }
+  },
+  "order": [
+    "1637330665f57781eb",
+    "1635768531cb520ba5",
+    "16357615190b1aea37",
+    "16357631254fec40e6",
+    "163576830859681535"
+  ]
+}

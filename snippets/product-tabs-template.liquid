@@ -476,7 +476,9 @@
                                data-option-name="{{ option.name | escape }}">
                           {{ option.name | escape }}: <span class="variant-label-option-value">{{ first_option_value | escape }}</span>
                         </label>
-
+                        <!-- select size message infobar start -->
+                        <div id="not_select_id" class="not-select"></div>
+                        <!-- select size message infobar end -->
                         {%- if section.settings.product_selector == 'radio' -%}
                           <fieldset class="single-option-radio inline-list"
                             id="ProductSelect-option-{{ forloop.index0 }}">
@@ -895,3 +897,22 @@
 {{ product.media | where: 'media_type', 'model' | json }}
 </script>
 {%- endunless -%}
+<script>
+  //check if radio wrapper for sizes exists and run the scrips
+  if($('.radio-wrapper').length){  
+    if($('.single-option-radio')){
+        $('.variant-label-option-value').html("");
+        $('.single-option-radio > input').removeAttr('checked'); 
+        $('#AddToCart--product-tabs-template').click(function(event){
+          if($('.single-option-radio > input:checked').length){
+          setTimeout(function(){$('.single-option-radio > input').removeAttr('checked'); $('.variant-label-option-value').html(""); }, 6000 );
+          } else {
+          event.preventDefault()
+          $("#not_select_id").html("<p id='not_select-m'> {{ 'products.sizes.choose-size-message' | t }}</p>"); 
+          $('.variant-label-option-value').html("");
+          setTimeout(function(){$("#not_select-m").hide();}, 5000);
+          }
+      });
+    }
+  } 
+  </script>

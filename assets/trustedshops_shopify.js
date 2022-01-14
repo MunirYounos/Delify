@@ -74,7 +74,7 @@
 ( function() {
   var _tsid = 'XE571F261ADE9439296991B18509E2D95';
   _tsConfig = { 
-    'yOffset': '75', /* offset from page bottom */
+    'yOffset': '', /* offset from page bottom */
     'variant': 'reviews', /* text, default, small, reviews, custom, custom_reviews */
     
   };

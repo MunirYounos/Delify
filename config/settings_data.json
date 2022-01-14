@@ -21,7 +21,8 @@
     "border_radius": 1,
     "button_padding_x": 30,
     "button_padding_y": 15,
-    "top_button_mobile": true,
+    "show_top_button": false,
+    "top_button_mobile": false,
     "top_button_position": "right",
     "page_wrapper": "1248",
     "payment_icon_size": 24,
@@ -93,6 +94,7 @@
     "dbtfy_shop_protect": false,
     "dbtfy_skip_cart": false,
     "dbtfy_size_chart": false,
+    "dbtfy_sticky_addtocart": false,
     "synced_variant_image": false,
     "dbtfy_wish_list": false,
     "dbtfy_addtocart_animation_type": "pulse",
@@ -633,7 +635,7 @@
               "logo_width": 150,
               "title": "Kontakt",
               "subtitle": "",
-              "text": "<p>Anodyne-shop.de<\/p><p>Mon - Don: 08:00 - 16:00<br\/>Freitag: 08:00 - 15:00<\/p>",
+              "text": "<p>Anodyne-shop.de<\/p><p><strong>Mon - Don<\/strong>: 10:00 - 16:00<br\/><strong>Freitag:<\/strong> 10:00 - 15:00<\/p>",
               "email": true,
               "phone": true
             }
@@ -880,12 +882,14 @@
           "show_overlay": false,
           "image": "shopify:\/\/shop_images\/Skaermbillede_2021-11-18_kl._14.03.24.png",
           "image_position": "center center",
-          "video_title": "<span class=\"first\">Winter-Sale 2022<\/span>",
+          "video_title": "<span class=\"first\">Anodyne®<\/span>",
           "text_size": "medium",
           "text_description": "<p><strong>Verbessere jetzt die Haltung und lindere Schmerzen<\/strong><\/p>",
           "text_description_size": "medium",
-          "button_label": "Aktuelle Angebote",
-          "button_link": "shopify:\/\/collections\/alle-produkte",
+          "button_label": "Frauen",
+          "button_link": "shopify:\/\/collections\/frauen",
+          "second_button_label": "Männer",
+          "second_button_link": "shopify:\/\/collections\/manner",
           "show_scrolldown": true
         }
       },
@@ -895,7 +899,7 @@
           "1630063768bdfa2f5f-0": {
             "type": "service",
             "settings": {
-              "title": "Kostenlose Lieferung",
+              "title": "Gratis Versand",
               "description": "Versand mit DHL als Paket an die Adresse ihrer Wahl",
               "icon": "shopify:\/\/shop_images\/Truck.png",
               "uspLinkUrl": "shopify:\/\/pages\/versand-und-retoure"
@@ -1690,23 +1694,6 @@
           "dbtfy_faq_link": "shopify:\/\/pages\/kontakt"
         }
       },
-      "1636701988e174c1ab": {
-        "type": "featured-image",
-        "disabled": true,
-        "settings": {
-          "show_on_desktop": true,
-          "show_on_mobile": true,
-          "full_width": true,
-          "image": "shopify:\/\/shop_images\/bfbaloons-height-800px.jpg",
-          "section_style": "section-blank",
-          "wrapper__height": 550,
-          "image_title": "<p>BLACK<strong> DAYS<\/strong><\/p>",
-          "image_subtitle": "<p><strong>Bis zu -80% Rabatt<\/strong><\/p><p>Bereits ab 20. November...<\/p>",
-          "image_btntext": "PRODUKTE HIER SEHEN",
-          "image_link": "shopify:\/\/collections\/all",
-          "show_on_image_scrolldown": true
-        }
-      },
       "1638792474802979d3": {
         "type": "featured-icons-columns",
         "blocks": {
@@ -1757,7 +1744,6 @@
       }
     },
     "content_for_index": [
-      "1636701988e174c1ab",
       "16300631015589eb65",
       "1630063768bdfa2f5f",
       "1630070175c6ebb320",

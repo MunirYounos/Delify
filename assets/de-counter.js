@@ -98,11 +98,11 @@ function calculateDeliveryTimeFriday(someId, currentDate, setTime) {
 							</span></div></div>`;
 			setTimeout(tick, 1000);
 		} else if (now > startDateOfToday) {
-			someId.innerHTML = `<div class="timer__wrapper"><div class="timer__text">Gratis Versand I Kostenlose R&uuml;ckgabe und Umtausch.</div></div>`;
+			someId.innerHTML = `<div class="timer__wrapper"><div class="timer__text">Kostenlose R&uuml;ckgabe und Umtausch</div></div>`;
 		}
 	}
 	tick();
 }
 function calculateDeliveryTimeSaturday(someId) {
-	someId.innerHTML = `<div class="timer__wrapper"><div class="timer__text">Gratis Versand I Kostenlose R&uuml;ckgabe und Umtausch.</div></div>`;
+	someId.innerHTML = `<div class="timer__wrapper"><div class="timer__text">Kostenlose R&uuml;ckgabe und Umtausch</div></div>`;
 }
